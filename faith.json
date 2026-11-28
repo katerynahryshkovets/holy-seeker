@@ -1,0 +1,1605 @@
+{
+ "status": {
+  "last_run": "2026-11-28T17:17+02:00",
+  "slot": "evening",
+  "sources_ok": {
+   "youtube": true,
+   "calendar": true,
+   "news": true,
+   "tiktok": true,
+   "instagram": true,
+   "threads": true
+  },
+  "errors": {}
+ },
+ "digests": {
+  "2026-11-24": {
+   "date": "2026-11-24",
+   "slot": "morning",
+   "updated": "2026-11-24T18:38+02:00",
+   "headline": "Тиждень молитовних псалмів у Бразилії, The Chosen 6 на екранах і два свята поспіль: День подяки (26.11) та Перша неділя Адвенту (29.11)",
+   "body": [
+    "PT-BR (протестанти): найсильніший сигнал тижня — молитви-псалми. «Oração Cálice Transbordante • Salmo 23» набрала 2,7 млн переглядів за добу, дві молитви Салма 91 «para quebra de amarras» — разом понад 1,1 млн за тиждень. Тут же тримається формат щоденної датованої молитви «escreva seu pedido de oração». 30.11 — День євангельських християн у Бразилії, хороший привід для креативу з цим самим настроєм.",
+    "EN-US: за 2 дні День подяки. Тема подяки вже з'являється в проповідях, а ранкові молитовні відео (Morning Prayer) стабільно мають 75–110 тис. переглядів. Компіляції з «Goodness of God» та «I Speak Jesus» — найпопулярніші звуки серед поклоніння (до 686 тис.), тож це безпечний музичний фон.",
+    "Обидві конфесії, EN-US + ES-MX: триває 6 сезон The Chosen (5 серія — 29.11, 6-та — 6.12). Серед католиків іспаномовного сегменту йде дискусія «чи можна католику дивитися The Chosen» (146 тис.), відео з Джонатаном Руміє — 204 тис. Це момент для драм про Страсті та хрест.",
+    "Що робити: на цьому тижні запускаємо креативи про подяку для EN-US, псалмові молитовні гачки для PT-BR, а з 29.11 переходимо на Адвент. Для ES-MX (католики) вже варто готувати драми й інтерв'ю до Діви Гваделупської (12.12)."
+   ],
+   "new": 5,
+   "seen": 5
+  },
+  "2026-11-25": {
+   "date": "2026-11-25",
+   "slot": "evening",
+   "updated": "2026-11-25T17:11+02:00",
+   "headline": "Завтра День подяки, у неділю Адвент: увечері в Бразилії лідирують опівнічні молитви з датою (до 1,4 млн), католицькі медіа масово пишуть про Адвент, у Мексиці 100 років «¡Viva Cristo Rey!»",
+   "body": [
+    "EN-US: найшвидше росте довгий worship-плейлист «Goodness of God» (+122 тис. переглядів за добу). Поруч ідуть ранкові молитви-декларації та контент до Дня подяки. Окремо помітна хвиля блогерських відео-реакцій на «християнський інтернет»: тести дивних християнських товарів, пастор грає в GTA 6. Для наших креативів це матеріал для гачків у форматі reaction/POV.",
+    "PT-BR: у католиків лідирує щоденний «Terço de Aparecida» з датою в назві (+277 тис. за добу). У протестантів далі тримається Salmo 91 «quebra de amarras» (779 тис.). 30.11 у Бразилії Dia Nacional do Evangélico, а 13.12 Dia da Bíblia, тож уже зараз варто готувати драми й інтерв'ю під ці дати. Серед звуків росте pagode gospel.",
+    "ES-MX: ранкові та вечірні молитви з датою і псалмом (Proverbios 3:5-6, Salmo 91, Salmo 42) збирають десятки тисяч переглядів за добу. Через 17 днів, 12.12, свято Діви Гваделупської: місто вже готує операцію на ~13 млн паломників. Далі тримається розмова про The Chosen, а 5-та серія виходить 29.11.",
+    "Увечері: у Бразилії вибухнули нічні молитви з датою («Oração da meia-noite 25 de novembro» — 515 тис. за 12 год, «Oração da noite 24 de novembro» — 1,4 млн), тобто формат «молитва з датою» працює не лише вранці, а й опівночі. CNBB і Vatican News за день випустили 6+ текстів про Адвент, а Лев XIV закликав португаломовних «з Адвентом сіяти мир у родинах». У Мексиці католицькі медіа відзначають 100 років руху кристерос («¡Viva Cristo Rey!») і ювілейний рік. Що робити: додати нічну версію молитви-драми для PT-BR і готувати адвент-серію до неділі."
+   ],
+   "new": 6,
+   "seen": 11
+  },
+  "2026-11-26": {
+   "date": "2026-11-26",
+   "slot": "evening",
+   "updated": "2026-11-26T17:33+02:00",
+   "headline": "День подяки в США і старт Адвенту в неділю, а прощальне «¡Viva Cristo Rey!» Міс Всесвіт обговорюють католики всіх трьох ринків",
+   "body": [
+    "EN-US: сьогодні День подяки. Ранкові worship-міксі з «Thank You God for Another Day» у назві набирають понад 40 тис. переглядів за добу, католицькі й протестантські медіа публікують молитви за столом. Завтра Чорна п'ятниця, 1 грудня Giving Tuesday, тож контраст «справжній дар безкоштовний» можна запускати вже з вечора.",
+    "ES-MX / католики: Фатіма Бош, Міс Всесвіт 2025, віддала корону з фразою «¡Viva Cristo Rey!». Про це за добу написали щонайменше 5 видань трьома мовами, і це збігається зі 100-річчям руху кристерос. До Гваделупи (12.12) лишилося 16 днів: щоденні розарії до Діви Гваделупської вже мають понад 35 тис. переглядів за добу, паломництва йдуть з 1 грудня.",
+    "PT-BR / протестанти: щоденна молитва з датою в назві досі найсильніший формат. «Oração do dia» Бішопа Бруно Леонардо має 2,6 млн переглядів за добу. Попереду Dia do Evangélico (30.11) і Dia da Bíblia (13.12). Нове: «IA-версії» відомих louvor-співаків швидко ростуть у плейлистах.",
+    "Формати: апологетичні дебати («1 християнин проти 3 атеїстів») і огляди «дивних християнських товарів» мають по 150–220 тис. переглядів за кілька днів. Для наших інтерв'ю на вулиці це готові гачки: суперечливе питання в перші 2 секунди.",
+    "Вечір: новий крос-ринковий мотив — «Nothing missing, nothing broken» / «Nada faltando, nada quebrado» (ідея шалому). Його одночасно підхопили великі молитовні марафони англійською (654 тис. переглядів за день) і бразильські щоденні молитви (майже 50 тис. за добу). У нього є готова фраза для текстового слайдшоу чи пісні, тож варто взяти на тест в EN-US та PT-BR."
+   ],
+   "new": 3,
+   "seen": 12
+  },
+  "2026-11-27": {
+   "date": "2026-11-27",
+   "slot": "evening",
+   "updated": "2026-11-27T18:20+02:00",
+   "headline": "Вечір перед Адвентом: Папа Лев XIV у церкві Чудотворного медальйона і тема Великого посту 2027 «Прийміть крихкість», а в EN-US злітають проповіді-свідчення",
+   "body": [
+    "Католики: сьогодні Папа почав адвентові візити до римських парафій із Sant'Andrea delle Fratte, де шанують Чудотворний медальйон; Ватикан також оголосив тему Великого посту 2027 «Acolhamos/Abracemos la fragilidad». Тема крихкості добре лягає на наші драми про слабкість і надію.",
+    "Протестанти EN-US: проповідь «I'm Here To Testify» набирає ~400 тис. переглядів за добу, EWTN пише про хвилю навернень серед студентів Гарварду. Формат свідчення («як я прийшов до віри») зараз найсильніший гачок для наших інтерв'ю. PT-BR: Salmo 91 «quebra de amarras» далі росте (новий ролик ~270 тис. за добу); у понеділок Dia do Evangélico. ES-MX: до 12.12 очікують 13,5 млн паломників."
+   ],
+   "new": 4,
+   "seen": 13
+  },
+  "2026-11-28": {
+   "date": "2026-11-28",
+   "slot": "evening",
+   "updated": "2026-11-28T17:17+02:00",
+   "headline": "Завтра перша неділя Адвенту: католицький тиждень завершився Медаллю Чудотворною з Папою, а в PT-BR і ES-MX і далі лідирують щоденні молитви та worship-плейлисти",
+   "body": [
+    "Нове ввечері: візит Лева XIV до церкви Медалі Чудотворної в Римі 27.11 («прийшов як паломник у важкий момент») розійшовся у Vatican News, Aleteia, Canção Nova і EWTN трьома мовами. Це добрий католицький гачок перед Непорочним зачаттям (8.12) і Гваделупою (12.12).",
+    "Діти: Superbook / Superlibro дають 45–55 тис. переглядів на добу в EN-US і ES-MX, тож біблійна анімація перед Різдвом росте. EN-US: розмовні формати «пастор проти…» (≈86 тис./добу) підтверджують, що формат дебатів досі працює."
+   ],
+   "new": 2,
+   "seen": 11
+  }
+ },
+ "trends": {
+  "salmo-91-oracao": {
+   "title": "Молитви-псалми: Salmo 91 «quebra de amarras» і Salmo 23",
+   "summary": "Довгі молитви за Псалмом 91 для «розриву пут» і захисту.",
+   "why_now": "«Poderosa oração do Salmo 91 para a quebra de amarras» має 418 тис. переглядів (≈47 тис./добу), трохи менше, ніж зранку.",
+   "ad_idea": "Текстове слайдшоу «Salmo 91 para a sua família» з голосом і повільною музикою.",
+   "type": "theme",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "steady",
+   "relevance": 75,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=Vev0LujVBu4",
+     "title": "PODEROSA ORAÇÃO DO SALMO 91 PARA A QUEBRA DE AMARRAS",
+     "metric": "418 тис. переглядів, ≈47 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/Vev0LujVBu4/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "ПОТУЖНА МОЛИТВА ПСАЛМА 91 ДЛЯ ЗЛАМАННЯ КАЙДАНІВ"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=L2Uym1iQJ-I",
+     "title": "PODEROSA ORAÇÃO DO SALMO 91 PARA QUEBRA DE AMARRAS",
+     "metric": "474 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/L2Uym1iQJ-I/mqdefault.jpg",
+     "seen": "2026-11-27",
+     "title_uk": "ПОТУЖНА МОЛИТВА З SALMO 91 ДЛЯ РОЗРИВУ КАЙДАНІВ"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=ygOnij_8cCo",
+     "title": "PODEROSA ORAÇÃO DO SALMO 91 PARA QUEBRA DE AMARRAS",
+     "metric": "779 тис. переглядів, +30 тис. за добу",
+     "thumb": "https://i.ytimg.com/vi/ygOnij_8cCo/mqdefault.jpg",
+     "seen": "2026-11-25",
+     "title_uk": "ПОТУЖНА МОЛИТВА З SALMO 91 ДЛЯ РОЗРИВУ КАЙДАНІВ"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=sEBIeWpn0tI",
+     "title": "PODEROSA Oración de la Noche con el SALMO 91 | Dios Guarda Tu Sueño y Tu Hogar",
+     "metric": "34 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/sEBIeWpn0tI/mqdefault.jpg",
+     "seen": "2026-11-25",
+     "title_uk": "ПОТУЖНА вечірня молитва з SALMO 91 | Бог береже твій сон і твій дім"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=rWZuu3Mrtkc",
+     "title": "ORACIÓN PODEROSA DE LA MAÑANA CON EL SALMO 42",
+     "metric": "34 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/rWZuu3Mrtkc/mqdefault.jpg",
+     "seen": "2026-11-25",
+     "title_uk": "ПОТУЖНА РАНКОВА МОЛИТВА З SALMO 42"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=dDUjLvxAM0Y",
+     "title": "ORAÇÃO CALICE TRANBORDANTE • SALMO 23",
+     "metric": "2,7 млн переглядів за 1 день",
+     "thumb": "https://i.ytimg.com/vi/dDUjLvxAM0Y/mqdefault.jpg",
+     "seen": "2026-11-24",
+     "title_uk": "МОЛИТВА «ЧАША ПЕРЕПОВНЕНА» • SALMO 23"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=pATKcER9io8",
+     "title": "PODER ORAÇÃO DO SALMO 91 PARA QUEBRA DE AMARRAS",
+     "metric": "375 тис. переглядів за 3 дні",
+     "thumb": "https://i.ytimg.com/vi/pATKcER9io8/mqdefault.jpg",
+     "seen": "2026-11-24",
+     "title_uk": "СИЛА МОЛИТВИ SALMO 91 ДЛЯ РОЗРИВУ КАЙДАНІВ"
+    }
+   ],
+   "first_seen": "2026-11-24T18:38+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "oracao-da-manha-datada": {
+   "title": "Щоденна молитва з датою в назві: ранок, ніч і опівніч («Oração da manhã/da noite/da meia-noite de hoje», «Oración de la mañana», «Morning Prayer»)",
+   "summary": "Відео-молитва з датою в назві й закликом написати свій пустий запит у коментарях.",
+   "why_now": "Нічна молитва 27.11 Bispo Bruno Leonardo: 1,23 млн за добу (≈159 тис./добу); у ES-MX «Oración de la mañana 27 de noviembre» ≈41 тис./добу.",
+   "ad_idea": "Креатив «Молитва на сьогодні, 29 листопада» з датою на першому кадрі й закликом «напиши своє прохання».",
+   "type": "format",
+   "markets": [
+    "pt-br",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "status": "steady",
+   "relevance": 85,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=qDOzgXpIIUU",
+     "title": "ORAÇÃO DO DIA FORTÍSSIMA • BISPO BRUNO LEONARDO",
+     "metric": "2,5 млн переглядів, ≈379 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/qDOzgXpIIUU/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "ДУЖЕ СИЛЬНА МОЛИТВА ДНЯ • BISPO BRUNO LEONARDO"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=iV2D0q2DsLw",
+     "title": "EL SANTO ROSARIO DE HOY VIERNES 27 DE NOVIEMBRE 2026",
+     "metric": "186 тис. переглядів, ≈187 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/iV2D0q2DsLw/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "СВЯТИЙ РОЗАРІЙ НА СЬОГОДНІ, П'ЯТНИЦЯ 27 ЛИСТОПАДА 2026"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=vsy-tTzQUJo",
+     "title": "ORAÇÃO DA MANHÃ DE HOJE 27-11 - Escreva seu Pedido de Oração",
+     "metric": "245 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/vsy-tTzQUJo/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "СЬОГОДНІШНЯ РАНКОВА МОЛИТВА 27-11 - Напишіть своє молитовне прохання"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=xsPYx2wNRIA",
+     "title": "ORAÇÃO DA MANHÃ | 27/11/2026 (Padre Reginaldo Manzotti)",
+     "metric": "102 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/xsPYx2wNRIA/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "РАНКОВА МОЛИТВА | 27/11/2026 (Padre Reginaldo Manzotti)"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=wAzMxcj3P9Q",
+     "title": "ORAÇÃO DA NOITE 27 DE NOVEMBRO BISPO BRUNO LEONARDO",
+     "metric": "1,2 млн переглядів, ≈159 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/wAzMxcj3P9Q/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "ВЕЧІРНЯ МОЛИТВА 27 ЛИСТОПАДА ЄПИСКОП БРУНО ЛЕОНАРДО"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=cggOv-HAzrs",
+     "title": "ORAÇÃO DA NOITE DE HOJE 27-11 - Escreva seu Pedido de Oração",
+     "metric": "≈29 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/cggOv-HAzrs/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "ВЕЧІРНЯ МОЛИТВА СЬОГОДНІ 27-11 - Напишіть своє молитовне прохання"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=cdBv-dd7hew",
+     "title": "Oración de la mañana del día viernes 27 de noviembre de 2026 - Jeremías 29:11",
+     "metric": "≈41 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/cdBv-dd7hew/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "Ранкова молитва в п'ятницю, 27 листопада 2026 року - Єремія 29:11"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=4TVBGkbWYrc",
+     "title": "Oración de la mañana del día jueves 26 de noviembre de 2026 - Eclesiastés 3:1",
+     "metric": "145 тис. переглядів за 1 день",
+     "thumb": "https://i.ytimg.com/vi/4TVBGkbWYrc/mqdefault.jpg",
+     "seen": "2026-11-27",
+     "title_uk": "Ранкова молитва на четвер 26 листопада 2026 року — Еклезіяст 3:1"
+    }
+   ],
+   "first_seen": "2026-11-24T18:38+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "the-chosen-s6": {
+   "title": "6 сезон The Chosen: Страсті та розп'яття",
+   "summary": "Сезон про останні 24 години Ісуса виходить щотижня на Prime Video.",
+   "why_now": "Епізод 5 виходить 29.11, епізод 6 — 6.12; фінал — у кінотеатрах 12.03.2027.",
+   "ad_idea": "Драма «реакція родини на сцену розп'яття» — гачок «Я не міг дивитися, але...».",
+   "type": "theme",
+   "markets": [
+    "en-us",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "status": "steady",
+   "relevance": 62,
+   "evidence": [
+    {
+     "source": "news",
+     "url": "https://www.deseret.com/entertainment/2026/10/15/watch-the-chosen-season-6-official-trailer/",
+     "title": "Watch The Chosen Season 6 official trailer",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=PtcX9LZzBtE",
+     "title": "¿Puede un católico ver The Chosen? Lo que dice la Iglesia y las 6 objeciones respondidas",
+     "metric": "168 тис. переглядів, +34 тис. за добу",
+     "thumb": "https://i.ytimg.com/vi/PtcX9LZzBtE/mqdefault.jpg",
+     "seen": "2026-11-25",
+     "title_uk": "Чи може католик дивитися The Chosen? Що говорить Церква та відповіді на 6 заперечень"
+    },
+    {
+     "source": "news",
+     "url": "https://www.christianitytoday.com/2026/11/review-the-chosen-season-6/",
+     "title": "Review: ‘The Chosen’ Season 6",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-25"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=UgjgwS6rC8A",
+     "title": "Jonathan Roumie: what if suffering brings you closer to Jesus?",
+     "metric": "204 тис. переглядів за 6 днів",
+     "thumb": "https://i.ytimg.com/vi/UgjgwS6rC8A/mqdefault.jpg",
+     "seen": "2026-11-24"
+    },
+    {
+     "source": "news",
+     "url": "https://www.catholicworldreport.com/2026/04/03/release-date-for-season-6-of-the-chosen-announced/",
+     "title": "Release date for Season 6 of ‘The Chosen’ announced",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-24"
+    }
+   ],
+   "first_seen": "2026-11-24T18:38+02:00",
+   "last_seen": "2026-11-27T18:20+02:00",
+   "days": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-27"
+   ]
+  },
+  "advento-natal-inicio": {
+   "title": "Старт Адвенту (29.11) і різдвяні гімни",
+   "summary": "Адвентові читання, плейлисти й візити Папи до парафій: контент про «4 тижні очікування» вже виходить в обох конфесіях.",
+   "why_now": "Перша неділя Адвенту завтра; Папа Лев XIV веде 5 адвентових парафіяльних візитів (27.11–20.12), TGC випустила плейлист на 75 пісень, Canção Nova і Vatican News PT публікують адвентові роздуми.",
+   "ad_idea": "Серія текстових слайдшоу «День N Адвенту» з одним віршем і питанням до глядача; перший випуск запускати в неділю зранку.",
+   "type": "theme",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "status": "rising",
+   "relevance": 90,
+   "evidence": [
+    {
+     "source": "news",
+     "url": "https://www.thegospelcoalition.org/article/advent-playlist-2026/",
+     "title": "The Word Made Flesh: New 75-Song Advent Playlist",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "news",
+     "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/reflexao-1-domingo-advento.html",
+     "title": "Reflexão para 1º Domingo do Advento",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Роздуми на 1-шу неділю Адвенту"
+    },
+    {
+     "source": "news",
+     "url": "https://desdelafe.mx/opinion-y-blogs/historias-ciudadanas/adviento-con-memoria-centenaria/",
+     "title": "Adviento con memoria centenaria",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Адвент зі столітньою пам'яттю"
+    },
+    {
+     "source": "news",
+     "url": "https://noticias.cancaonova.com/igreja/advento-e-tempo-de-oracao-dos-fieis-e-de-preparacao-para-o-natal/",
+     "title": "Advento é tempo de oração dos fiéis e de preparação para o Natal",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Адвент — це час молитви вірян та підготовки до Різдва"
+    },
+    {
+     "source": "news",
+     "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-homily-parish-rome-advent-visit.html",
+     "title": "Pope Leo urges Christians to respond to crises with faith and charity",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "news",
+     "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-make-first-advent-pastoral-visit-central-roman-parish.html",
+     "title": "Pope Leo to make first Advent parish pastoral visit in central Rome",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27"
+    },
+    {
+     "source": "news",
+     "url": "https://www.cnbb.org.br/tempo-do-advento/",
+     "title": "Tempo do Advento — CNBB",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27",
+     "title_uk": "Час Адвенту — CNBB"
+    },
+    {
+     "source": "news",
+     "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-to-visit-five-rome-parishes-for-advent.html",
+     "title": "Pope Leo XIV to visit five Rome parishes for Advent",
+     "metric": "5 візитів з 27.11 по 20.12",
+     "thumb": null,
+     "seen": "2026-11-27"
+    }
+   ],
+   "first_seen": "2026-11-24T18:38+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "goodness-of-god-worship-playlists": {
+   "title": "Worship-плейлисти «Goodness of God» / «I Speak Jesus» і «alabanzas para sentir la presencia de Dios»",
+   "summary": "Довгі плейлисти «louvores mais tocados» / «alabanzas de adoración» з текстами пісень.",
+   "why_now": "«Músicas Gospel Mais Tocadas… 2026» ≈153 тис./добу; «Levanto mis manos» ≈67 тис./добу; EN-плейлист «Powerful Worship Songs 2026» ≈64 тис./добу. Новий сингл Jesús Adrián Romero і Matisse «Te Secó Mi Sombra» ≈152 тис./добу.",
+   "ad_idea": "Пісенний креатив у стилі lyric-video: великий текст приспіву на теплому фоні, перші 2 секунди одразу з хуку пісні.",
+   "type": "sound",
+   "markets": [
+    "pt-br",
+    "es-mx",
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "rising",
+   "relevance": 75,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=spdvSn05sOk",
+     "title": "Louvores de Adoração, Top100 Músicas Gospel Mais Tocadas",
+     "metric": "282 тис. переглядів, ≈80 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/spdvSn05sOk/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "Хвала і поклоніння, Топ-100 найпопулярніших госпел-пісень"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=1ufUfahtYy8",
+     "title": "Powerful Worship Songs, Best Praise And Worship Songs 2026 Playlist",
+     "metric": "≈64 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/1ufUfahtYy8/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "tiktok",
+     "url": "https://www.tiktok.com/@jovenescristianos975/video/7711216578024508679",
+     "title": "Sinceridad #alabanzas_cristianas",
+     "metric": "683 тис. переглядів",
+     "thumb": null,
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "tiktok",
+     "url": "https://www.tiktok.com/@05shadday/video/7711081420294278414",
+     "title": "Si pudieras dedicarle una alabanza al Señor…",
+     "metric": "249 тис. переглядів",
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Якби ви могли присвятити хвалу Господу…"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=ww0izVA3sog",
+     "title": "Músicas Gospel Mais Tocadas, Top Gospel, Louvores de Adoração 2026",
+     "metric": "≈153 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/ww0izVA3sog/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "Найпопулярніші євангельські пісні, Топ євангельських, Хвалебні пісні поклоніння 2026"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=STz5xSZyMqc",
+     "title": "Jesús Adrián Romero, Matisse - Te Secó Mi Sombra (Video Oficial)",
+     "metric": "580 тис. переглядів, ≈152 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/STz5xSZyMqc/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=ri-W4KDsoeM",
+     "title": "LEVANTO MIS MANOS - PODEROSAS ALABANZAS CRISTIANAS",
+     "metric": "≈67 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/ri-W4KDsoeM/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=ePwanSS0Zvw",
+     "title": "MÚSICA CRISTIANA 2026🙏 PODEROSAS ALABANZAS CRISTIANAS",
+     "metric": "335 тис. переглядів, ~55 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/ePwanSS0Zvw/mqdefault.jpg",
+     "seen": "2026-11-27",
+     "title_uk": "ХРИСТИЯНСЬКА МУЗИКА 2026🙏 ПОТУЖНІ ХРИСТИЯНСЬКІ ХВАЛІННЯ"
+    }
+   ],
+   "first_seen": "2026-11-25T10:21+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "guadalupe-2026-peregrinacion": {
+   "title": "Діва Гваделупська (12.12): паломництва вже почалися",
+   "summary": "Мексика готується до 12 грудня: паломництва з регіонів, підготовка великої операції безпеки в CDMX, 50 років нинішньої Базиліки.",
+   "why_now": "До свята 14 днів; влада CDMX планує операцію на ~13 млн паломників; 2026 — 50 років освячення нинішньої Базиліки.",
+   "ad_idea": "Драма-паломництво: бабуся йде пішки до Базиліки з фото онука, гачок «Вона йшла 3 дні заради однієї молитви».",
+   "type": "theme",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "status": "rising",
+   "relevance": 86,
+   "evidence": [
+    {
+     "source": "news",
+     "url": "https://www.publimetro.com.mx/noticias/2026/11/03/virgen-de-guadalupe-2026-preparan-megaoperativo-de-seguridad-para-13-millones-de-peregrinos-en-cdmx/",
+     "title": "Virgen de Guadalupe 2026: megaoperativo para 13 millones de peregrinos",
+     "metric": "~13 млн паломників",
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Діва Гваделупська 2026: мегаоперація для 13 мільйонів паломників"
+    },
+    {
+     "source": "news",
+     "url": "https://www.excelsior.com.mx/ciudad-de-mexico/gustavo-madero-preparativos-operativo-basilica-2026",
+     "title": "Gustavo A. Madero arranca preparativos del Operativo Basílica 2026",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Gustavo A. Madero розпочинає підготовку до операції Basílica 2026"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=JMPeO8wOOkg",
+     "title": "Día 30 del ROSARIO GUADALUPANO 💖46 Rosarios a la Virgen de Guadalupe",
+     "metric": "38 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/JMPeO8wOOkg/mqdefault.jpg",
+     "seen": "2026-11-27",
+     "title_uk": "День 30 ГВАДЕЛУПСЬКОГО РОЗАРІЮ 💖 46 Розаріїв до Діви Гваделупської"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=Mmi_sIlbenI",
+     "title": "Era SATANISTA y enemigo de Dios: rezó por primera vez… y la VIRGEN DE GUADALUPE le tocó el hombro",
+     "metric": "49 тис. переглядів за 1 день",
+     "thumb": "https://i.ytimg.com/vi/Mmi_sIlbenI/mqdefault.jpg",
+     "seen": "2026-11-27",
+     "title_uk": "Він був САТАНІСТОМ і ворогом Бога: помолився вперше… і ДІВА МАРІЯ ГВАДАЛУПСЬКА торкнулася його плеча"
+    },
+    {
+     "source": "news",
+     "url": "https://desdelafe.mx/noticias/arquidiocesis-de-mexico/semana-guadalupana-2026-paz-familia/",
+     "title": "Semana Guadalupana 2026",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=P0m0YSrW9iY",
+     "title": "Santo Rosario MIERCOLES 25 de NOVIEMBRE, Rosario a Virgen de Guadalupe",
+     "metric": "35 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/P0m0YSrW9iY/mqdefault.jpg",
+     "seen": "2026-11-26",
+     "title_uk": "Свята Вервиця СЕРЕДА 25 ЛИСТОПАДА, Вервиця до Virgen de Guadalupe"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=wWDo7zpeXnM",
+     "title": "¿Qué había en el Tepeyac antes de la Virgen de Guadalupe?",
+     "metric": "12 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/wWDo7zpeXnM/mqdefault.jpg",
+     "seen": "2026-11-26",
+     "title_uk": "Що було на Tepeyac до Virgen de Guadalupe?"
+    },
+    {
+     "source": "news",
+     "url": "https://www.devdiscourse.com/article/international/4001959-latin-americas-catholic-missionaries-take-to-tiktok-to-reach-younger-generation",
+     "title": "Latin America's Catholic missionaries take to TikTok to reach younger generation",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-26"
+    }
+   ],
+   "first_seen": "2026-11-25T10:21+02:00",
+   "last_seen": "2026-11-28T10:16+02:00",
+   "days": [
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "reacao-internet-cristao": {
+   "title": "Реакції та «тести» на християнський інтернет",
+   "summary": "Ютубери тестують «найдивніші християнські товари» і реагують на християнський TikTok; глядачі сперечаються в коментарях.",
+   "why_now": "«I Tested The Weirdest Christian Products» має 181 тис. переглядів за 4 дні (40 тис. за добу), «Christian Tiktok is Disgusting» 153 тис. за 3 дні.",
+   "ad_idea": "POV-реакція: молодь дивиться наш креатив і реагує щиро. Гачок: «Я думав, буде крінж, а в кінці заплакав».",
+   "type": "format",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "status": "steady",
+   "relevance": 65,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=XO0xq97uW2s",
+     "title": "I Tested The Weirdest Christian Products",
+     "metric": "181 тис. переглядів за 4 дні",
+     "thumb": "https://i.ytimg.com/vi/XO0xq97uW2s/mqdefault.jpg",
+     "seen": "2026-11-26"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=DKRXu_KfKPo",
+     "title": "Christian Tiktok is Disgusting",
+     "metric": "153 тис. переглядів за 3 дні",
+     "thumb": "https://i.ytimg.com/vi/DKRXu_KfKPo/mqdefault.jpg",
+     "seen": "2026-11-26"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=JktMHOiLrkY",
+     "title": "I Can't Believe This Pastor Played GTA 6",
+     "metric": "+26 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/JktMHOiLrkY/mqdefault.jpg",
+     "seen": "2026-11-25"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=L5v-mqQdevw",
+     "title": "Eu enganei a IA Emma para ela considerar genuinamente Jesus",
+     "metric": "198 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/L5v-mqQdevw/mqdefault.jpg",
+     "seen": "2026-11-25",
+     "title_uk": "Я перехитрив ШІ Emma, щоб вона щиро задумалася про Ісуса"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=kdfiH9FOxj8",
+     "title": "Should Christians play VIDEO GAMES? (You Might Not Like This Answer) | Live Free",
+     "metric": "184 тис. переглядів, +6 тис. за добу",
+     "thumb": "https://i.ytimg.com/vi/kdfiH9FOxj8/mqdefault.jpg",
+     "seen": "2026-11-25"
+    },
+    {
+     "source": "news",
+     "url": "https://www.christianpost.com/news/peter-hitchens-says-gta-needs-church-undermines-christianity.html",
+     "title": "Peter Hitchens says 'GTA 6' needs a church, 'undermines 2,000 years of Christian civilization'",
+     "metric": null,
+     "thumb": "https://cdn.christianpost.com/files/cache/thumbnail/27/28/272860_w_550_367_683_464.jpg?v=20261124132037",
+     "seen": "2026-11-25"
+    },
+    {
+     "source": "web",
+     "url": "https://churchleaders.com/news/2225825-grand-theft-auto-prompts-debate.html",
+     "title": "GTA6 Prompts Debate About What Content Christians Should Consume",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-25"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=gTPPz6qHjJg",
+     "title": "A Look At \"Pastor\" Kim: You Just Can't Make This Stuff Up",
+     "metric": "253 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/gTPPz6qHjJg/mqdefault.jpg",
+     "seen": "2026-11-25"
+    }
+   ],
+   "first_seen": "2026-11-25T10:21+02:00",
+   "last_seen": "2026-11-26T10:25+02:00",
+   "days": [
+    "2026-11-25",
+    "2026-11-26"
+   ]
+  },
+  "dia-do-evangelico-dia-da-biblia": {
+   "title": "Dia Nacional do Evangélico (30.11) і Dia da Bíblia (13.12) у Бразилії",
+   "summary": "У понеділок Dia do Evangélico (у частині міст вихідний), а 13.12 Dia da Bíblia; паралельно обговорюють нові плани читання Біблії за рік.",
+   "why_now": "30.11 — через 2 дні; у Сенаті є законопроєкт PL 3183/2026 про перенесення дати на 31.10 і статус державного свята; Gospel Prime пише про нову «Bíblia 365 cronológica».",
+   "ad_idea": "Вуличне інтерв'ю PT-BR «Você leu a Bíblia inteira?» до Dia do Evangélico з переходом на план читання на 2027 рік.",
+   "type": "theme",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "rising",
+   "relevance": 85,
+   "evidence": [
+    {
+     "source": "web",
+     "url": "https://www.proximoferiado.net/dias/dia-do-evangelico",
+     "title": "Dia do Evangélico 2026",
+     "metric": "30.11, понеділок",
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "День євангельських християн 2026"
+    },
+    {
+     "source": "news",
+     "url": "https://goodprime.co/biblia-365-cronologica-facilita-leitura-escrituras-139980/",
+     "title": "Nova “Bíblia 365 cronológica” facilita a leitura das Escrituras em um ano",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Нова «Хронологічна Біблія 365» полегшує читання Писання за один рік"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=spdvSn05sOk",
+     "title": "Louvores de Adoração,Nova Hinos Evangélicos,Top100 Músicas Gospel Mais Tocadas 2026, Louvores#GOSPEL",
+     "metric": "177 тис. переглядів за 1 день",
+     "thumb": "https://i.ytimg.com/vi/spdvSn05sOk/mqdefault.jpg",
+     "seen": "2026-11-27",
+     "title_uk": "Хвала та Поклоніння, Нові Євангельські Гімни, Топ-100 Найпопулярніших Госпел Пісень 2026, Хвала#GOSPEL"
+    },
+    {
+     "source": "web",
+     "url": "https://www.calendarr.com/brasil/dia-do-evangelico/",
+     "title": "Dia do Evangélico — Calendarr",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27",
+     "title_uk": "День євангельських християн — Calendarr"
+    },
+    {
+     "source": "news",
+     "url": "http://guiame.com.br/gospel/missoes-acao-social/igreja-batiza-dezenas-de-pessoas-na-avenida-paulista-foram-alcancados-pela-graca.html",
+     "title": "Igreja batiza dezenas de pessoas na Avenida Paulista",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-26",
+     "title_uk": "Церква хрестить десятки людей на Авеніда Пауліста"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=RBH7yYiFcJU",
+     "title": "Top 99 Músicas Gospel Mais Tocadas 2026 | Louvores de Adoração",
+     "metric": "+12 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/RBH7yYiFcJU/mqdefault.jpg",
+     "seen": "2026-11-25",
+     "title_uk": "Топ-99 найпопулярніших госпел-пісень 2026 | Хвала і поклоніння"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=0uCyqs4VWB0",
+     "title": "A Verdadeira HISTÓRIA De JÓ | Pr Claudio Duarte",
+     "metric": "+16 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/0uCyqs4VWB0/mqdefault.jpg",
+     "seen": "2026-11-25",
+     "title_uk": "Справжня ІСТОРІЯ ЙОВА | Pr Claudio Duarte"
+    }
+   ],
+   "first_seen": "2026-11-25T10:21+02:00",
+   "last_seen": "2026-11-28T10:16+02:00",
+   "days": [
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "pagode-gospel": {
+   "title": "Pagode gospel",
+   "summary": "Gospel у стилі бразильського пагоде: легкий, танцювальний, для молоді та сімейних застіль.",
+   "why_now": "Плейлист «PAGODE GOSPEL 2026 – ATUALIZADA – AS MAIS TOCADAS» найшвидше набирає підписників серед louvor-плейлистів Spotify. Новий кліп Marcados Pagode Gospel «Santo Pra Sempre» додає +8 тис. переглядів за добу.",
+   "ad_idea": "Тло для легкого креативу «родина за столом на Різдво» (PT-BR): пагоде-приспів у перші 3 секунди замість повільного worship.",
+   "type": "sound",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "new",
+   "relevance": 58,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=p5g2D3raGLI",
+     "title": "Marcados Pagode Gospel | Santo Pra Sempre [Clipe Oficial]",
+     "metric": "25 тис. переглядів, +8 тис. за добу",
+     "thumb": "https://i.ytimg.com/vi/p5g2D3raGLI/mqdefault.jpg",
+     "seen": "2026-11-25"
+    },
+    {
+     "source": "spotify",
+     "url": "https://www.artist.tools/pt-br/melhores-playlists/louvor",
+     "title": "Melhores playlists de Louvor em 2026 (PAGODE GOSPEL 2026 на 1-му місці)",
+     "metric": "#1 за ростом підписників серед louvor-плейлистів",
+     "thumb": null,
+     "seen": "2026-11-25",
+     "title_uk": "Найкращі плейлісти прославлення 2026 (PAGODE GOSPEL 2026 на 1-му місці)"
+    }
+   ],
+   "first_seen": "2026-11-25T10:21+02:00",
+   "last_seen": "2026-11-25T10:21+02:00",
+   "days": [
+    "2026-11-25"
+   ]
+  },
+  "centenario-cristero-viva-cristo-rey": {
+   "title": "100 років руху кристерос: «¡Viva Cristo Rey!»",
+   "summary": "Вигук «¡Viva Cristo Rey!» вийшов за межі церкви: так попрощалася з титулом «Міс Всесвіт» мексиканка Фатіма Bosch, і це обговорюють католицькі та євангельські медіа.",
+   "why_now": "Прощальну промову Fátima Bosch підхопили The Christian Post і «Desde la fe» (розбір жесту); тиждень тому було свято Христа Царя, і триває 100-річчя кристерос.",
+   "ad_idea": "Вуличне інтерв'ю в Мехіко «¿Te atreverías a decir ¡Viva Cristo Rey! en público?» з відповідями перехожих.",
+   "type": "theme",
+   "markets": [
+    "es-mx",
+    "en-us"
+   ],
+   "denoms": [
+    "catholic",
+    "protestant"
+   ],
+   "status": "rising",
+   "relevance": 75,
+   "evidence": [
+    {
+     "source": "news",
+     "url": "https://desdelafe.mx/opinion-y-blogs/columna-invitada/que-significa-proclamar-a-cristo-rey-ante-los-ojos-del-mundo-un-analisis-del-gesto-de-fatima-bosch/",
+     "title": "¿Qué significa proclamar a Cristo Rey ante los ojos del mundo?",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27",
+     "title_uk": "Що означає проголошувати Христа Царем перед очима світу?"
+    },
+    {
+     "source": "news",
+     "url": "https://www.christianpost.com/news/ftima-bosch-says-goodbye-to-miss-universe-long-live-christ.html",
+     "title": "Fátima Bosch says goodbye to Miss Universe: 'Long live Christ the King'",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27"
+    },
+    {
+     "source": "news",
+     "url": "https://www.vaticannews.va/es/iglesia/news/2026-11/luego-de-cien-anos-aun-resuena-el-grito-viva-cristo-rey.html",
+     "title": "México. Luego de cien años aún resuena el grito: «¡Viva Cristo Rey!»",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-26",
+     "title_uk": "Мексика. Через сто років усе ще лунає вигук: «Хай живе Христос Цар!»"
+    },
+    {
+     "source": "news",
+     "url": "https://www.ewtnnews.com/world/americas/long-live-christ-the-king-the-parting-gesture-of-catholic-miss-universe",
+     "title": "‘Long live Christ the King’: The parting testimony of Miss Universe 2025 Fátima Bosch",
+     "metric": "5+ видань за добу",
+     "thumb": null,
+     "seen": "2026-11-26"
+    },
+    {
+     "source": "news",
+     "url": "https://es.aleteia.org/2026/11/25/fatima-bosch-una-miss-universo-que-comparte-su-fe-sin-miedo/",
+     "title": "Fátima Bosch: una Miss Universo que comparte su fe sin miedo",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-26",
+     "title_uk": "Fátima Bosch: Міс Всесвіт, яка безстрашно ділиться своєю вірою"
+    },
+    {
+     "source": "news",
+     "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/mexico-abertura-ano-jubilar-centenario-resistencia-cristera.html",
+     "title": "México. Cem anos depois, ainda ecoa o grito: «Viva Cristo Rei!»",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-26",
+     "title_uk": "Мексика. Сто років потому досі лунає заклик: «Хай живе Христос Цар!»"
+    },
+    {
+     "source": "news",
+     "url": "https://desdelafe.mx/opinion-y-blogs/in-principio-erat-verbum/la-cristiada-fe-y-testimonio/",
+     "title": "La Cristiada: fe y testimonio",
+     "metric": null,
+     "thumb": "https://desdelafe.mx/wp-content/uploads/2026/11/cristeros.webp",
+     "seen": "2026-11-25",
+     "title_uk": "Крістіада: віра і свідчення"
+    },
+    {
+     "source": "news",
+     "url": "https://www.ewtnnews.com/es/mundo/america/cristiada-catolicos-mexico-cristo-rey",
+     "title": "Cristiada: católicos de México y Cristo Rey",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-25",
+     "title_uk": "Крістіада: католики Мексики та Христос Цар"
+    }
+   ],
+   "first_seen": "2026-11-25T17:11+02:00",
+   "last_seen": "2026-11-27T10:24+02:00",
+   "days": [
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27"
+   ]
+  },
+  "apologetica-debates": {
+   "title": "Апологетичні дебати: «1 християнин проти 3 атеїстів»",
+   "summary": "Розмови «лицем до лиця» між християнином і людиною іншого світогляду.",
+   "why_now": "Подкаст «Voodoo Priestess & Christian Pastor Talk Face to Face» має 504 тис. (≈86 тис./добу), це найшвидше відео тижня в EN-US.",
+   "ad_idea": "Постановне інтерв'ю «Двоє незнайомців з різною вірою за одним столом», де фінальне питання ставить християнин.",
+   "type": "format",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "rising",
+   "relevance": 65,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=YQgcKmLWnmY",
+     "title": "1 Christian Vs 3 Atheists: Morality, Jesus and The Bible",
+     "metric": "244 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/YQgcKmLWnmY/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=pOndWEohmkg",
+     "title": "The ULTIMATE BIBLE STUDY To Prove That JESUS IS GOD!",
+     "metric": "189 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/pOndWEohmkg/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=EzUIeBL3ad8",
+     "title": "Atheists Accidentally Made a Christian Game",
+     "metric": "296 тис. переглядів, ≈52 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/EzUIeBL3ad8/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=Ib-zYHxGRLc",
+     "title": "Voodoo Priestess & Christian Pastor Talk Face to Face",
+     "metric": "504 тис. переглядів, ≈86 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/Ib-zYHxGRLc/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=glohykedG2M",
+     "title": "Ex-Christian & Ex-New Ager Discussion",
+     "metric": "166 тис. переглядів за 1 день",
+     "thumb": "https://i.ytimg.com/vi/glohykedG2M/mqdefault.jpg",
+     "seen": "2026-11-27"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=jIak19R3hOU",
+     "title": "The ENTIRE 2,000 Years of Christianity in 50 minutes",
+     "metric": "98 тис. переглядів за 5 днів",
+     "thumb": "https://i.ytimg.com/vi/jIak19R3hOU/mqdefault.jpg",
+     "seen": "2026-11-27"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=pnKMK8pR9jQ",
+     "title": "Caller Says We Send 70% of Catholics to Hell",
+     "metric": "60 тис. переглядів за 2 дні",
+     "thumb": "https://i.ytimg.com/vi/pnKMK8pR9jQ/mqdefault.jpg",
+     "seen": "2026-11-26"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=L5v-mqQdevw",
+     "title": "Eu enganei a IA Emma para ela considerar genuinamente Jesus",
+     "metric": "281 тис., 82 тис. за добу",
+     "thumb": "https://i.ytimg.com/vi/L5v-mqQdevw/mqdefault.jpg",
+     "seen": "2026-11-26",
+     "title_uk": "Я перехитрив ШІ Emma, щоб вона щиро задумалася про Ісуса"
+    }
+   ],
+   "first_seen": "2026-11-26T10:25+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "louvores-ia-covers": {
+   "title": "«IA»-версії louvor: ШІ-кавери у стилі відомих співаків",
+   "summary": "Канали викладають годинні підбірки louvor, згенеровані ШІ «у стилі» відомих співаків, і пишуть «IA» прямо в назві.",
+   "why_now": "«FERNANDINHO IA — Os Melhores Louvores» має 38 тис. переглядів за добу на другий день. Паралельно Tidal видаляє 29 млн згенерованих ШІ пісень, і християнські медіа обговорюють ШІ-музику.",
+   "ad_idea": "Для пісенних креативів: оригінальний ШІ-трек у стилі louvor з чесною міткою «IA» в описі. Чужих співаків не імітувати.",
+   "type": "sound",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "new",
+   "relevance": 60,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=cHPmV74zJEA",
+     "title": "FERNANDINHO IA - Os Melhores Louvores de Adoração - Lançamento Gospel 2026",
+     "metric": "38 тис. переглядів за добу",
+     "thumb": "https://i.ytimg.com/vi/cHPmV74zJEA/mqdefault.jpg",
+     "seen": "2026-11-26",
+     "title_uk": "FERNANDINHO IA - Найкращі пісні поклоніння - Госпел-реліз 2026"
+    }
+   ],
+   "first_seen": "2026-11-26T10:25+02:00",
+   "last_seen": "2026-11-26T10:25+02:00",
+   "days": [
+    "2026-11-26"
+   ]
+  },
+  "nada-faltando-nada-quebrado": {
+   "title": "«Nothing missing, nothing broken» / «Nada faltando, nada quebrado, nada fora do lugar»",
+   "summary": "Молитовна формула, яку подають як значення слова «шалом»: щоб у житті нічого не бракувало, нічого не було зламаним і все було на своєму місці. Так називають молитовні марафони й щоденні молитви.",
+   "why_now": "Цього тижня йде англомовний молитовний марафон «NOTHING MISSING, NOTHING BROKEN» (вже 4-й день, 654 тис. переглядів за один випуск). У Бразилії паралельно з'являються «Oração do dia nada faltando, nada quebrado» (200 тис., ~50 тис. за добу), а у блогах пишуть, що фраза завірусилась у TikTok.",
+   "ad_idea": "Текстовий слайдшоу або пісня з трьома рядками «нічого не бракує / нічого не зламано / усе на своєму місці» і гачком «Ось що насправді означає шалом».",
+   "type": "verse",
+   "markets": [
+    "en-us",
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "new",
+   "relevance": 82,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=zsdAUDUr2k0",
+     "title": "NOTHING MISSING, NOTHING BROKEN [DAY 4] || NSPPD",
+     "metric": "654 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/zsdAUDUr2k0/mqdefault.jpg",
+     "seen": "2026-11-26"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=tknwJKdTEEk",
+     "title": "ORAÇÃO DO DIA NADA FALTANDO, NADA QUEBRADO NADA FORA DO LUGAR",
+     "metric": "200 тис. переглядів, ~50 тис. за добу",
+     "thumb": "https://i.ytimg.com/vi/tknwJKdTEEk/mqdefault.jpg",
+     "seen": "2026-11-26",
+     "title_uk": "МОЛИТВА ДНЯ НІЧОГО НЕ БРАКУЄ, НІЧОГО НЕ ЗЛАМАНО, НІЧОГО НЕ НА СВОЄМУ МІСЦІ"
+    },
+    {
+     "source": "web",
+     "url": "https://jessicapetit.substack.com/p/nada-faltando-nada-quebrando-nada",
+     "title": "Nada faltando, nada quebrando, nada fora do lugar",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-26",
+     "title_uk": "Нічого не бракує, нічого не зламано, нічого не на своєму місці"
+    }
+   ],
+   "first_seen": "2026-11-26T17:33+02:00",
+   "last_seen": "2026-11-26T17:33+02:00",
+   "days": [
+    "2026-11-26"
+   ]
+  },
+  "kids-bible-animation-natal": {
+   "title": "Дитячі біблійні мультфільми перед Різдвом",
+   "summary": "Повні епізоди біблійної анімації для дітей набирають десятки тисяч переглядів на добу.",
+   "why_now": "Superbook «Jesus Heals the Blind» ≈55 тис./добу (EN), Superlibro «Jesús y la Prueba en el desierto» 414 тис. (≈46 тис./добу, ES).",
+   "ad_idea": "3D-мультик під пісню про народження Ісуса з дитиною-оповідачем; гачок «Що ти розкажеш дітям про Різдво?».",
+   "type": "format",
+   "markets": [
+    "en-us",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "status": "rising",
+   "relevance": 70,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=YaZ2tNrwlOo",
+     "title": "Superbook - Jesus Heals the Blind - Season 4 Episode 6",
+     "metric": "230 тис. переглядів, ≈55 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/YaZ2tNrwlOo/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "instagram",
+     "url": "https://www.instagram.com/p/DgBSqtdRfMX/",
+     "title": "Deus Cuida de Mim! #GospelInfantil",
+     "metric": "20 тис. лайків",
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Бог дбає про мене! #GospelInfantil"
+    },
+    {
+     "source": "news",
+     "url": "https://aleteia.org/2026/11/27/introducing-the-tiny-saints-show/",
+     "title": "Introducing … “The Tiny Saints Show!”",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=cb4b29dDq6s",
+     "title": "Jesús y la Prueba en el desierto │ Temporada 4 Episodio 11 Superlibro",
+     "metric": "414 тис. переглядів, ≈46 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/cb4b29dDq6s/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "Ісус і випробування в пустелі │ Сезон 4 Епізод 11 Суперкнига"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=uIXiIjXibEE",
+     "title": "Why Do We Celebrate Christmas? (The Full Story of Jesus' Birth for Kids)",
+     "metric": "96 тис. переглядів за 6 днів",
+     "thumb": "https://i.ytimg.com/vi/uIXiIjXibEE/mqdefault.jpg",
+     "seen": "2026-11-27"
+    }
+   ],
+   "first_seen": "2026-11-27T10:24+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "testemunho-conversao-testify": {
+   "title": "Свідчення і навернення: «I'm Here To Testify»",
+   "summary": "Проповіді й розмови про особисте свідчення та навернення.",
+   "why_now": "«I'm Here To Testify!» Elevation Church: 690 тис. (≈33 тис./добу); «Ex-Christian & Ex-New Ager Discussion» ≈32 тис./добу.",
+   "ad_idea": "Вуличне інтерв'ю «Коли ти вперше відчув, що Бог реальний?» з короткими свідченнями.",
+   "type": "theme",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "status": "steady",
+   "relevance": 70,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=QHpiJRgBtJ4",
+     "title": "I’m Here To Testify! | Pastor Steven Furtick",
+     "metric": "690 тис. переглядів, ≈33 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/QHpiJRgBtJ4/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=sxRMpEtg684",
+     "title": "Catholic Conversions on the Rise at Harvard? | EWTN News Nightly",
+     "metric": "125 тис. переглядів, ≈22 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/sxRMpEtg684/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=glohykedG2M",
+     "title": "Ex-Christian & Ex-New Ager Discussion",
+     "metric": "234 тис. переглядів, ≈32 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/glohykedG2M/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=f8s0hT9yi1M",
+     "title": "10 Books That Took Me From Protestant to Catholic",
+     "metric": "31 тис. переглядів, ≈21 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/f8s0hT9yi1M/mqdefault.jpg",
+     "seen": "2026-11-28"
+    },
+    {
+     "source": "news",
+     "url": "https://www.ewtnnews.com/world/europe/london-man-cycles-3-000-miles-to-jerusalem-after-overcoming-addiction-discovers-vocation",
+     "title": "London man cycles 3,000 miles to Jerusalem after overcoming addiction, discovers vocation",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-27"
+    }
+   ],
+   "first_seen": "2026-11-27T18:20+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  "historia-biblica-como-realmente": {
+   "title": "Біблійні історії «як це було насправді»: дитинство Ісуса, доля ворогів Ісуса, 2000 років за 50 хвилин",
+   "summary": "Наративні ролики-реконструкції з ШІ-візуалом або архівом: «Así fue la infancia de Jesús en una aldea pobre de Galilea», «Cómo murió realmente cada enemigo de Jesús».",
+   "why_now": "В ES-MX три такі ролики за тиждень набрали 107–220 тис. кожен (до ≈42 тис./добу); в EN-US «The ENTIRE 2,000 Years of Christianity in 50 minutes» — 112 тис.",
+   "ad_idea": "ШІ-драма «Ніч у Назареті: як насправді жила родина Ісуса» на 30 сек перед Різдвом, гачок «Ви ніколи не чули цієї частини історії».",
+   "type": "format",
+   "markets": [
+    "es-mx",
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "status": "new",
+   "relevance": 82,
+   "evidence": [
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=Q9RFbuXeZRg",
+     "title": "Así Fue la Infancia de Jesús en una Aldea Pobre de Galilea",
+     "metric": "220 тис. переглядів, ≈42 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/Q9RFbuXeZRg/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "Таким було дитинство Ісуса в бідному селищі Галілеї"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=987anUfbNwU",
+     "title": "Cómo Murió Realmente Cada Enemigo de Jesús",
+     "metric": "120 тис. переглядів, ≈35 тис./добу",
+     "thumb": "https://i.ytimg.com/vi/987anUfbNwU/mqdefault.jpg",
+     "seen": "2026-11-28",
+     "title_uk": "Як насправді помер кожен ворог Ісуса"
+    },
+    {
+     "source": "youtube",
+     "url": "https://www.youtube.com/watch?v=jIak19R3hOU",
+     "title": "The ENTIRE 2,000 Years of Christianity in 50 minutes",
+     "metric": "112 тис. переглядів",
+     "thumb": "https://i.ytimg.com/vi/jIak19R3hOU/mqdefault.jpg",
+     "seen": "2026-11-28"
+    }
+   ],
+   "first_seen": "2026-11-28T10:16+02:00",
+   "last_seen": "2026-11-28T10:16+02:00",
+   "days": [
+    "2026-11-28"
+   ]
+  },
+  "medalha-milagrosa-leao": {
+   "title": "Медаль Чудотворна: Папа Лев XIV у Sant'Andrea delle Fratte",
+   "summary": "Католицькі медіа масово пишуть про Медаль Чудотворну: історія девоції, символіка, візит Папи до римської церкви, пов'язаної з медаллю.",
+   "why_now": "27.11 (свято Медалі Чудотворної) Лев XIV відкрив адвентові візити саме там; за 48 год. понад 8 матеріалів у Vatican News, Aleteia (EN/PT/ES), Canção Nova і EWTN.",
+   "ad_idea": "Коротка ШІ-драма «бабусина медалька»: онука знаходить медаль і дізнається її історію; гачок «Ти знаєш, що означає цей знак?».",
+   "type": "theme",
+   "markets": [
+    "pt-br",
+    "es-mx",
+    "en-us"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "status": "new",
+   "relevance": 70,
+   "evidence": [
+    {
+     "source": "news",
+     "url": "https://pt.aleteia.org/2026/11/28/leao-xiv-diante-da-virgem-da-medalha-milagrosa-venho-como-peregrino-em-um-momento-dificil/",
+     "title": "Leão XIV, diante da Virgem da Medalha Milagrosa: “Venho como peregrino em um momento difícil”",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Лев XIV перед Дівою Милосердної Медалі: «Приходжу як паломник у важкий час»"
+    },
+    {
+     "source": "news",
+     "url": "https://noticias.cancaonova.com/igreja/medalha-milagrosa-e-uma-devocao-mariana-de-quase-dois-seculos/",
+     "title": "Medalha Milagrosa é uma devoção mariana de quase dois séculos",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Чудотворний медальйон — це марійне вшанування з майже двовіковою історією"
+    },
+    {
+     "source": "news",
+     "url": "https://es.aleteia.org/2026/11/27/simbolismo-de-las-joyas-de-la-mano-mano-de-maria-en-la-medalla-milagrosa/",
+     "title": "Simbolismo de las joyas de la mano de María en la Medalla Milagrosa",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28",
+     "title_uk": "Символізм прикрас на руці Марії на Медалі Милосердя"
+    },
+    {
+     "source": "news",
+     "url": "https://www.ewtnnews.com/vatican/the-story-behind-the-miraculous-medal-church-pope-leo-xiv-will-visit-friday-before-advent",
+     "title": "The story behind the Miraculous Medal church Pope Leo XIV will visit",
+     "metric": null,
+     "thumb": null,
+     "seen": "2026-11-28"
+    }
+   ],
+   "first_seen": "2026-11-28T17:17+02:00",
+   "last_seen": "2026-11-28T17:17+02:00",
+   "days": [
+    "2026-11-28"
+   ]
+  }
+ },
+ "news": [
+  {
+   "title": "Pope Leo urges Christians to respond to crises with faith and charity",
+   "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-homily-parish-rome-advent-visit.html",
+   "source": "Vatican News",
+   "about": "Папа Лев XIV почав цикл адвентових візитів до римських парафій і закликав відповідати на кризи вірою та милосердям: «віра має ставати любов'ю».",
+   "why": "Висвітлили Vatican News (EN/ES/PT), EWTN/CNA і Canção Nova; це старт Адвенту для католиків.",
+   "ad_angle": "Так: тема «віра, що стає ділами» для драм про допомогу ближньому в Адвент.",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "heat": 70,
+   "img": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/srv/2026/11/27/2026-11-27-visita-pastorale-alla-parrocchia-di-sant-andrea-delle/1795803758263.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "Leão XIV, diante da Virgem da Medalha Milagrosa: “Venho como peregrino em um momento difícil”",
+   "url": "https://pt.aleteia.org/2026/11/28/leao-xiv-diante-da-virgem-da-medalha-milagrosa-venho-como-peregrino-em-um-momento-dificil/",
+   "source": "Aleteia PT",
+   "about": "Папа Лев XIV у свято Медалі Чудотворної відвідав римську церкву Sant'Andrea delle Fratte і цим відкрив адвентові візити до парафій.",
+   "why": "Понад 8 матеріалів у Vatican News, Aleteia (3 мови), Canção Nova, EWTN за дві доби.",
+   "ad_angle": "Можна: тема «прийти до Марії як паломник у важкий момент» для католицьких креативів PT-BR/ES-MX.",
+   "markets": [
+    "pt-br",
+    "es-mx",
+    "en-us"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "heat": 70,
+   "img": null,
+   "picked": "2026-11-28",
+   "title_uk": "Лев XIV перед Дівою Милосердної Медалі: «Приходжу як паломник у важкий час»"
+  },
+  {
+   "title": "Vaticano nomeia três comissários para os Arautos do Evangelho",
+   "url": "https://noticias.cancaonova.com/igreja/vaticano-nomeia-tres-comissarios-para-os-arautos-do-evangelho/",
+   "source": "Canção Nova",
+   "about": "Ватикан призначив трьох нових комісарів для нагляду за спільнотою Arautos do Evangelho.",
+   "why": "Велика тема в Бразилії: CNBB, Canção Nova, EWTN.",
+   "ad_angle": "Не чіпати.",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "heat": 60,
+   "img": "https://img.cancaonova.com/cnimages/canais/uploads/sites/11/2026/07/estado-da-cidade-do-vaticano-alex-does-pictures-de-pexels-via-canva-150x150.png",
+   "picked": "2026-11-28",
+   "title_uk": "Ватикан призначив трьох комісарів для Arautos do Evangelho"
+  },
+  {
+   "title": "Christian woman to face criminal trial over silent prayer in the UK",
+   "url": "https://www.christianpost.com/news/christian-woman-to-face-criminal-trial-over-silent-prayer-in-uk.html",
+   "source": "The Christian Post",
+   "about": "У Великій Британії жінці загрожує кримінальний суд за мовчазну молитву біля клініки.",
+   "why": "Ще одна справа про «буферні зони», яку активно обговорюють у EN-US протестантських медіа.",
+   "ad_angle": "Не чіпати (гостра правова тема).",
+   "markets": [
+    "en-us",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "heat": 60,
+   "img": "https://cdn.christianpost.com/files/cache/thumbnail/27/29/272909_w_550_377_611_120.jpg?v=20261128095415",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "Catholic hospitals in Canada can be allowed to refuse assisted suicide, high court rules",
+   "url": "https://www.ewtnnews.com/world/americas/catholic-hospitals-in-canada-can-be-allowed-to-refuse-assisted-suicide-high-court-rules",
+   "source": "Catholic News Agency",
+   "about": "Верховний суд Канади постановив, що католицьким лікарням можна дозволити відмовлятися від проведення евтаназії.",
+   "why": "Важливе рішення для католицьких медіа Північної Америки; активно обговорюють тему свободи совісті.",
+   "ad_angle": "Не чіпати (гостра біоетична тема).",
+   "markets": [
+    "other",
+    "en-us"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "heat": 58,
+   "img": "https://cdn1.ewtn.com/image/upload/2024-06-19-StPaulHospitalVancouver_r2kf32.webp",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "Nearly 40% of Americans consider ministry as concerns over pastor shortage grow",
+   "url": "https://www.christianpost.com/news/2-in-5-americans-have-considered-ministry-seminary-or-chaplaincy.html",
+   "source": "The Christian Post",
+   "about": "Опитування: майже 2 з 5 американців колись думали про служіння, семінарію чи капеланство, тоді як церкви говорять про нестачу пасторів.",
+   "why": "Конкретна цифра (≈40%), яку підхоплюють церковні медіа на тлі дискусії про нестачу пасторів.",
+   "ad_angle": "Так: вуличне інтерв'ю «Ви колись думали стати пастором?»",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "heat": 55,
+   "img": "https://cdn.christianpost.com/files/cache/thumbnail/27/28/272867_w_550_367.jpg?v=20261127115617",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "Pentecostal leaders pray with Pope Leo and discuss sharing the Gospel",
+   "url": "https://www.vaticannews.va/en/church/news/2026-11/pentecostal-world-fellowship-max-barroso-pope-leo-audience.html",
+   "source": "Vatican News",
+   "about": "Лідери Всесвітнього п'ятидесятницького братства зустрілися з Папою, разом молилися й говорили про євангелізацію.",
+   "why": "Рідкісна зустріч, цікава обом аудиторіям; обговорюють у протестантських і католицьких медіа.",
+   "ad_angle": "Обережно: лише нейтральна тема «молитися разом», без порівнянь конфесій.",
+   "markets": [
+    "en-us",
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "heat": 55,
+   "img": "https://www.vaticannews.va/content/dam/vaticannews/multimedia/2026/novembre/28/tom5369aem.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "Maine mother asks Supreme Court to review order barring her from taking daughter to church",
+   "url": "https://www.christianpost.com/news/maine-mom-barred-from-taking-child-to-church-petitions-scotus.html",
+   "source": "The Christian Post",
+   "about": "Мати з Мену просить Верховний суд США переглянути судову заборону водити доньку до церкви.",
+   "why": "Справа про релігійну свободу в родині, яку поширюють консервативні християнські медіа.",
+   "ad_angle": "Не чіпати (судова справа приватної родини).",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "heat": 50,
+   "img": "https://cdn.christianpost.com/files/cache/thumbnail/27/28/272884_w_550_367.jpg?v=20261127104722",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "Camila Campos lança devocional escrito após 52 dias de internação contra o câncer",
+   "url": "https://goodprime.co/camila-campos-devocional-internacao-cancer-140008/",
+   "source": "Gospel Prime",
+   "about": "Gospel-співачка Camila Campos видала девоціонал, написаний після 52 днів у лікарні під час боротьби з раком.",
+   "why": "Відома публічна артистка; історія віри в хворобі зібрала багато реакцій у gospel-медіа.",
+   "ad_angle": "Можна як натхнення (не називаючи її): драма «52 дні в лікарні й записник молитов».",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "heat": 50,
+   "img": null,
+   "picked": "2026-11-28",
+   "title_uk": "Каміла Кампос випускає молитовник, написаний після 52 днів госпіталізації через рак"
+  },
+  {
+   "title": "Canadian bishops ‘deeply concerned’ after high court rules in favor of religious symbol ban",
+   "url": "https://www.ewtnnews.com/world/us/canadian-bishops-deeply-concerned-after-high-court-rules-in-favor-of-religious-symbol-ban",
+   "source": "Catholic News Agency",
+   "about": "Верховний суд Канади підтримав закон Квебеку про заборону релігійних символів для держслужбовців; єпископи висловили занепокоєння.",
+   "why": "Разом з рішенням щодо евтаназії в католицьких лікарнях це головна правова тема тижня в Канаді.",
+   "ad_angle": "Не чіпати.",
+   "markets": [
+    "other"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "heat": 50,
+   "img": "https://cdn1.ewtn.com/image/upload/images/size680/Supreme_Court_of_Canada_Ottawa_Credit_Robert_Linsdell_via_Flickr_CC_BY_20_CNA_3_20_15.jpg",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "The Word Made Flesh: New 75-Song Advent Playlist",
+   "url": "https://www.thegospelcoalition.org/article/advent-playlist-2026/",
+   "source": "The Gospel Coalition",
+   "about": "The Gospel Coalition випустила адвент-плейлист на 75 пісень: від старих гімнів до нового worship.",
+   "why": "Великий протестантський ресурс задає «саундтрек» Адвенту; його поширюють церкви.",
+   "ad_angle": "Так: адвент-гімни як музика для текстових слайдшоу й пісень.",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "heat": 48,
+   "img": "https://media.thegospelcoalition.org/wp-content/uploads/2026/11/20182812/advent-playlist-2027.jpg",
+   "picked": "2026-11-28"
+  },
+  {
+   "title": "Ignacio Aláez Vaquero e dez companheiros mártires serão beatificados neste sábado",
+   "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/espanha-beatificacao-gnacio-alaez-dez-companheiros-martires.html",
+   "source": "Vatican News PT",
+   "about": "Сьогодні в Іспанії беатифікують Ігнасіо Алаеса Вакеро і ще десятьох мучеників часів громадянської війни.",
+   "why": "Подія дня для іспаномовних католицьких медіа; перегукується з мексиканською темою 100 років кристерос.",
+   "ad_angle": "Обережно: тема мучеництва «віра сильніша за страх» без політики.",
+   "markets": [
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "heat": 46,
+   "img": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/reuters/2022/01/06/11/1641464841172.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg",
+   "picked": "2026-11-28",
+   "title_uk": "Ігнасіо Алаес Вакеро та десять його соратників-мучеників будуть беатифіковані цієї суботи"
+  },
+  {
+   "title": "Nova “Bíblia 365 cronológica” facilita a leitura das Escrituras em um ano",
+   "url": "https://goodprime.co/biblia-365-cronologica-facilita-leitura-escrituras-139980/",
+   "source": "Gospel Prime",
+   "about": "У Бразилії вийшла хронологічна Біблія з планом читання за рік.",
+   "why": "Вчасно перед Dia do Evangélico, Dia da Bíblia і новорічними обіцянками «прочитати Біблію за рік».",
+   "ad_angle": "Так: гачок «Цього року я прочитаю Біблію повністю» для PT-BR.",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "heat": 45,
+   "img": null,
+   "picked": "2026-11-28",
+   "title_uk": "Нова «Хронологічна Біблія 365» полегшує читання Писання за один рік"
+  },
+  {
+   "title": "Ugandan bishop decries misuse of smartphones during worship",
+   "url": "https://www.ewtnnews.com/world/africa/ugandan-bishop-decries-misuse-of-smartphones-during-worship",
+   "source": "Catholic News Agency",
+   "about": "Єпископ в Уганді розкритикував, що вірні знімають і гортають телефони під час богослужіння.",
+   "why": "Знайома всім тема «телефон у церкві», легко підхоплюється в соцмережах.",
+   "ad_angle": "Так: POV-скетч «коли на месі в усіх телефони, а ти…»",
+   "markets": [
+    "other"
+   ],
+   "denoms": [
+    "catholic",
+    "protestant"
+   ],
+   "heat": 40,
+   "img": "https://cdn1.ewtn.com/image/upload/ewtn-news/en/bishop-speaking-at-university-lectern_1795244939.png_zyvwgs.webp",
+   "picked": "2026-11-28"
+  }
+ ]
+}

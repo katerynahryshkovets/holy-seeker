@@ -1,0 +1,1382 @@
+{
+ "generated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "name": "День подяки",
+   "orig": "Thanksgiving",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2026-11-05",
+   "kind": "holiday",
+   "angle": "Вдячність, сімейний стіл, молитва перед їжею.",
+   "days_left": -2,
+   "approx": false
+  },
+  {
+   "date": "2026-11-27",
+   "name": "Чорна п'ятниця",
+   "orig": "Black Friday",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2026-11-13",
+   "kind": "culture",
+   "angle": "Найбільший день реклами й знижок; контраст «справжній подарунок безкоштовний».",
+   "days_left": -1,
+   "approx": false
+  },
+  {
+   "date": "2026-11-29",
+   "name": "Перша неділя Адвенту",
+   "orig": "Advent · Advento · Adviento",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2026-11-08",
+   "kind": "season",
+   "angle": "Чотири тижні очікування Різдва: адвент-читання, щоденні вірші.",
+   "days_left": 1,
+   "approx": false
+  },
+  {
+   "date": "2026-11-30",
+   "name": "День євангельських християн (Бразилія)",
+   "orig": "Dia Nacional do Evangélico",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 10,
+   "prep_from": "2026-11-20",
+   "kind": "culture",
+   "angle": "Офіційний день євангельських у Бразилії.",
+   "days_left": 2,
+   "approx": false
+  },
+  {
+   "date": "2026-12-01",
+   "name": "Щедрий вівторок",
+   "orig": "Giving Tuesday",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2026-11-24",
+   "kind": "culture",
+   "angle": "Щедрість, десятина, служіння ближнім.",
+   "days_left": 3,
+   "approx": false
+  },
+  {
+   "date": "2026-12-08",
+   "name": "Непорочне зачаття",
+   "orig": "Immaculate Conception · Imaculada Conceição · Inmaculada",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2026-12-01",
+   "kind": "holiday",
+   "angle": null,
+   "days_left": 10,
+   "approx": false
+  },
+  {
+   "date": "2026-12-12",
+   "name": "Діва Гваделупська",
+   "orig": "Día de la Virgen de Guadalupe",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2026-11-21",
+   "kind": "holiday",
+   "angle": "Найбільше католицьке свято Мексики, мільйони паломників.",
+   "days_left": 14,
+   "approx": false
+  },
+  {
+   "date": "2026-12-13",
+   "name": "День Біблії (Бразилія)",
+   "orig": "Dia da Bíblia",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 14,
+   "prep_from": "2026-11-29",
+   "kind": "culture",
+   "angle": "Євангельський день Біблії — прямий гачок для читання.",
+   "days_left": 15,
+   "approx": false
+  },
+  {
+   "date": "2026-12-16",
+   "name": "Посадас (16–24 грудня)",
+   "orig": "Las Posadas",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2026-12-02",
+   "kind": "season",
+   "angle": "Дев'ять вечорів різдвяних процесій у Мексиці.",
+   "days_left": 18,
+   "approx": false
+  },
+  {
+   "date": "2026-12-24",
+   "name": "Святвечір",
+   "orig": "Christmas Eve · Véspera de Natal · Nochebuena",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 30,
+   "prep_from": "2026-11-24",
+   "kind": "holiday",
+   "angle": "Родинна вечеря, нічна меса, Луки 2 вголос за столом.",
+   "days_left": 26,
+   "approx": false
+  },
+  {
+   "date": "2026-12-25",
+   "name": "Різдво",
+   "orig": "Christmas · Natal · Navidad",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 35,
+   "prep_from": "2026-11-20",
+   "kind": "holiday",
+   "angle": "Найбільший сезон року: справжній сенс Різдва, родина, подарунок із вірою.",
+   "days_left": 27,
+   "approx": false
+  },
+  {
+   "date": "2026-12-31",
+   "name": "Новорічне служіння",
+   "orig": "Watch Night · Culto da Virada",
+   "markets": [
+    "en-us",
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 14,
+   "prep_from": "2026-12-17",
+   "kind": "holiday",
+   "angle": "Зустріч Нового року в церкві; обітниці на рік.",
+   "days_left": 33,
+   "approx": false
+  },
+  {
+   "date": "2027-01-01",
+   "name": "Новий рік",
+   "orig": "New Year · Ano Novo · Año Nuevo",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2026-12-11",
+   "kind": "holiday",
+   "angle": "Нові обіцянки: план читання Біблії на рік, «цього року ближче до Бога».",
+   "days_left": 34,
+   "approx": false
+  },
+  {
+   "date": "2027-01-06",
+   "name": "Богоявлення / День трьох царів",
+   "orig": "Epiphany · Dia de Reis · Día de Reyes",
+   "markets": [
+    "es-mx",
+    "pt-br",
+    "other"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2026-12-23",
+   "kind": "holiday",
+   "angle": "У Мексиці велике сімейне свято (Rosca de Reyes); у Бразилії Folia de Reis.",
+   "days_left": 39,
+   "approx": false
+  },
+  {
+   "date": "2027-01-10",
+   "name": "«Золотий глобус»",
+   "orig": "Golden Globes",
+   "markets": [
+    "en-us",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-01-03",
+   "kind": "culture",
+   "angle": "Старт сезону нагород; фільми й актори віри в номінаціях.",
+   "days_left": 43,
+   "approx": true
+  },
+  {
+   "date": "2027-01-11",
+   "name": "Старт Big Brother Brasil",
+   "orig": "BBB (до квітня)",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-01-04",
+   "kind": "culture",
+   "angle": "Шоу, яке обговорює вся Бразилія 3 місяці; віра учасників і реакції — готовий гачок.",
+   "days_left": 44,
+   "approx": true
+  },
+  {
+   "date": "2027-02-02",
+   "name": "Свічки (Candelaria)",
+   "orig": "Día de la Candelaria",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-01-26",
+   "kind": "holiday",
+   "angle": "Тамалі в родині після Дня трьох царів; освячення фігурки Немовляти.",
+   "days_left": 66,
+   "approx": false
+  },
+  {
+   "date": "2027-02-07",
+   "name": "«Греммі»",
+   "orig": "Grammy Awards (вкл. Best Contemporary Christian Music Album)",
+   "markets": [
+    "en-us",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-01-28",
+   "kind": "culture",
+   "angle": "Християнські категорії «Греммі», виступи госпел-артистів, «що сказав переможець зі сцени».",
+   "days_left": 71,
+   "approx": true
+  },
+  {
+   "date": "2027-02-07",
+   "name": "Парад шкіл самби в Ріо (Самбодром)",
+   "orig": "Desfile das Escolas de Samba · Rio",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-01-17",
+   "kind": "culture",
+   "angle": "Найбільше шоу Бразилії; контраст «моя ніч карнавалу — в церкві», ретріти, молитва за місто.",
+   "days_left": 71,
+   "approx": false
+  },
+  {
+   "date": "2027-02-09",
+   "name": "Карнавал (вівторок) · Ріо, Салвадор",
+   "orig": "Carnaval",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-01-19",
+   "kind": "culture",
+   "angle": "Євангельські «retiros de carnaval» та контраст «я обрав інше свято».",
+   "days_left": 73,
+   "approx": false
+  },
+  {
+   "date": "2027-02-10",
+   "name": "Попільна середа · початок Посту",
+   "orig": "Ash Wednesday · Quarta-feira de Cinzas · Miércoles de Ceniza",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-01-20",
+   "kind": "season",
+   "angle": "Старт 40 днів: челенджі посту, щоденне читання, від чого відмовляюсь.",
+   "days_left": 74,
+   "approx": false
+  },
+  {
+   "date": "2027-02-14",
+   "name": "Супербоул",
+   "orig": "Super Bowl Sunday",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-01-24",
+   "kind": "culture",
+   "angle": "Найбільший рекламний день США; віра-реклами тут помітні щороку.",
+   "days_left": 78,
+   "approx": false
+  },
+  {
+   "date": "2027-02-14",
+   "name": "День закоханих",
+   "orig": "Valentine's Day · Día del Amor y la Amistad",
+   "markets": [
+    "en-us",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-01-31",
+   "kind": "culture",
+   "angle": "Шлюб, побачення з вірою, «любов за 1 Коринтян 13».",
+   "days_left": 78,
+   "approx": false
+  },
+  {
+   "date": "2027-03-08",
+   "name": "Міжнародний жіночий день",
+   "orig": "Dia da Mulher · Día de la Mujer · Women's Day",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-02-26",
+   "kind": "culture",
+   "angle": "Жінки Біблії, Притчі 31, сильна жінка віри.",
+   "days_left": 100,
+   "approx": false
+  },
+  {
+   "date": "2027-03-14",
+   "name": "«Оскар»",
+   "orig": "Academy Awards · Oscars",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-03-04",
+   "kind": "culture",
+   "angle": "Найобговорюваніша ніч кіно; біблійні й християнські фільми, промови з подякою Богу.",
+   "days_left": 106,
+   "approx": true
+  },
+  {
+   "date": "2027-03-17",
+   "name": "День святого Патрика",
+   "orig": "St. Patrick's Day",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-03-10",
+   "kind": "culture",
+   "angle": "Святий Патрик як місіонер, а не лише зелене пиво.",
+   "days_left": 109,
+   "approx": false
+  },
+  {
+   "date": "2027-03-21",
+   "name": "Вербна неділя",
+   "orig": "Palm Sunday · Domingo de Ramos",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-03-07",
+   "kind": "holiday",
+   "angle": "Початок Страсного тижня; Semana Santa — пік релігійного контенту в Мексиці й Бразилії.",
+   "days_left": 113,
+   "approx": false
+  },
+  {
+   "date": "2027-03-26",
+   "name": "Страсна п'ятниця",
+   "orig": "Good Friday · Sexta-feira Santa · Viernes Santo",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-03-05",
+   "kind": "holiday",
+   "angle": "Хресна дорога, «Він помер за тебе», тиха емоційна подача.",
+   "days_left": 118,
+   "approx": false
+  },
+  {
+   "date": "2027-03-28",
+   "name": "Великдень",
+   "orig": "Easter · Páscoa · Pascua",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 28,
+   "prep_from": "2027-02-28",
+   "kind": "holiday",
+   "angle": "Найбільше свято року: «Він воскрес», запрошення до церкви, нові відвідувачі.",
+   "days_left": 120,
+   "approx": false
+  },
+  {
+   "date": "2027-04-05",
+   "name": "Фінал March Madness",
+   "orig": "NCAA Final Four",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-03-29",
+   "kind": "culture",
+   "angle": "Спортсмени, що моляться на майданчику; тренери віри.",
+   "days_left": 128,
+   "approx": true
+  },
+  {
+   "date": "2027-04-30",
+   "name": "День дітей (Мексика)",
+   "orig": "Día del Niño",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-04-16",
+   "kind": "culture",
+   "angle": "Віра для дітей, біблійні історії, батьки, що моляться за дітей.",
+   "days_left": 153,
+   "approx": false
+  },
+  {
+   "date": "2027-05-02",
+   "name": "Формула 1: Гран-прі Маямі",
+   "orig": "F1 Miami Grand Prix",
+   "markets": [
+    "en-us",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-04-25",
+   "kind": "culture",
+   "angle": "Швидкість і віра: пілоти-християни, «біжи свій забіг» (Євр 12:1).",
+   "days_left": 155,
+   "approx": true
+  },
+  {
+   "date": "2027-05-03",
+   "name": "Met Gala",
+   "orig": "Met Gala",
+   "markets": [
+    "en-us",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-04-26",
+   "kind": "culture",
+   "angle": "Мода і релігійні образи (2018 «Heavenly Bodies» підірвала мережу).",
+   "days_left": 156,
+   "approx": true
+  },
+  {
+   "date": "2027-05-06",
+   "name": "Національний день молитви",
+   "orig": "National Day of Prayer",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-04-22",
+   "kind": "culture",
+   "angle": "Спільна молитва, молитва за країну й родину.",
+   "days_left": 159,
+   "approx": false
+  },
+  {
+   "date": "2027-05-06",
+   "name": "Вознесіння",
+   "orig": "Ascension · Ascensão · Ascensión",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-04-29",
+   "kind": "holiday",
+   "angle": "Менш помітне свято; варто лише для католицьких аудиторій.",
+   "days_left": 159,
+   "approx": false
+  },
+  {
+   "date": "2027-05-09",
+   "name": "День матері",
+   "orig": "Mother's Day · Dia das Mães",
+   "markets": [
+    "en-us",
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-04-18",
+   "kind": "culture",
+   "angle": "Мама, що молилась за мене; Притчі 31; подарунок із сенсом.",
+   "days_left": 162,
+   "approx": false
+  },
+  {
+   "date": "2027-05-10",
+   "name": "День матері (Мексика)",
+   "orig": "Día de las Madres",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-04-19",
+   "kind": "culture",
+   "angle": "Найемоційніше сімейне свято Мексики: молитва мами, Притчі 31.",
+   "days_left": 163,
+   "approx": false
+  },
+  {
+   "date": "2027-05-15",
+   "name": "День учителя (Мексика)",
+   "orig": "Día del Maestro",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-05-08",
+   "kind": "culture",
+   "angle": "Вчитель, що змінив життя; Ісус як Учитель.",
+   "days_left": 168,
+   "approx": false
+  },
+  {
+   "date": "2027-05-16",
+   "name": "П'ятидесятниця",
+   "orig": "Pentecost · Pentecostes",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-05-02",
+   "kind": "holiday",
+   "angle": "Святий Дух; дуже сильне для п'ятидесятників і харизматів у Бразилії.",
+   "days_left": 169,
+   "approx": false
+  },
+  {
+   "date": "2027-05-27",
+   "name": "Тіло Христове · Марш за Ісуса",
+   "orig": "Corpus Christi · Marcha para Jesus (SP, usually this day)",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-05-13",
+   "kind": "holiday",
+   "angle": "Вихідний у Бразилії; у Сан-Паулу цього дня зазвичай Marcha para Jesus — мільйони євангельських.",
+   "days_left": 180,
+   "approx": false
+  },
+  {
+   "date": "2027-05-31",
+   "name": "День пам'яті",
+   "orig": "Memorial Day",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-05-21",
+   "kind": "culture",
+   "angle": "«Немає більшої любові» (Ів 15:13), пам'ять полеглих.",
+   "days_left": 184,
+   "approx": false
+  },
+  {
+   "date": "2027-06-01",
+   "name": "Сезон випускних",
+   "orig": "Graduation season",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-05-18",
+   "kind": "season",
+   "angle": "Єремії 29:11, благословення випускнику, «куди далі з Богом».",
+   "days_left": 185,
+   "approx": false
+  },
+  {
+   "date": "2027-06-12",
+   "name": "День закоханих (Бразилія)",
+   "orig": "Dia dos Namorados",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-05-29",
+   "kind": "culture",
+   "angle": "Побачення з вірою, пари, що читають Біблію разом.",
+   "days_left": 196,
+   "approx": false
+  },
+  {
+   "date": "2027-06-13",
+   "name": "День пастора (Бразилія)",
+   "orig": "Dia do Pastor",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-06-06",
+   "kind": "culture",
+   "angle": "Подяка пастору, історії служіння.",
+   "days_left": 197,
+   "approx": false
+  },
+  {
+   "date": "2027-06-20",
+   "name": "День батька",
+   "orig": "Father's Day · Día del Padre",
+   "markets": [
+    "en-us",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-05-30",
+   "kind": "culture",
+   "angle": "Тато як духовний лідер, молитва батька.",
+   "days_left": 204,
+   "approx": false
+  },
+  {
+   "date": "2027-06-24",
+   "name": "Свято Сан-Жуан (Festa Junina)",
+   "orig": "Festa Junina · São João",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-06-10",
+   "kind": "holiday",
+   "angle": "Найбільші народні гуляння північного сходу Бразилії; родина, село, традиції.",
+   "days_left": 208,
+   "approx": false
+  },
+  {
+   "date": "2027-07-04",
+   "name": "День незалежності США",
+   "orig": "Independence Day · 4th of July",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-06-20",
+   "kind": "culture",
+   "angle": "Молитва за країну, свобода у Христі (Гал 5:1).",
+   "days_left": 218,
+   "approx": false
+  },
+  {
+   "date": "2027-07-20",
+   "name": "День друга (Бразилія)",
+   "orig": "Dia do Amigo",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-07-13",
+   "kind": "culture",
+   "angle": "Друг, що молиться за тебе; Притчі 17:17.",
+   "days_left": 234,
+   "approx": false
+  },
+  {
+   "date": "2027-07-26",
+   "name": "День бабусь і дідусів (Бразилія) · св. Анна і Яким",
+   "orig": "Dia dos Avós",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-07-12",
+   "kind": "culture",
+   "angle": "Віра, передана бабусею; дуже емоційний гачок для 45+.",
+   "days_left": 240,
+   "approx": false
+  },
+  {
+   "date": "2027-08-01",
+   "name": "Повернення до школи",
+   "orig": "Back to School · Volta às aulas · Regreso a clases",
+   "markets": [
+    "en-us",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-07-18",
+   "kind": "season",
+   "angle": "Молитва за дітей перед школою, вірш у ланчбокс.",
+   "days_left": 246,
+   "approx": false
+  },
+  {
+   "date": "2027-08-08",
+   "name": "День батька (Бразилія)",
+   "orig": "Dia dos Pais",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-07-18",
+   "kind": "culture",
+   "angle": "Тато як духовний лідер, молитва батька.",
+   "days_left": 253,
+   "approx": false
+  },
+  {
+   "date": "2027-08-28",
+   "name": "День бабусь і дідусів (Мексика)",
+   "orig": "Día de los Abuelos",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-08-14",
+   "kind": "culture",
+   "angle": "Молитви бабусі, родинна віра поколінь.",
+   "days_left": 273,
+   "approx": false
+  },
+  {
+   "date": "2027-09-01",
+   "name": "Місяць Біблії (католики Бразилії)",
+   "orig": "Mês da Bíblia (setembro)",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-08-18",
+   "kind": "season",
+   "angle": "Цілий вересень парафії читають одну книгу Біблії — природний гачок для читання.",
+   "days_left": 277,
+   "approx": false
+  },
+  {
+   "date": "2027-09-06",
+   "name": "День праці",
+   "orig": "Labor Day",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-08-30",
+   "kind": "culture",
+   "angle": "Праця як служіння (Кол 3:23), відпочинок у Бозі.",
+   "days_left": 282,
+   "approx": false
+  },
+  {
+   "date": "2027-09-07",
+   "name": "День незалежності Бразилії",
+   "orig": "Independência do Brasil",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-08-28",
+   "kind": "culture",
+   "angle": "Молитва за Бразилію, свобода у Христі.",
+   "days_left": 283,
+   "approx": false
+  },
+  {
+   "date": "2027-09-12",
+   "name": "День бабусь і дідусів (США)",
+   "orig": "National Grandparents Day",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-08-29",
+   "kind": "culture",
+   "angle": "Спадщина віри від бабусь і дідусів; 2 Тим 1:5.",
+   "days_left": 288,
+   "approx": false
+  },
+  {
+   "date": "2027-09-16",
+   "name": "День незалежності Мексики",
+   "orig": "Día de la Independencia · Grito",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-09-06",
+   "kind": "culture",
+   "angle": "Свято нації й родини; молитва за Мексику.",
+   "days_left": 292,
+   "approx": false
+  },
+  {
+   "date": "2027-09-22",
+   "name": "«Зустріч біля флагштока»",
+   "orig": "See You at the Pole",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-09-12",
+   "kind": "culture",
+   "angle": "Школярі моляться біля шкільного флагштока; молодіжний контент.",
+   "days_left": 298,
+   "approx": false
+  },
+  {
+   "date": "2027-10-10",
+   "name": "День вдячності пастору",
+   "orig": "Pastor Appreciation Day (October = Pastor Appreciation Month)",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-09-26",
+   "kind": "culture",
+   "angle": "Подяка пастору, весь жовтень.",
+   "days_left": 316,
+   "approx": false
+  },
+  {
+   "date": "2027-10-12",
+   "name": "Богоматір Апаресіда · День дітей",
+   "orig": "Nossa Senhora Aparecida · Dia das Crianças",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-09-28",
+   "kind": "holiday",
+   "angle": "Покровителька Бразилії, вихідний; того ж дня День дітей — віра для дітей.",
+   "days_left": 318,
+   "approx": false
+  },
+  {
+   "date": "2027-10-12",
+   "name": "Dove Awards (християнська музика)",
+   "orig": "GMA Dove Awards",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-10-02",
+   "kind": "culture",
+   "angle": "Головні нагороди християнської музики: хто виграв — ті пісні й ростуть.",
+   "days_left": 318,
+   "approx": true
+  },
+  {
+   "date": "2027-10-15",
+   "name": "День учителя (Бразилія)",
+   "orig": "Dia do Professor",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-10-08",
+   "kind": "culture",
+   "angle": "Вчитель, що змінив життя; учителі недільної школи.",
+   "days_left": 321,
+   "approx": false
+  },
+  {
+   "date": "2027-10-17",
+   "name": "Формула 1: Гран-прі США (Остін)",
+   "orig": "F1 United States Grand Prix",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-10-10",
+   "kind": "culture",
+   "angle": "Пілоти-християни, «біжи свій забіг».",
+   "days_left": 323,
+   "approx": true
+  },
+  {
+   "date": "2027-10-31",
+   "name": "День Реформації · Гелловін",
+   "orig": "Reformation Day · Halloween",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "other"
+   ],
+   "denoms": [
+    "protestant"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-10-17",
+   "kind": "holiday",
+   "angle": "Протестанти: Лютер, «Sola Scriptura»; в США — альтернатива Гелловіну (trunk-or-treat).",
+   "days_left": 337,
+   "approx": false
+  },
+  {
+   "date": "2027-10-31",
+   "name": "Формула 1: Гран-прі Мексики",
+   "orig": "F1 Gran Premio de la Ciudad de México",
+   "markets": [
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-10-21",
+   "kind": "culture",
+   "angle": "Чеко Перес і віра, Мехіко на вихідних Дня мертвих.",
+   "days_left": 337,
+   "approx": true
+  },
+  {
+   "date": "2027-11-01",
+   "name": "День усіх святих",
+   "orig": "All Saints · Todos os Santos · Todos los Santos",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-10-25",
+   "kind": "holiday",
+   "angle": null,
+   "days_left": 338,
+   "approx": false
+  },
+  {
+   "date": "2027-11-02",
+   "name": "День мертвих / Задушний день",
+   "orig": "Día de Muertos · Finados",
+   "markets": [
+    "es-mx",
+    "pt-br"
+   ],
+   "denoms": [
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-10-12",
+   "kind": "holiday",
+   "angle": "Мексика: величезне культурне свято; надія воскресіння, пам'ять про рідних.",
+   "days_left": 339,
+   "approx": false
+  },
+  {
+   "date": "2027-11-11",
+   "name": "День ветеранів",
+   "orig": "Veterans Day",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-11-04",
+   "kind": "culture",
+   "angle": "Подяка ветеранам, Псалом 91 для військових.",
+   "days_left": 348,
+   "approx": false
+  },
+  {
+   "date": "2027-11-11",
+   "name": "Латинська «Греммі»",
+   "orig": "Latin Grammy · Grammy Latino",
+   "markets": [
+    "es-mx",
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-11-01",
+   "kind": "culture",
+   "angle": "Категорії християнської музики іспанською й португальською.",
+   "days_left": 348,
+   "approx": true
+  },
+  {
+   "date": "2027-11-14",
+   "name": "Формула 1: Гран-прі Сан-Паулу (Інтерлагос)",
+   "orig": "F1 Grande Prêmio de São Paulo",
+   "markets": [
+    "pt-br"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 10,
+   "prep_from": "2027-11-04",
+   "kind": "culture",
+   "angle": "Айртон Сенна читав Біблію; найбільший спортивний вікенд Бразилії восени.",
+   "days_left": 351,
+   "approx": true
+  },
+  {
+   "date": "2027-11-20",
+   "name": "Формула 1: Гран-прі Лас-Вегаса",
+   "orig": "F1 Las Vegas Grand Prix",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 7,
+   "prep_from": "2027-11-13",
+   "kind": "culture",
+   "angle": "Нічні перегони в місті гріха — контраст для гачка.",
+   "days_left": 357,
+   "approx": true
+  },
+  {
+   "date": "2027-11-25",
+   "name": "День подяки",
+   "orig": "Thanksgiving",
+   "markets": [
+    "en-us"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-11-04",
+   "kind": "holiday",
+   "angle": "Вдячність, сімейний стіл, молитва перед їжею.",
+   "days_left": 362,
+   "approx": false
+  },
+  {
+   "date": "2027-11-26",
+   "name": "Чорна п'ятниця",
+   "orig": "Black Friday",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 14,
+   "prep_from": "2027-11-12",
+   "kind": "culture",
+   "angle": "Найбільший день реклами й знижок; контраст «справжній подарунок безкоштовний».",
+   "days_left": 363,
+   "approx": false
+  },
+  {
+   "date": "2027-11-28",
+   "name": "Перша неділя Адвенту",
+   "orig": "Advent · Advento · Adviento",
+   "markets": [
+    "en-us",
+    "pt-br",
+    "es-mx",
+    "other"
+   ],
+   "denoms": [
+    "protestant",
+    "catholic"
+   ],
+   "prep_days": 21,
+   "prep_from": "2027-11-07",
+   "kind": "season",
+   "angle": "Чотири тижні очікування Різдва: адвент-читання, щоденні вірші.",
+   "days_left": 365,
+   "approx": false
+  }
+ ]
+}

@@ -1,0 +1,960 @@
+<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="icon-32.png"><link rel="apple-touch-icon" href="icon-180.png"><meta name="theme-color" content="#D7EAFB"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<title>Holy Seeker</title>
+<script>try{if(location.hash==="#trends"||(location.hash!=="#ai"&&localStorage.getItem("hs-mode")==="trends"))document.documentElement.dataset.mode="trends"}catch(e){}</script>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a light sky. Pale-blue ground with soft drifting clouds behind frosted white panels; bright blue for actions, yellow halo as the brand mark. One deliberate light theme. */
+:root{
+  color-scheme:light;
+  --bg:#EAF4FD; --bg-top:#D7EAFB; --surface:rgba(255,255,255,.80); --surface-solid:#FFFFFF; --sunk:#EEF6FE;
+  --ink:#12294B; --muted:#587092; --line:#D2E4F5;
+  --blue:#1F6BFF; --blue-deep:#1553D6; --sun:#FFC81E; --halo:#946500; --halo-soft:#FFF3C4;
+  --c-video:#1F6BFF; --c-image:#D0397F; --c-voice:#0E8F68; --c-music:#C07200; --c-lipsync:#7A4BE0; --c-edit:#0B8AA0;
+  --s-hot:#E0452A; --s-rising:#C98400; --s-new:#1F6BFF; --s-update:#6A7F9C;
+  --f-display:"Nunito","Onest",system-ui,sans-serif;
+  --f-body:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --r:18px;
+}
+
+*{box-sizing:border-box}
+.wrap>*,.feed-grid>*{min-width:0}
+body{background:linear-gradient(180deg,var(--bg-top) 0%,var(--bg) 38%,var(--bg-end,#F7FBFF) 100%) fixed;background-color:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;min-height:100vh}
+
+/* sky */
+.sky{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.cloud{position:absolute;fill:#FFFFFF;filter:blur(1px) drop-shadow(0 8px 14px rgba(31,107,255,.10));opacity:.9}
+.wrap{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .cloud{animation:drift linear infinite}
+  .cloud{left:0!important;height:auto}
+  @keyframes drift{from{transform:translateX(-12vw)}to{transform:translateX(112vw)}}
+}
+.wrap{max-width:1180px;margin:0 auto;padding-block:20px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:6px}
+
+/* top bar */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand h1{font-family:var(--f-display);font-weight:900;font-size:26px;letter-spacing:-.01em;margin:0}
+.brand small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.logo{width:48px;height:48px;flex:none;filter:drop-shadow(0 4px 10px rgba(31,107,255,.28))}
+.digest,.rise,.card,.box,.day,.chip,.more,.empty{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.digest,.rise,.card,.box{box-shadow:0 6px 24px -14px rgba(18,41,75,.25)}
+.status{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:13px;color:var(--muted)}
+.status b{color:var(--ink);font-weight:600}
+.dots{display:flex;gap:10px;flex-wrap:wrap}
+.dot{display:inline-flex;align-items:center;gap:5px}
+.dot i{width:7px;height:7px;border-radius:50%;background:var(--muted)}
+.dot.ok i{background:var(--c-voice)} .dot.bad i{background:var(--s-hot)}
+
+/* day strip */
+.days{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:thin}
+.day{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer;font-variant-numeric:tabular-nums}
+.day[aria-pressed="true"]{background:var(--blue);color:#fff;border-color:var(--blue)}
+
+/* digest */
+.digest{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue-deep);font-weight:600}
+.digest h2{font-family:var(--f-display);font-weight:800;font-size:clamp(20px,2.6vw,28px);line-height:1.25;margin:8px 0 14px;text-wrap:balance}
+.digest p{margin:0 0 10px;max-width:66ch}
+.counts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-content:start}
+.count{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;background:var(--sunk)}
+.count .sw{width:10px;height:28px;border-radius:3px;flex:none}
+.count b{font-family:var(--f-mono);font-size:20px;font-variant-numeric:tabular-nums;line-height:1}
+.count span{font-size:13px;color:var(--muted)}
+.counts h3{grid-column:1/-1;margin:0 0 2px;font-size:13px;color:var(--muted);font-weight:500}
+
+/* section heads */
+.sec-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px}
+.sec-h h2{font-family:var(--f-display);font-weight:800;font-size:20px;margin:0}
+.sec-h p{margin:0;color:var(--muted);font-size:13px}
+
+/* rising rail */
+.rail{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.rise{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:10px;border-top:3px solid var(--s-rising)}
+.rise.hot{border-top-color:var(--s-hot)}
+.rise .big{font-family:var(--f-mono);font-size:24px;font-weight:600;font-variant-numeric:tabular-nums}
+.rise .big small{display:block;font-family:var(--f-body);font-size:13px;color:var(--muted);font-weight:400;margin-top:2px}
+.spark{width:100%;height:44px;display:block}
+
+/* feed */
+.feed-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:22px;align-items:start}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip i{width:8px;height:8px;border-radius:50%}
+.chip[aria-pressed="true"]{border-color:var(--blue);background:var(--blue);color:#fff}
+.filters-row{display:grid;gap:8px;margin:12px 0 14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.cmp{display:grid;gap:4px;padding:10px 12px;border-radius:12px;background:var(--sunk);font-size:13px}
+.cmp div{display:grid;grid-template-columns:74px minmax(0,1fr);gap:8px}
+.cmp b{color:var(--muted);font-weight:500}
+.cmp .v{font-family:var(--f-mono);font-variant-numeric:tabular-nums;color:var(--ink)}
+#cmp-sec{margin-top:28px}
+#soc-sec{margin-top:28px}
+.soc-tools{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:center;margin:12px 0 14px}
+.soc{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px}
+.sp{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:grid;grid-template-rows:auto 1fr;box-shadow:0 6px 24px -14px rgba(18,41,75,.25);color:inherit;text-decoration:none;min-width:0}
+.sp:hover{border-color:var(--blue)}
+.sp-pic{aspect-ratio:3/4;background:var(--sunk);overflow:hidden;position:relative}
+.sp-pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.sp:hover .sp-pic img{transform:scale(1.04)}
+.sp-quote{aspect-ratio:3/4;padding:16px;display:flex;flex-direction:column;gap:10px;background:linear-gradient(160deg,#FFFFFF,var(--sunk));overflow:hidden}
+.sp-quote p{margin:0;font-size:15px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:9;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.sp-quote .q{font-family:var(--f-display);font-size:40px;line-height:.6;color:var(--blue);opacity:.35}
+.sp-badge{position:absolute;left:8px;top:8px;font-size:11px;font-weight:700;border-radius:999px;padding:3px 8px;background:rgba(18,41,75,.72);color:#fff}
+.sp-quote .sp-badge{position:static;align-self:flex-start}
+.sp-body{padding:10px 12px 12px;display:grid;gap:6px;align-content:start}
+.sp-who{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);min-width:0}
+.sp-who img{width:20px;height:20px;border-radius:50%;flex:none}
+.sp-who span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sp-text{margin:0;font-size:13px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.sp-num{font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums;color:var(--ink);display:flex;flex-wrap:wrap;gap:4px 10px}
+.sp-num span{color:var(--muted)}
+@media (max-width:520px){.soc{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.sp-quote p{-webkit-line-clamp:7;font-size:13px}}
+.cmp-box{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin-top:12px;box-shadow:0 6px 24px -14px rgba(18,41,75,.25);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.cmp-tools{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:center;margin-bottom:10px}
+.tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.ct{width:100%;border-collapse:collapse;font-size:14px;min-width:680px}
+.ct th{text-align:left;font-weight:500;font-size:12px;color:var(--muted);padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+.ct td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.ct tr.new td{background:var(--halo-soft)}
+.ct .num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.ct small{display:block;color:var(--muted);font-size:12px}
+.ct .barw{display:inline-block;width:48px;height:6px;border-radius:3px;background:var(--line);vertical-align:middle;margin-right:8px;overflow:hidden}.ct .bar{display:block;height:100%;background:var(--blue);opacity:.8}
+.src-note{font-size:12px;color:var(--muted);margin:10px 0 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:10px;align-content:start;min-width:0;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--cat,var(--line))}
+.pic{margin:-16px -16px 2px;aspect-ratio:16/9;background:var(--sunk);overflow:hidden;max-width:none}
+.pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.card:hover .pic img,.rise:hover .pic img{transform:scale(1.04)}
+.rise{overflow:hidden}
+.card h3{margin:0;font-size:17px;font-weight:600;line-height:1.3;overflow-wrap:anywhere}
+.card .vendor{color:var(--muted);font-size:13px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tag{font-size:12px;border-radius:6px;padding:2px 8px;background:var(--sunk);color:var(--muted);white-space:nowrap}
+.tag.cat{color:var(--cat);font-weight:600}
+.pill{font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:700;border-radius:999px;padding:3px 8px;border:1px solid currentColor}
+.pill.hot{color:var(--s-hot)} .pill.rising{color:var(--s-rising)} .pill.new{color:var(--s-new)} .pill.update{color:var(--s-update)}
+.agg{font-size:12px;color:var(--halo);background:var(--halo-soft);border-radius:6px;padding:2px 8px;font-weight:600}
+.card p{margin:0;font-size:14px;overflow-wrap:anywhere}
+.why{font-size:13px;color:var(--muted);border-left:3px solid var(--sun);padding-left:10px}
+.metric{display:flex;align-items:end;justify-content:space-between;gap:10px;font-family:var(--f-mono);font-size:13px;font-variant-numeric:tabular-nums}
+.metric .delta{color:var(--s-rising);font-weight:600}
+.links{display:flex;flex-wrap:wrap;gap:12px;font-size:13px}
+.links a{color:var(--blue-deep);text-decoration:none;font-weight:600}
+.links a:hover{text-decoration:underline}
+.seen{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* aside */
+aside{display:grid;gap:12px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.box h3{margin:0 0 10px;font-size:14px;font-weight:600}
+.alerts{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.alerts li{display:grid;gap:2px;font-size:13px}
+.alerts time{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.alerts b{font-weight:600}
+.buzz{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.buzz li{display:grid;gap:8px;font-size:13px}
+.bz-thumb{display:block;border-radius:10px;overflow:hidden;aspect-ratio:16/9;background:var(--sunk)}
+.bz-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.bz-body{display:grid;gap:2px;min-width:0}
+.bz-src{font-size:12px;color:var(--muted)}
+.bz-title{font-weight:600;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.bz-title:hover{color:var(--blue-deep);text-decoration:underline}
+.bz-metric{font-family:var(--f-mono);font-size:12px;color:var(--s-rising)}
+.bz-dg{justify-self:start;display:inline-flex;align-items:center;gap:6px;margin-top:4px;border:1px solid var(--blue);background:var(--blue);color:#fff;border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;cursor:pointer}
+.bz-dg:hover{background:var(--blue-deep);border-color:var(--blue-deep)}
+.bz-dg.wait{background:transparent;color:var(--muted);border-color:var(--line);cursor:default;font-weight:500}
+
+/* video squeeze drawer */
+.dw-back{position:fixed;inset:0;z-index:20;background:rgba(18,41,75,.28);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.dw{position:fixed;z-index:21;top:0;right:0;bottom:0;width:520px;max-width:100%;overflow:hidden;background:#F7FBFF;border-left:1px solid var(--line);box-shadow:-20px 0 60px -20px rgba(18,41,75,.35);display:grid;grid-template-rows:auto 1fr;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-reduced-motion:no-preference){.dw{animation:dwin .28s ease-out}@keyframes dwin{from{transform:translateX(40px);opacity:0}}}
+.dw-head{min-width:0;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 18px;border-bottom:1px solid var(--line);background:var(--surface-solid)}
+.dw-head b{font-family:var(--f-display);font-weight:900;font-size:18px;display:flex;align-items:center;gap:8px}
+.dw-x{border:1px solid var(--line);background:var(--surface-solid);border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:18px;line-height:1}
+.dw-body{overflow-y:auto;overflow-x:hidden;padding:18px;display:flex;flex-direction:column;gap:18px;min-width:0}
+.dw-body>*{min-width:0;flex:none}
+.dw-thumb{display:block;border-radius:14px;overflow:hidden;background:var(--sunk);position:relative}
+.dw-thumb img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.dw-thumb span{position:absolute;left:10px;bottom:10px;background:rgba(18,41,75,.82);color:#fff;border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600}
+.dw h4{margin:0 0 8px;font-family:var(--f-display);font-weight:800;font-size:15px;color:var(--blue-deep);letter-spacing:.02em}
+.dw-title{margin:0;font-size:17px;font-weight:600;line-height:1.3}
+.dw-tldr{margin:0;font-size:15px;background:var(--surface-solid);border:1px solid var(--line);border-left:4px solid var(--sun);border-radius:12px;padding:12px 14px}
+.dw ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14px}
+.dw-cmp{display:grid;gap:8px}
+.dw-cmp div{background:var(--surface-solid);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14px}
+.dw-cmp div b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.dw-pr{display:grid;gap:10px}
+.dw-pr figure{margin:0;background:var(--surface-solid);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;gap:6px}
+.dw-pr figcaption{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.dw-pr pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--f-mono);font-size:12.5px;line-height:1.5;color:var(--ink)}
+.dw-copy{border:1px solid var(--line);background:var(--sunk);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;white-space:nowrap}
+.dw-verdict{margin:0;font-size:14px;background:var(--halo-soft);color:#5C3F00;border-radius:12px;padding:12px 14px}
+.dw-foot{font-size:12px;color:var(--muted)}
+.legend{display:grid;gap:6px;font-size:13px;color:var(--muted)}
+.legend span{display:flex;gap:8px;align-items:center}
+
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:28px;text-align:center;color:var(--muted)}
+.empty b{color:var(--ink);display:block;font-size:16px;margin-bottom:4px}
+.note{font-size:13px;color:var(--muted)}
+.more{justify-self:center;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 16px;cursor:pointer;margin-top:12px}
+
+@media (max-width:860px){
+  .digest{grid-template-columns:1fr;padding:18px}
+  .feed-grid{grid-template-columns:1fr}
+  aside{position:static}
+}
+@media (prefers-reduced-motion:no-preference){.card,.rise{transition:border-color .15s}.card:hover,.rise:hover{border-color:var(--muted)}}
+
+/* ---------- Trend Seeker: pale-violet theme + mode switch ---------- */
+html[data-mode="trends"]{
+  --bg:#F1ECFD; --bg-top:#E4DAFA; --bg-end:#FAF8FF; --surface:rgba(255,255,255,.82); --sunk:#F4F0FD;
+  --ink:#271A4D; --muted:#6B5E91; --line:#E2D8F6; --blue:#7B4FE0; --blue-deep:#5A33BF;
+  --t-theme:#7B4FE0; --t-format:#C2337A; --t-sound:#0E8A66; --t-verse:#B36A00; --t-meme:#2F6BE8;
+}
+html[data-mode="trends"] .cloud{filter:blur(1px) drop-shadow(0 8px 14px rgba(123,79,224,.12))}
+html[data-mode="trends"] .ai-only, html:not([data-mode="trends"]) .tr-only{display:none!important}
+.modes{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:var(--surface);border:1px solid var(--line);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.modes button{border:0;background:transparent;border-radius:999px;padding:7px 14px;font-size:14px;font-weight:600;cursor:pointer;color:var(--muted);display:inline-flex;align-items:center;gap:7px;white-space:nowrap}
+.modes button i{width:9px;height:9px;border-radius:50%}
+.modes button[aria-pressed="true"]{color:#fff;background:var(--blue);box-shadow:0 4px 14px -6px var(--blue)}
+.top>.status{flex-basis:100%}
+.modebar{position:sticky;top:0;z-index:15;height:0;max-width:1180px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px));display:flex;justify-content:flex-end;pointer-events:none}
+.modebar .modes{margin-top:calc(env(safe-area-inset-top,0px) + 12px);pointer-events:auto;box-shadow:0 6px 20px -12px rgba(18,41,75,.35);height:max-content}
+.modebar .modes button{padding:6px 12px;font-size:13px}
+@media (max-width:640px){.wrap{padding-top:62px}}
+.modes button[aria-pressed="true"] i{background:#fff!important}
+
+#tr-view{display:grid;gap:22px}
+.tr-filters{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.tr-filters .lbl{font-size:12px;color:var(--muted);margin-right:2px}
+.tr-side{display:grid;gap:10px;align-content:start}
+.tr-next{background:var(--sunk);border-radius:12px;padding:12px 14px;display:grid;gap:4px}
+.tr-next b{font-family:var(--f-display);font-size:17px}
+.tr-next small{color:var(--muted);font-size:12px}
+.cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:12px}
+.ev{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px;box-shadow:0 6px 24px -14px rgba(39,26,77,.22);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.ev.now{border-color:var(--blue);box-shadow:0 0 0 1px var(--blue) inset,0 6px 24px -14px rgba(39,26,77,.3)}
+.ev-d{text-align:center;border-radius:12px;background:var(--sunk);padding:8px 4px;align-self:start}
+.ev-d b{display:block;font-family:var(--f-display);font-size:24px;line-height:1}
+.ev-d span{font-size:12px;color:var(--muted)}
+.ev h3{margin:0;font-size:15px;font-weight:600;line-height:1.3}
+.ev .orig{font-size:12px;color:var(--muted);margin-top:2px}
+.ev p{margin:6px 0 0;font-size:13px}
+.ev .meta{margin-top:8px}
+.ev-when{font-size:12px;font-weight:600;color:var(--blue-deep)}
+.ev.now .ev-when{color:#fff;background:var(--blue);border-radius:999px;padding:2px 8px}
+.tcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:10px;align-content:start;min-width:0;position:relative;overflow:hidden;box-shadow:0 6px 24px -14px rgba(39,26,77,.22);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.tcard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--tc,var(--line))}
+.tcard .pic{margin:-16px -16px 2px}
+.tcard h3{margin:0;font-size:17px;font-weight:600;line-height:1.3;overflow-wrap:anywhere}
+.tcard p{margin:0;font-size:14px;overflow-wrap:anywhere}
+.ttype{font-size:12px;font-weight:700;color:var(--tc)}
+.idea{font-size:13px;background:var(--sunk);border-radius:10px;padding:10px 12px}
+.idea b{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--blue-deep);margin-bottom:2px}
+.ev-list{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:13px}
+.ev-list a{color:var(--blue-deep);text-decoration:none;font-weight:600;overflow-wrap:anywhere}
+.ev-list a:hover{text-decoration:underline}
+.ev-list span{color:var(--muted);font-family:var(--f-mono);font-size:12px}
+.ev-uk{color:var(--muted);font-size:12px;margin-top:2px}
+.ev-uk::before,.sp-uk::before{content:"UA · ";font-family:var(--f-mono);font-size:10px;letter-spacing:.04em;opacity:.7}
+.sp-uk{color:var(--muted);font-size:12.5px;margin-top:4px}
+.nl-h{font-size:15px;margin:22px 0 10px}
+.nl{list-style:none;margin:0;padding:0;display:grid;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.nl li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;padding:10px 14px;border-top:1px solid var(--line);align-items:start}
+.nl li:first-child{border-top:0}
+.nl .th{width:64px;height:44px;border-radius:8px;object-fit:cover;background:var(--sunk);display:block}
+.nl a{color:var(--ink);font-weight:600;text-decoration:none;font-size:14px;overflow-wrap:anywhere}
+.nl a:hover{color:var(--blue-deep);text-decoration:underline}
+.nl .src{font-size:12px;color:var(--muted);margin-top:3px}
+.heat{height:4px;border-radius:4px;background:var(--sunk);overflow:hidden}
+.heat i{display:block;height:100%;background:var(--blue)}
+.tcard .uk{color:var(--muted);font-size:13px;margin-top:-6px}
+.pill.steady{color:var(--muted)} .pill.fading{color:var(--muted);opacity:.7}
+.tr-empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:22px;color:var(--muted);font-size:14px}
+</style>
+
+<div class="sky" aria-hidden="true">
+  <svg width="0" height="0" style="position:absolute"><defs><symbol id="cl" viewBox="0 0 150 90"><circle cx="42" cy="58" r="22"/><circle cx="72" cy="44" r="30"/><circle cx="106" cy="54" r="24"/><circle cx="128" cy="66" r="15"/><rect x="22" y="58" width="120" height="24" rx="12"/></symbol></defs></svg>
+  <svg class="cloud" viewBox="0 0 150 90" style="top:4%;left:6%;width:260px;animation-duration:150s;animation-delay:-20s"><use href="#cl"/></svg>
+  <svg class="cloud" viewBox="0 0 150 90" style="top:14%;left:62%;width:340px;opacity:.7;animation-duration:190s;animation-delay:-110s"><use href="#cl"/></svg>
+  <svg class="cloud" viewBox="0 0 150 90" style="top:38%;left:30%;width:200px;opacity:.6;animation-duration:170s;animation-delay:-60s"><use href="#cl"/></svg>
+  <svg class="cloud" viewBox="0 0 150 90" style="top:58%;left:80%;width:300px;opacity:.65;animation-duration:210s;animation-delay:-150s"><use href="#cl"/></svg>
+  <svg class="cloud" viewBox="0 0 150 90" style="top:76%;left:12%;width:380px;opacity:.55;animation-duration:230s;animation-delay:-30s"><use href="#cl"/></svg>
+  <svg class="cloud" viewBox="0 0 150 90" style="top:90%;left:52%;width:220px;opacity:.6;animation-duration:180s;animation-delay:-90s"><use href="#cl"/></svg>
+</div>
+<nav class="modebar" aria-label="Розділ">
+  <div class="modes" role="group">
+    <button id="m-ai" onclick="hsMode('ai')"><i style="background:#1F6BFF"></i>AI Seeker</button>
+    <button id="m-tr" onclick="hsMode('trends')"><i style="background:#9D7BEF"></i>Trend Seeker</button>
+  </div>
+</nav>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 48 48" aria-hidden="true">
+        <ellipse cx="24" cy="9.5" rx="14" ry="4.6" fill="none" stroke="var(--sun)" stroke-width="3.6"/>
+        <circle cx="24" cy="29" r="15" fill="var(--blue)"/>
+        <circle cx="19" cy="24" r="4.5" fill="#fff" opacity=".35"/>
+      </svg>
+      <div><h1 id="brand-h">Holy Seeker</h1><small class="ai-only">Радар нових AI-тулз: відео · картинки · озвучка · музика · lip-sync · монтаж</small><small class="tr-only">Тренди християнського контенту: теми · формати реклами · звуки · свята</small></div>
+    </div>
+    <div class="status ai-only" id="status"><span>Чекаю дані…</span></div>
+    <div class="status tr-only" id="tr-status"><span>Чекаю дані…</span></div>
+  </header>
+
+  <nav class="days ai-only" id="days" aria-label="Архів оновлень"></nav>
+
+  <section class="digest ai-only" id="digest">
+    <div>
+      <div class="eyebrow" id="dg-date">Оновлення дня</div>
+      <h2 id="dg-head">Перше оновлення з'явиться після найближчого проходу</h2>
+      <div id="dg-body"><p class="note">Holy Seeker перевіряє Hugging Face, GitHub, Hacker News, новинні сайти й наш ai-aggregator о 10:00 і 17:00. Після першого проходу тут буде короткий підсумок дня, а нижче картки тулз.</p></div>
+    </div>
+    <div class="counts" id="dg-counts"></div>
+  </section>
+
+  <section id="rising-sec" class="ai-only" hidden>
+    <div class="sec-h"><h2>Злітає зараз</h2><p>Про ці тулзи вже прийшов пуш або от-от прийде</p></div>
+    <div class="rail" id="rail" style="margin-top:12px"></div>
+  </section>
+
+  <div class="feed-grid ai-only">
+    <section>
+      <div class="sec-h"><h2>Стрічка</h2><p id="feed-count"></p></div>
+      <div class="filters-row">
+        <div class="filters" id="f-cat" role="group" aria-label="Категорія"></div>
+        <div class="filters" id="f-status" role="group" aria-label="Статус"></div>
+        <div class="filters" id="f-period" role="group" aria-label="Період"></div>
+      </div>
+      <div class="cards" id="cards"></div>
+      <div style="display:grid"><button class="more" id="more" hidden>Показати ще</button></div>
+    </section>
+    <aside>
+      <div class="box" id="buzz-box" hidden>
+        <h3>Про що говорять</h3>
+        <ul class="buzz" id="buzz"></ul>
+      </div>
+      <div class="box">
+        <h3>Пуші</h3>
+        <ul class="alerts" id="alerts"><li class="note">Пушів ще не було. Вони приходять, коли тулза різко набирає лайки, зірки чи згадки.</li></ul>
+      </div>
+      <div class="box">
+        <h3>Статуси</h3>
+        <div class="legend">
+          <span><b class="pill hot">гаряче</b> вибухове зростання, був пуш</span>
+          <span><b class="pill rising">росте</b> помітно набирає за добу</span>
+          <span><b class="pill new">нове</b> щойно вийшло</span>
+          <span><b class="pill update">оновлення</b> нова версія відомої тулзи</span>
+          <span><b class="agg">в агрегаторі</b> можна генерити вже зараз</span>
+          <span style="display:block;margin-top:6px">Лайки й зірки: скільки людей зберегли модель на Hugging Face чи GitHub. «+300 за добу» означає, що навколо неї зараз хайп.</span>
+          <span style="display:block;margin-top:6px"><b style="color:var(--ink)">Коли приходить пуш.</b> Лише коли ріст підтверджено цифрами: перевищено поріг (80 вподобань HF, 400 зірок GitHub, 80 тис. переглядів YouTube за добу) у двох замірах поспіль, ріст не сповільнюється, про тулзу пишуть хоча б у двох джерелах. Не більше 2 пушів за прохід і 3 на день.</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <section id="soc-sec" class="ai-only" hidden>
+    <div class="sec-h"><h2>Соцмережі</h2><p id="soc-count"></p></div>
+    <div class="soc-tools"><div class="filters" id="s-src" role="group" aria-label="Мережа"></div><div class="filters" id="s-sort" role="group" aria-label="Сортування"></div></div>
+    <div class="soc" id="soc"></div>
+    <div style="display:grid"><button class="more" id="soc-more" hidden>Показати ще</button></div>
+  </section>
+  <main id="tr-view" class="tr-only">
+    <div class="tr-filters">
+      <span class="lbl">Ринок</span><div class="filters" id="t-mk" role="group" aria-label="Ринок"></div>
+      <span class="lbl">Конфесія</span><div class="filters" id="t-dn" role="group" aria-label="Конфесія"></div>
+    </div>
+    <nav class="days" id="tr-days" aria-label="Архів оновлень трендів" hidden></nav>
+    <section class="digest" id="tr-digest">
+      <div>
+        <div class="eyebrow" id="tr-dg-date">Оновлення трендів</div>
+        <h2 id="tr-dg-head">Перше оновлення трендів з'явиться після найближчого проходу</h2>
+        <div id="tr-dg-body"><p class="note">Trend Seeker двічі на день (10:00 і 17:00) переглядає YouTube за тиждень у США, Бразилії та Мексиці, християнські чарти, новини й соцмережі, і збирає, що зараз набирає в протестантів і католиків.</p></div>
+      </div>
+      <div class="tr-side" id="tr-side"></div>
+    </section>
+    <section>
+      <div class="sec-h"><h2>Календар: свята й події</h2><p>Дати пораховано точно. Виділено ті, під які креативи вже варто готувати</p></div>
+      <div class="cal" id="cal"></div>
+      <div style="display:grid"><button class="more" id="cal-more" hidden>Показати далі</button></div>
+    </section>
+    <section>
+      <div class="sec-h"><h2>Тренди</h2><p id="t-count"></p></div>
+      <div class="filters-row"><div class="filters" id="t-type" role="group" aria-label="Тип"></div></div>
+      <div class="cards" id="t-cards"></div>
+      <div style="display:grid"><button class="more" id="t-more" hidden>Показати ще</button></div>
+    </section>
+    <section id="tnews-sec">
+      <div class="sec-h"><h2>Новини й обговорення</h2><p id="tn-count"></p></div>
+      <div class="cards" id="tn-picks"></div>
+      <h3 class="nl-h">Усі свіжі заголовки з християнських видань</h3>
+      <ul class="nl" id="tn-list"></ul>
+      <div style="display:grid"><button class="more" id="tn-more" hidden>Показати ще</button></div>
+    </section>
+    <section id="tsoc-sec">
+      <div class="sec-h"><h2>Соцмережі</h2><p id="tsoc-count"></p></div>
+      <div class="soc-tools"><div class="filters" id="ts-src" role="group" aria-label="Мережа"></div><div class="filters" id="ts-sort" role="group" aria-label="Сортування"></div></div>
+      <div class="soc" id="tsoc"></div>
+      <div style="display:grid"><button class="more" id="tsoc-more" hidden>Показати ще</button></div>
+    </section>
+  </main>
+  <section id="cmp-sec" class="ai-only" hidden>
+    <div class="sec-h"><h2>Ціна · швидкість · якість</h2><p>Нові тулзи поруч із моделями, які вже є в нашому агрегаторі</p></div>
+    <div class="cmp-box">
+      <div class="cmp-tools"><div class="filters" id="c-unit" role="group" aria-label="Тип"></div><div class="filters" id="c-sort" role="group" aria-label="Сортування"></div></div>
+      <p class="note" id="c-hint" style="margin:0 0 8px"></p>
+      <div class="tbl-wrap"><table class="ct" id="c-tbl"></table></div>
+      <p class="src-note" id="c-src"></p>
+    </div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const CATS = {
+    video:{label:"Відео", v:"--c-video"}, image:{label:"Картинки", v:"--c-image"},
+    voice:{label:"Озвучка", v:"--c-voice"}, music:{label:"Музика / SFX", v:"--c-music"},
+    lipsync:{label:"Lip-sync / аватари", v:"--c-lipsync"}, edit:{label:"Монтаж / апскейл", v:"--c-edit"}
+  };
+  const STAT = {hot:"гаряче", rising:"росте", new:"нове", update:"оновлення"};
+  const SRC = {huggingface:"Hugging Face", github:"GitHub", hackernews:"Hacker News", youtube:"YouTube", reddit:"Reddit", tiktok:"TikTok", instagram:"Instagram", threads:"Threads", facebook:"Facebook", aggregator:"Агрегатор", web:"Веб-новини"};
+  const UNITS = {
+    sec_720p:{label:"Відео", per:"/с", hint:"Ціна за секунду відео 720p зі звуком. Якість — місце в сліпому голосуванні «відео з кадру».", boards:["i2v","t2v"], cats:["video","lipsync"]},
+    image:{label:"Зображення", per:"", hint:"Ціна за одне зображення ~1K стандартної якості. Якість — місце в рейтингу редагування за референсом.", boards:["edit","t2i"], cats:["image"]},
+    "1k_chars":{label:"Озвучка", per:"/1000 симв.", hint:"Ціна за 1000 символів тексту. Якість — місце в сліпому голосуванні голосів.", boards:["tts"], cats:["voice"]},
+    min:{label:"Музика", per:"/хв", hint:"Ціна за хвилину треку. Для музики публічного рейтингу якості поки немає.", boards:[], cats:["music"]}
+  };
+  const CAT_UNIT = {video:"sec_720p", lipsync:"sec_720p", image:"image", voice:"1k_chars", music:"min"};
+  const SORTS = {price:"Дешевші", quality:"Якісніші", speed:"Швидші"};
+  const PERIODS = {day:"За день", week:"За тиждень", all:"Усе"};
+  const state = {tools:[], digests:[], alerts:[], buzz:[], status:null, cmp:null, soc:[], ssrc:"all", ssort:"views", sshown:12, cunit:"sec_720p", csort:"price", day:null, cat:"all", stat:"all", period:"week", shown:24};
+  const $ = id => document.getElementById(id);
+  const el = (tag, attrs={}, ...kids) => {
+    const n = document.createElement(tag);
+    for (const [k,v] of Object.entries(attrs)) {
+      if (v == null) continue;
+      if (k === "class") n.className = v; else if (k === "style") n.setAttribute("style", v);
+      else if (k.startsWith("on")) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);
+    }
+    for (const k of kids.flat()) if (k != null && k !== false) n.append(k.nodeType ? k : String(k));
+    return n;
+  };
+  const fmtDate = iso => { try { return new Date(iso).toLocaleDateString("uk-UA",{day:"numeric",month:"long"}); } catch { return iso; } };
+  const fmtShort = iso => { try { return new Date(iso).toLocaleDateString("uk-UA",{day:"numeric",month:"short"}); } catch { return iso; } };
+  const fmtTime = iso => { try { const d=new Date(iso); return d.toLocaleDateString("uk-UA",{day:"numeric",month:"short"})+", "+d.toLocaleTimeString("uk-UA",{hour:"2-digit",minute:"2-digit"}); } catch { return iso; } };
+  const nf = n => typeof n === "number" ? n.toLocaleString("uk-UA") : n;
+  const catVar = c => CATS[c] ? `var(${CATS[c].v})` : "var(--muted)";
+  const safeUrl = u => (typeof u === "string" && /^https?:\/\//i.test(u)) ? u : null;
+  const ls = { get(k){ try { return localStorage.getItem(k); } catch { return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch {} } };
+  try { const s = JSON.parse(ls.get("hs-filters")||"{}"); if (s.cat) state.cat=s.cat; if (s.stat) state.stat=s.stat; if (s.period) state.period=s.period; } catch {}
+
+  function spark(series, color){
+    const pts = (series||[]).map(p => Number(p[1])).filter(v => !isNaN(v));
+    if (pts.length < 2) return null;
+    const W=240,H=44,pad=4, min=Math.min(...pts), max=Math.max(...pts), span=(max-min)||1;
+    const xy = pts.map((v,i)=>[pad+i*(W-2*pad)/(pts.length-1), H-pad-(v-min)*(H-2*pad)/span]);
+    const line = xy.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ");
+    const ns="http://www.w3.org/2000/svg", svg=document.createElementNS(ns,"svg");
+    svg.setAttribute("viewBox",`0 0 ${W} ${H}`); svg.setAttribute("class","spark"); svg.setAttribute("preserveAspectRatio","none"); svg.setAttribute("aria-hidden","true");
+    const mk=(t,a)=>{const e=document.createElementNS(ns,t);for(const k in a)e.setAttribute(k,a[k]);svg.append(e);return e;};
+    for (let i=1;i<4;i++) mk("line",{x1:0,x2:W,y1:i*H/4,y2:i*H/4,stroke:"var(--line)","stroke-width":1});
+    mk("path",{d:line+` L${xy.at(-1)[0]} ${H} L${xy[0][0]} ${H} Z`,fill:color,opacity:.14});
+    mk("path",{d:line,fill:"none",stroke:color,"stroke-width":2,"vector-effect":"non-scaling-stroke"});
+    const e=xy.at(-1); mk("circle",{cx:e[0],cy:e[1],r:3.2,fill:color});
+    return svg;
+  }
+
+  // ---------- cost / speed / quality comparison ----------
+  const usd = v => v==null ? null : "$" + (v<0.1 ? v.toFixed(3).replace(/0$/,"") : v.toFixed(2));
+  const fmtDur = sec => sec<90 ? `≈${sec} с` : `≈${(sec/60).toFixed(sec<600?1:0).replace(".",",")} хв`;
+  function qualOf(q, unit){
+    if (!q) return null;
+    for (const b of UNITS[unit].boards) if (q[b]) return {...q[b], board:b, primary:b===UNITS[unit].boards[0]};
+    return null;
+  }
+  function aggRows(unit){ return (state.cmp?.models||[]).filter(m=>m.unit===unit); }
+  function toolSpeed(t){ return t.speed?.text || null; }
+  function cmpBlock(t){
+    const unit = t.price?.unit || CAT_UNIT[t.cat];
+    if (!unit || !UNITS[unit] || !state.cmp) return null;
+    const ours = aggRows(unit), rows = [];
+    const p = t.price;
+    if (p && (p.usd!=null || p.note)) {
+      let rel = "";
+      if (p.usd!=null && ours.length) {
+        const cheaper = ours.filter(m=>m.usd>p.usd).length, min = ours[0];
+        rel = cheaper ? ` · дешевше за ${cheaper} з ${ours.length} наших` : ` · дорожче за всі ${ours.length} наших`;
+        if (min && p.usd > min.usd) rel += ` (найдешевша в нас — ${min.name}, ${usd(min.usd)})`;
+      }
+      rows.push(el("div",{},el("b",{},"Ціна"),el("span",{},p.usd!=null?el("span",{class:"v"},usd(p.usd)+UNITS[unit].per):null,p.usd!=null&&p.note?" · ":"",p.note||"",rel)));
+    }
+    const sp = toolSpeed(t);
+    if (sp) rows.push(el("div",{},el("b",{},"Швидкість"),el("span",{},sp)));
+    const q = qualOf(state.cmp.tools?.[t.id], unit);
+    if (q) {
+      const best = ours.map(m=>({m, q:qualOf(m.quality,unit)})).filter(x=>x.q&&x.q.board===q.board).sort((a,b)=>a.q.rank-b.q.rank)[0];
+      const bl = state.cmp.boards?.[q.board]?.label||"";
+      rows.push(el("div",{},el("b",{},"Якість"),el("span",{},el("span",{class:"v"},`#${q.rank} з ${q.of}`)," у рейтингу «"+bl+"»",
+        best ? ` · наша найкраща там — ${best.m.name}, #${best.q.rank}` : "")));
+    }
+    return rows.length ? el("div",{class:"cmp"},...rows) : null;
+  }
+  const locImg = u => (typeof u === "string" && /^[sf]img\/[A-Za-z0-9_.-]+$/.test(u)) ? u : null;
+  const SSORT = {views:"Популярніші", new:"Нові"};
+  const nfmt = n => n==null ? null : n>=1e6 ? (n/1e6).toFixed(n>=1e7?0:1).replace(".",",")+" млн" : n>=1e3 ? Math.round(n/1e3)+" тис." : String(n);
+  const ago = iso => { const t=new Date(iso); if (isNaN(t)) return ""; const d=Math.floor((Date.now()-t)/864e5);
+    return d<=0 ? "сьогодні" : d===1 ? "вчора" : d+" дн. тому"; };
+  const sScore = x => (x.views ?? 0) || (x.likes ?? 0)*20;
+  function socialGrid(c){
+    const st=c.st, all=c.items.filter(c.pass||(()=>true)), I=c.ids;
+    $(I.sec).hidden = !c.items.length && !c.keepVisible;
+    const srcs = ["tiktok","instagram","threads"].filter(k=>all.some(x=>x.source===k));
+    if (st.src!=="all" && !srcs.includes(st.src)) st.src="all";
+    const sb=$(I.src); sb.textContent="";
+    for (const k of ["all",...srcs]) sb.append(el("button",{class:"chip","aria-pressed":String(st.src===k),onclick:()=>{st.src=k;st.shown=12;c.redraw();}},
+      k==="all"?"Усі":SRC[k], el("span",{style:"opacity:.6"},String(k==="all"?all.length:all.filter(x=>x.source===k).length))));
+    const so=$(I.sort); so.textContent="";
+    for (const [k,l] of Object.entries(SSORT)) so.append(el("button",{class:"chip","aria-pressed":String(st.sort===k),onclick:()=>{st.sort=k;c.redraw();}},l));
+    let list = all.filter(x=>st.src==="all"||x.source===st.src);
+    list.sort(st.sort==="new" ? (a,b)=>new Date(b.created||b.seen)-new Date(a.created||a.seen) : (a,b)=>sScore(b)-sScore(a));
+    $(I.count).textContent = c.note;
+    const box=$(I.grid); box.textContent="";
+    if (!list.length) box.append(el("div",{class:"tr-empty",style:"grid-column:1/-1"},c.empty||"Поки немає постів."));
+    for (const x of list.slice(0,st.shown)) {
+      const u=safeUrl(x.url), img=locImg(x.img), av=locImg(x.avatar);
+      const badge = el("span",{class:"sp-badge"},(SRC[x.source]||x.source)+(c.flags&&MKF[x.market]?" "+MKF[x.market]:""));
+      const top = img ? el("div",{class:"sp-pic"},el("img",{src:img,alt:"",loading:"lazy"}),badge)
+                      : el("div",{class:"sp-quote"},badge,el("span",{class:"q"},"“"),el("p",{},x.text||""),x.text_uk?el("p",{class:"sp-uk"},x.text_uk):null);
+      const nums = [["▶",x.views],["♥",x.likes],["💬",x.comments],["↻",x.shares]].filter(([,v])=>v!=null&&v>0)
+        .map(([i,v])=>el("b",{},el("span",{},i+" "),nfmt(v)));
+      box.append(el("a",{class:"sp",href:u||"#",target:"_blank",rel:"noopener"}, top,
+        el("div",{class:"sp-body"},
+          el("div",{class:"sp-who"}, av?el("img",{src:av,alt:"",loading:"lazy"}):null, el("span",{},(x.author?"@"+x.author:"")+(x.created?" · "+ago(x.created):""))),
+          img && x.text ? el("p",{class:"sp-text"},x.text) : null,
+          img && x.text_uk ? el("p",{class:"sp-text sp-uk"},x.text_uk) : null,
+          nums.length ? el("div",{class:"sp-num"},...nums) : null)));
+    }
+    const more=$(I.more); more.hidden = list.length<=st.shown;
+    more.onclick=()=>{st.shown+=12;c.redraw();};
+  }
+  const aiSoc = {src:"all", sort:"views", shown:12};
+  function renderSocial(){
+    socialGrid({items:state.soc, st:aiSoc, redraw:renderSocial, note:"Свіжі пости з TikTok, Instagram і Threads за 14 днів",
+      ids:{sec:"soc-sec",src:"s-src",sort:"s-sort",grid:"soc",more:"soc-more",count:"soc-count"}});
+  }
+  function renderCompare(){
+    const c = state.cmp; $("cmp-sec").hidden = !c;
+    if (!c) return;
+    const units = Object.keys(UNITS).filter(u=>aggRows(u).length || state.tools.some(t=>t.price?.unit===u));
+    if (!units.includes(state.cunit)) state.cunit = units[0];
+    const unit = state.cunit, U = UNITS[unit];
+    const cu=$("c-unit"); cu.textContent="";
+    for (const u of units) cu.append(el("button",{class:"chip","aria-pressed":String(u===unit),onclick:()=>{state.cunit=u;renderCompare();}},UNITS[u].label));
+    const cs=$("c-sort"); cs.textContent="";
+    for (const [k,l] of Object.entries(SORTS)) cs.append(el("button",{class:"chip","aria-pressed":String(k===state.csort),onclick:()=>{state.csort=k;renderCompare();}},l));
+    $("c-hint").textContent = U.hint;
+    const rows = aggRows(unit).map(m=>({name:m.name, isNew:false, usd:m.usd, note:m.note, q:qualOf(m.quality,unit),
+        spd: m.speed ? fmtDur(m.speed.median_s) : (m.speed_note||null), spdN: m.speed?.median_s ?? null,
+        spdSub: m.speed ? `медіана ${m.speed.n} наших генерацій, з чергою` : null, specs:m.specs||{}}))
+      .concat(state.tools.filter(t=>t.price?.unit===unit || (!t.price && CAT_UNIT[t.cat]===unit && c.tools?.[t.id]))
+        .map(t=>({name:t.name, isNew:true, usd:t.price?.usd ?? null, note:t.price?.note||"", q:qualOf(c.tools?.[t.id],unit),
+          spd:toolSpeed(t), spdN:null, spdSub:null, specs:t.specs||{}, url:safeUrl(t.price?.url)||safeUrl(t.url)})));
+    const big = 1e9, key = {price:r=>r.usd??big, quality:r=>r.q&&r.q.primary?r.q.rank:(r.q?500+r.q.rank:big), speed:r=>r.spdN??big}[state.csort];
+    rows.sort((a,b)=>key(a)-key(b) || (a.usd??big)-(b.usd??big));
+    const maxUsd = Math.max(...rows.map(r=>r.usd||0)) || 1;
+    const t=$("c-tbl"); t.textContent="";
+    t.append(el("thead",{},el("tr",{},el("th",{},"Модель"),el("th",{},"Ціна"),el("th",{},"Якість"),el("th",{},"Швидкість"),el("th",{},"Можливості"))));
+    const tb=el("tbody");
+    for (const r of rows){
+      const sp=r.specs, caps=[sp.max_sec?`до ${sp.max_sec} с`:null, sp.max_res||(sp.res?sp.res.at(-1):null), sp.refs?`${sp.refs} реф.`:null, sp.audio===true?"звук":null].filter(Boolean).join(" · ");
+      const bl = r.q && !r.q.primary ? c.boards?.[r.q.board]?.label : null;
+      tb.append(el("tr",{class:r.isNew?"new":""},
+        el("td",{},r.url?el("a",{href:r.url,target:"_blank",rel:"noopener"},r.name):r.name, el("small",{},r.isNew?"новинка":"в агрегаторі")),
+        el("td",{class:"num"}, r.usd!=null ? [el("span",{class:"barw"},el("span",{class:"bar",style:`width:${Math.max(8,Math.round(100*r.usd/maxUsd))}%`})), usd(r.usd)+U.per] : "—", r.note?el("small",{},r.note):null),
+        el("td",{class:"num"}, r.q ? [`#${r.q.rank} з ${r.q.of}`, el("small",{},`Elo ${r.q.elo}`+(bl?` · ${bl}`:""))] : el("span",{class:"note"},"немає в рейтингу")),
+        el("td",{}, r.spd||el("span",{class:"note"},"—"), r.spdSub?el("small",{},r.spdSub):null),
+        el("td",{style:"font-size:13px"}, caps||"—")));
+    }
+    t.append(tb);
+    const src=$("c-src"); src.textContent="";
+    src.append("Ціни агрегатора — з його прайсу, нових тулз — з офіційних сторінок. Якість — сліпе голосування глядачів на ",
+      el("a",{href:"https://artificialanalysis.ai/video/leaderboard/image-to-video",target:"_blank",rel:"noopener"},"Artificial Analysis"),
+      " (чим менше місце, тим краще; бали порівнювані лише в межах одного рейтингу). Швидкість — реальний час наших генерацій разом із чергою. Оновлено " + fmtTime(c.updated_at) + ".");
+  }
+
+  function renderStatus(){
+    const s = state.status, box = $("status"); box.textContent = "";
+    if (!s) { box.append(el("span",{},"Ще не було жодного проходу")); return; }
+    box.append(el("span",{},"Останній прохід: ",el("b",{},fmtTime(s.last_run))));
+    if (s.next_run) box.append(el("span",{},"Наступний: ",el("b",{},fmtTime(s.next_run))));
+    const d = el("span",{class:"dots"});
+    for (const [k,v] of Object.entries(s.sources_ok||{})) d.append(el("span",{class:"dot "+(v?"ok":"bad"),title:v?"працює":"не відповів"},el("i"),SRC[k]||k));
+    box.append(d);
+  }
+
+  function renderDays(){
+    const nav=$("days"); nav.textContent="";
+    if (!state.digests.length) { nav.hidden = true; return; }
+    nav.hidden = false;
+    for (const d of state.digests.slice(0,21)) nav.append(el("button",{class:"day","aria-pressed":String(d.date===state.day),onclick:()=>{state.day=d.date;renderDays();renderDigest();}}, d.date===state.digests[0].date ? "Сьогодні · "+fmtShort(d.date) : fmtShort(d.date)));
+  }
+
+  function renderDigest(){
+    const d = state.digests.find(x=>x.date===state.day);
+    if (!d) return;
+    $("dg-date").textContent = "Оновлення · " + fmtDate(d.date) + (d.updated_at ? " · оновлено " + new Date(d.updated_at).toLocaleTimeString("uk-UA",{hour:"2-digit",minute:"2-digit"}) : "");
+    $("dg-head").textContent = d.headline || "Без великих новин";
+    const body=$("dg-body"); body.textContent="";
+    const paras = Array.isArray(d.summary) ? d.summary : String(d.summary||"").split(/\n\n+/);
+    for (const p of paras) if (p && p.trim()) body.append(el("p",{},p.trim()));
+    const c=$("dg-counts"); c.textContent="";
+    c.append(el("h3",{},"Нового за день"));
+    const counts = d.counts||{};
+    for (const [k,v] of Object.entries(CATS)) c.append(el("div",{class:"count"},el("i",{class:"sw",style:`background:var(${v.v})`}),el("div",{},el("b",{},String(counts[k]||0)),el("br"),el("span",{},v.label))));
+  }
+
+  const HELP = {
+    "лайки HF":"Лайк на Hugging Face = людина зберегла модель у вибране. Сотні за добу означають хайп.",
+    "зірки GitHub":"Зірка на GitHub = розробник зберіг проєкт. Сотні за добу означають хайп.",
+    "бали HN":"Бали на Hacker News = голоси спільноти розробників за новину.",
+    "перегляди YouTube":"Скільки разів подивилися відео на YouTube."};
+  const nice = l => ({
+    "лайки HF":{total:"Лайків на Hugging Face",delta:"нових лайків на Hugging Face"},
+    "зірки GitHub":{total:"Зірок на GitHub",delta:"нових зірок на GitHub"},
+    "бали HN":{total:"Балів на Hacker News",delta:"балів на Hacker News"},
+    "перегляди YouTube":{total:"Переглядів на YouTube",delta:"нових переглядів на YouTube"}}[l] || {total:l||"",delta:l||""});
+  function pic(t){
+    if (!t.image || !/^img\/[a-z0-9-]+\.jpg$/.test(t.image)) return null;
+    const img = el("img",{src:t.image,alt:"",loading:"lazy"});
+    const box = el("div",{class:"pic"},img);
+    img.addEventListener("error",()=>box.remove());
+    return box;
+  }
+  function card(t){
+    const color = catVar(t.cat);
+    const m = t.metric||{};
+    const links = el("div",{class:"links"});
+    const main = safeUrl(t.url); if (main) links.append(el("a",{href:main,target:"_blank",rel:"noopener"},"Відкрити ↗"));
+    for (const l of (t.links||[]).slice(0,3)) { const u=safeUrl(l.url); if (u) links.append(el("a",{href:u,target:"_blank",rel:"noopener"},(l.label||"Джерело")+" ↗")); }
+    return el("article",{class:"card",style:`--cat:${color}`},
+      pic(t),
+      el("div",{class:"meta"},
+        t.status && STAT[t.status] ? el("span",{class:"pill "+t.status},STAT[t.status]) : null,
+        el("span",{class:"tag cat"},CATS[t.cat]?.label||t.cat||"Інше"),
+        t.kind ? el("span",{class:"tag"},t.kind) : null,
+        t.in_aggregator ? el("span",{class:"agg"},"в агрегаторі") : null),
+      el("div",{},el("h3",{},t.name||"Без назви"), t.vendor ? el("div",{class:"vendor"},t.vendor) : null),
+      t.summary ? el("p",{},t.summary) : null,
+      t.why_us ? el("div",{class:"why"},t.why_us) : null,
+      cmpBlock(t),
+      (m.label || (t.series||[]).length>1) ? el("div",{},
+        el("div",{class:"metric"}, el("span",{title:HELP[m.label]||""},m.label ? `${nice(m.label).total}: ${nf(m.value)}` : ""), m.delta24!=null ? el("span",{class:"delta",title:HELP[m.label]||""},`+${nf(m.delta24)} за добу`) : null),
+        spark(t.series,color)) : null,
+      el("div",{class:"meta",style:"justify-content:space-between"}, links, el("span",{class:"seen"},(SRC[t.source]||t.source||"")+(t.first_seen?" · з "+fmtShort(t.first_seen):""))));
+  }
+
+  function renderRail(){
+    const hot = state.tools.filter(t=>t.status==="hot"||t.status==="rising")
+      .filter(t => (Date.now()-new Date(t.last_seen||t.first_seen||0))/864e5 < 3)
+      .sort((a,b)=>(b.status==="hot")-(a.status==="hot")||(b.score||0)-(a.score||0)).slice(0,6);
+    $("rising-sec").hidden = !hot.length;
+    const r=$("rail"); r.textContent="";
+    for (const t of hot){
+      const color=catVar(t.cat), m=t.metric||{}, u=safeUrl(t.url);
+      r.append(el("article",{class:"rise"+(t.status==="hot"?" hot":"")},
+        pic(t),
+        el("div",{class:"meta"},el("span",{class:"pill "+t.status},STAT[t.status]),el("span",{class:"tag cat",style:`--cat:${color}`},CATS[t.cat]?.label||t.cat)),
+        el("div",{},el("h3",{style:"margin:0;font-size:17px"},t.name), t.vendor?el("div",{class:"vendor note"},t.vendor):null),
+        m.delta24!=null ? el("div",{class:"big"},"+"+nf(m.delta24),el("small",{title:HELP[m.label]||""},nice(m.label).delta+" за добу")) : (t.summary?el("p",{style:"margin:0;font-size:14px"},t.summary):null),
+        spark(t.series,color),
+        t.trend ? el("div",{class:"seen",title:"Трендовий бал 0–100"},`Трендовий бал ${t.trend.score}/100 · ${t.trend.reason}`) : null,
+        u ? el("div",{class:"links"},el("a",{href:u,target:"_blank",rel:"noopener"},"Відкрити ↗")) : null));
+    }
+  }
+
+  function chipRow(id, opts, key){
+    const box=$(id); box.textContent="";
+    for (const [val,label,color] of opts) box.append(el("button",{class:"chip","aria-pressed":String(state[key]===val),onclick:()=>{state[key]=val;state.shown=24;ls.set("hs-filters",JSON.stringify({cat:state.cat,stat:state.stat,period:state.period}));renderFeed();}}, color?el("i",{style:`background:${color}`}):null, label));
+  }
+
+  function renderFeed(){
+    chipRow("f-cat",[["all","Усі категорії"],...Object.entries(CATS).map(([k,v])=>[k,v.label,`var(${v.v})`])],"cat");
+    chipRow("f-status",[["all","Будь-який статус"],...Object.entries(STAT)],"stat");
+    chipRow("f-period",Object.entries(PERIODS),"period");
+    const lim = state.period==="day"?1.2:state.period==="week"?7:1e9;
+    const list = state.tools.filter(t=>(state.cat==="all"||t.cat===state.cat)&&(state.stat==="all"||t.status===state.stat)&&((Date.now()-new Date(t.last_seen||t.first_seen||0))/864e5<=lim))
+      .sort((a,b)=>new Date(b.last_seen||b.first_seen||0)-new Date(a.last_seen||a.first_seen||0)||(b.score||0)-(a.score||0));
+    $("feed-count").textContent = list.length ? `${list.length} тулз` : "";
+    const box=$("cards"); box.textContent="";
+    if (!state.tools.length) box.append(el("div",{class:"empty",style:"grid-column:1/-1"},el("b",{},"Тут з'являться знайдені тулзи"),"Holy Seeker заповнює стрічку о 10:00 і 17:00."));
+    else if (!list.length) box.append(el("div",{class:"empty",style:"grid-column:1/-1"},el("b",{},"За цим фільтром нічого"),"Спробуй інший період або категорію."));
+    for (const t of list.slice(0,state.shown)) box.append(card(t));
+    const more=$("more"); more.hidden = list.length<=state.shown;
+  }
+
+  function renderBuzz(){
+    const ul=$("buzz"), box=$("buzz-box");
+    box.hidden = !state.buzz.length;
+    ul.textContent="";
+    for (const b of state.buzz.slice(0,8)) {
+      const u=safeUrl(b.url), th=safeUrl(b.thumb);
+      ul.append(el("li",{},
+        th ? el("a",{href:u||th,target:"_blank",rel:"noopener",class:"bz-thumb"},el("img",{src:th,alt:"",loading:"lazy"})) : null,
+        el("div",{class:"bz-body"},
+          el("span",{class:"bz-src"},(SRC[b.source]||b.source||"")+(b.author?" · "+b.author:"")),
+          u ? el("a",{href:u,target:"_blank",rel:"noopener",class:"bz-title"},b.title||"") : el("b",{},b.title||""),
+          b.note ? el("span",{class:"note"},b.note) : null,
+          b.metric ? el("span",{class:"bz-metric"},b.metric) : null,
+          b.digest ? el("button",{class:"bz-dg",onclick:()=>openDigest(b)},"✨ Вижимка") :
+            (b.source==="youtube" && state.status?.video_digests ? el("span",{class:"bz-dg wait"},"Вижимка готується…") : null))));
+    }
+  }
+
+  let dwLast = null;
+  function closeDigest(){
+    document.querySelectorAll(".dw,.dw-back").forEach(n=>n.remove());
+    document.body.style.overflow="";
+    if (dwLast) { try { dwLast.focus(); } catch {} dwLast=null; }
+  }
+  function openDigest(b){
+    closeDigest();
+    dwLast = document.activeElement;
+    const d=b.digest||{}, u=safeUrl(b.url), th=safeUrl(b.thumb);
+    const sec=(title,...kids)=>el("section",{},el("h4",{},title),...kids);
+    const body=el("div",{class:"dw-body"},
+      th ? el("a",{class:"dw-thumb",href:u||th,target:"_blank",rel:"noopener"},el("img",{src:th,alt:""}),el("span",{},"▶ Дивитись на YouTube")) : null,
+      el("div",{},el("p",{class:"dw-title"},b.title||""),el("span",{class:"bz-src"},(b.author||"")+(b.metric?" · "+b.metric:""))),
+      d.tldr ? el("p",{class:"dw-tldr"},d.tldr) : null,
+      (d.facts||[]).length ? sec("Головні факти",el("ul",{},d.facts.map(f=>el("li",{},f)))) : null,
+      (d.comparison||[]).length ? sec("Порівняння",el("div",{class:"dw-cmp"},d.comparison.map(c=>el("div",{},c.what?el("b",{},c.what):null,c.result)))) : null,
+      (d.prompts||[]).length ? sec("Промти з відео",el("div",{class:"dw-pr"},d.prompts.map(p=>{
+        const btn=el("button",{class:"dw-copy"},"Копіювати");
+        btn.addEventListener("click",async()=>{ try{ await navigator.clipboard.writeText(p.text); btn.textContent="Скопійовано ✓"; }catch{ btn.textContent="Не вдалося"; } setTimeout(()=>btn.textContent="Копіювати",1800); });
+        return el("figure",{},el("figcaption",{},el("span",{},p.for||"Промт"),btn),el("pre",{},p.text));
+      }))) : null,
+      (d.tips||[]).length ? sec("Лайфхаки",el("ul",{},d.tips.map(f=>el("li",{},f)))) : null,
+      d.verdict ? sec("Чи варто тестувати",el("p",{class:"dw-verdict"},d.verdict)) : null,
+      el("p",{class:"dw-foot"},"Вижимку зробив AI, подивившись відео. Цифри й промти варто звірити з оригіналом."));
+    const x=el("button",{class:"dw-x","aria-label":"Закрити",onclick:closeDigest},"✕");
+    const dw=el("div",{class:"dw",role:"dialog","aria-modal":"true","aria-label":"Вижимка з відео"},
+      el("div",{class:"dw-head"},el("b",{},"✨ Вижимка з відео"),x), body);
+    document.body.append(el("div",{class:"dw-back",onclick:closeDigest}), dw);
+    document.body.style.overflow="hidden";
+    x.focus();
+  }
+  document.addEventListener("keydown",e=>{ if (e.key==="Escape" && document.querySelector(".dw")) closeDigest(); });
+  function renderAlerts(){
+    const ul=$("alerts");
+    if (!state.alerts.length) return;
+    ul.textContent="";
+    for (const a of state.alerts.slice(0,12)) ul.append(el("li",{},el("time",{},fmtTime(a.t)),el("b",{},a.title||a.slug),a.text?el("span",{class:"note"},a.text):null));
+  }
+
+  $("more").addEventListener("click",()=>{state.shown+=24;renderFeed();});
+  renderFeed();
+
+  let lastRun = null;
+  async function load(){
+    try {
+      const r = await fetch("feed.json?t=" + Date.now(), {cache:"no-store"});
+      if (!r.ok) throw new Error(r.status);
+      const f = await r.json();
+      if (f.status && f.status.last_run === lastRun) return;
+      lastRun = f.status?.last_run || null;
+      state.tools = Object.entries(f.tools||{}).map(([id,t])=>({id,...t}));
+      state.digests = Object.values(f.digests||{}).sort((a,b)=>b.date<a.date?-1:1);
+      if (!state.day || !state.digests.some(d=>d.date===state.day)) state.day = state.digests[0]?.date || null;
+      state.alerts = (f.alerts||[]).slice().sort((a,b)=>new Date(b.t)-new Date(a.t));
+      state.status = f.status || null;
+      state.buzz = f.buzz || [];
+      try { const rs = await fetch("social.json?t=" + Date.now(), {cache:"no-store"}); if (rs.ok) state.soc = (await rs.json()).items || []; } catch {}
+      try { const rc = await fetch("compare.json?t=" + Date.now(), {cache:"no-store"}); if (rc.ok) state.cmp = await rc.json(); } catch {}
+      renderStatus(); renderDays(); renderDigest(); renderRail(); renderFeed(); renderAlerts(); renderBuzz(); renderSocial(); renderCompare();
+    } catch (e) {
+      if (!lastRun) $("status").textContent = "Не вдалося завантажити дані. Онови сторінку за хвилину.";
+    }
+  }
+
+  /* ---------- Trend Seeker ---------- */
+  const MK = {"en-us":"🇺🇸 EN-US","pt-br":"🇧🇷 PT-BR","es-mx":"🇲🇽 ES-MX","other":"🌍 Інші"};
+  const MKF = {"en-us":"🇺🇸","pt-br":"🇧🇷","es-mx":"🇲🇽","other":"🌍"};
+  const DN = {protestant:"Протестанти", catholic:"Католики"};
+  const TT = {theme:["Теми","--t-theme"], format:["Формати реклами","--t-format"], sound:["Звуки й пісні","--t-sound"],
+              verse:["Вірші й цитати","--t-verse"], meme:["Меми й челенджі","--t-meme"]};
+  const TST = {new:"нове", rising:"росте", steady:"тримається", fading:"згасає"};
+  const tr = {feed:null, cal:[], soc:[], news:[], nShown:15, ss:{src:"all", sort:"views", shown:12}, mk:"all", dn:"all", type:"all", day:null, shown:12, calAll:false};
+  try { const f=JSON.parse(ls.get("hs-tr")||"{}"); if (f.mk) tr.mk=f.mk; if (f.dn) tr.dn=f.dn; } catch {}
+  const trSave = () => ls.set("hs-tr", JSON.stringify({mk:tr.mk, dn:tr.dn}));
+  const passMk = x => tr.mk==="all" || (x.markets||[]).includes(tr.mk);
+  const passDn = x => tr.dn==="all" || (x.denoms||[]).includes(tr.dn);
+  const mkTags = x => el("span",{class:"tag",title:(x.markets||[]).map(m=>MK[m]).join(", ")},(x.markets||[]).map(m=>MKF[m]||m).join(" "));
+  const dnTags = x => (x.denoms||[]).length===2 ? el("span",{class:"tag"},"Протестанти й католики") : (x.denoms||[]).map(d=>el("span",{class:"tag"},DN[d]||d));
+
+  function trChips(id, opts, key, after){
+    const box=$(id); box.textContent="";
+    for (const [v,l,c] of opts) box.append(el("button",{class:"chip","aria-pressed":String(tr[key]===v),
+      onclick:()=>{tr[key]=v; tr.shown=12; trSave(); after();}}, c?el("i",{style:`background:var(${c})`}):null, l));
+  }
+  function renderTr(){
+    trChips("t-mk", [["all","Усі"], ...Object.entries(MK)], "mk", renderTr);
+    trChips("t-dn", [["all","Усі"], ...Object.entries(DN)], "dn", renderTr);
+    renderTrStatus(); renderTrDays(); renderTrDigest(); renderCal(); renderTrends(); renderTrNews(); renderTrSoc();
+  }
+  function renderTrNews(){
+    const picks=(tr.feed?.news||[]).filter(x=>passMk(x)&&passDn(x));
+    const raw=tr.news.filter(x=>(tr.mk==="all"||x.market===tr.mk)&&passDn(x));
+    $("tn-count").textContent = picks.length ? "Добірка аналітика з веб-пошуку й видань + усі заголовки за тиждень" : "Заголовки за тиждень з 17 християнських видань";
+    const pb=$("tn-picks"); pb.textContent="";
+    if (!picks.length) pb.append(el("div",{class:"tr-empty",style:"grid-column:1/-1"},"Добірка «що обговорюють» з'явиться після найближчого проходу аналітика (10:00 / 17:00)."));
+    for (const n of picks) { const u=safeUrl(n.url), im=safeUrl(n.img);
+      pb.append(el("article",{class:"tcard"},
+        im ? el("div",{class:"pic"},el("img",{src:im,alt:"",loading:"lazy",referrerpolicy:"no-referrer"})) : null,
+        el("div",{class:"meta"},el("span",{class:"ttype"},n.source||"Новина"),el("span",{class:"tag"},"🔥 "+(n.heat??"")),el("span",{class:"tag"},ago(n.picked))),
+        el("div",{class:"heat"},el("i",{style:`width:${Math.max(4,Math.min(100,n.heat||0))}%`})),
+        el("h3",{},u?el("a",{href:u,target:"_blank",rel:"noopener",style:"color:inherit;text-decoration:none"},n.title):n.title),
+        n.title_uk ? el("div",{class:"uk"},"UA · "+n.title_uk) : null,
+        n.about ? el("p",{},n.about) : null,
+        n.why ? el("div",{class:"why"},n.why) : null,
+        n.ad_angle ? el("div",{class:"idea"},el("b",{},"Для креативу"),n.ad_angle) : null,
+        el("div",{class:"meta"},mkTags(n),...[].concat(dnTags(n)))));
+    }
+    const ul=$("tn-list"); ul.textContent="";
+    if (!raw.length) ul.append(el("li",{},el("span",{class:"note",style:"grid-column:1/-1"},"Для цього фільтра заголовків немає.")));
+    for (const x of raw.slice(0,tr.nShown)) { const u=safeUrl(x.url), im=safeUrl(x.img);
+      const th = im?el("img",{class:"th",src:im,alt:"",loading:"lazy",referrerpolicy:"no-referrer"}):el("span",{class:"th"});
+      if (im) th.addEventListener("error",()=>th.replaceWith(el("span",{class:"th"})));
+      ul.append(el("li",{}, th,
+        el("div",{}, el("a",{href:u||"#",target:"_blank",rel:"noopener"},x.title),
+          x.title_uk ? el("div",{class:"ev-uk"},x.title_uk) : null,
+          el("div",{class:"src"},(MKF[x.market]||"")+" "+x.source+" · "+ago(x.published)+" · "+((x.denoms||[]).length===2?"протестанти й католики":DN[x.denoms?.[0]]||"")))));
+    }
+    const more=$("tn-more"); more.hidden = raw.length<=tr.nShown;
+    more.onclick=()=>{tr.nShown+=20;renderTrNews();};
+  }
+  function renderTrSoc(){
+    socialGrid({items:tr.soc, st:tr.ss, redraw:renderTrSoc, pass:x=>tr.mk==="all"||x.market===tr.mk, flags:true, keepVisible:true,
+      note:"Християнські пости з TikTok, Instagram і Threads за 14 днів", empty:"Для цього ринку постів поки немає.",
+      ids:{sec:"tsoc-sec",src:"ts-src",sort:"ts-sort",grid:"tsoc",more:"tsoc-more",count:"tsoc-count"}});
+  }
+  function renderTrStatus(){
+    const s = tr.feed?.status, box=$("tr-status"); box.textContent="";
+    if (!s?.last_run) { box.append(el("span",{},"Ще не було жодного проходу")); return; }
+    box.append(el("span",{},"Останній прохід: ",el("b",{},fmtTime(s.last_run))));
+    const d = el("span",{class:"dots"});
+    for (const [k,v] of Object.entries(s.sources_ok||{})) d.append(el("span",{class:"dot "+(v?"ok":"bad"),title:v?"працює":"ще не підключено або не відповів"},el("i"),k==="calendar"?"Календар":k==="news"?"Новини":(SRC[k]||k)));
+    box.append(d);
+  }
+  function trDigests(){ return Object.values(tr.feed?.digests||{}).sort((a,b)=>a.date<b.date?1:-1); }
+  function renderTrDays(){
+    const ds=trDigests(), nav=$("tr-days"); nav.textContent="";
+    if (!ds.length) { nav.hidden=true; return; }
+    if (!tr.day || !ds.some(d=>d.date===tr.day)) tr.day=ds[0].date;
+    nav.hidden=false;
+    for (const d of ds.slice(0,21)) nav.append(el("button",{class:"day","aria-pressed":String(d.date===tr.day),onclick:()=>{tr.day=d.date;renderTrDays();renderTrDigest();}},
+      (d.date===ds[0].date?"Сьогодні · ":"")+fmtDate(d.date)));
+  }
+  function renderTrDigest(){
+    const d = trDigests().find(x=>x.date===tr.day);
+    if (d) {
+      $("tr-dg-date").textContent = "Оновлення трендів · " + fmtDate(d.date) + (d.updated ? " · оновлено " + new Date(d.updated).toLocaleTimeString("uk-UA",{hour:"2-digit",minute:"2-digit"}) : "");
+      $("tr-dg-head").textContent = d.headline;
+      const b=$("tr-dg-body"); b.textContent="";
+      for (const p of (d.body||[])) if (p && String(p).trim()) b.append(el("p",{},String(p).trim()));
+    }
+    const side=$("tr-side"); side.textContent="";
+    const nx = tr.cal.filter(e=>e.days_left>=0 && passMk(e) && passDn(e))[0];
+    if (nx) side.append(el("div",{class:"tr-next"},el("small",{},"Найближче свято"),el("b",{},nx.name),
+      el("span",{},fmtDate(nx.date)+" · "+(nx.days_left===0?"сьогодні":nx.days_left===1?"завтра":"через "+nx.days_left+" дн.")),
+      el("small",{},nx.orig)));
+    const ts = Object.values(tr.feed?.trends||{}).filter(t=>passMk(t)&&passDn(t));
+    if (ts.length) {
+      const c=el("div",{class:"counts"}, el("h3",{},"Трендів зараз"));
+      for (const [k,[l,v]] of Object.entries(TT)) c.append(el("div",{class:"count"},el("i",{class:"sw",style:`background:var(${v})`}),
+        el("div",{},el("b",{},String(ts.filter(t=>t.type===k).length)),el("br"),el("span",{},l))));
+      side.append(c);
+    }
+  }
+  function renderCal(){
+    const all = tr.cal.filter(e=>e.days_left>=0 && passMk(e) && passDn(e));
+    const list = tr.calAll ? all : all.filter(e=>e.days_left<=60).slice(0,9);
+    const box=$("cal"); box.textContent="";
+    const today = new Date().toISOString().slice(0,10);
+    for (const e of list) {
+      const now = e.prep_from <= today;
+      const d = new Date(e.date+"T12:00:00");
+      box.append(el("article",{class:"ev"+(now?" now":"")},
+        el("div",{class:"ev-d"},el("b",{},String(d.getDate())),el("span",{},d.toLocaleDateString("uk-UA",{month:"short"}))),
+        el("div",{},
+          el("span",{class:"ev-when"}, now ? "Готувати вже" : "Готувати з "+fmtDate(e.prep_from)),
+          el("h3",{style:"margin-top:4px"},e.name), el("div",{class:"orig"},e.orig),
+          e.angle ? el("p",{},e.angle) : null,
+          el("div",{class:"meta"},mkTags(e),...[].concat(dnTags(e)),
+            el("span",{class:"tag"},e.days_left===0?"сьогодні":e.days_left===1?"завтра":"через "+e.days_left+" дн."),
+            e.approx?el("span",{class:"tag",title:"Дата за звичним графіком — перевір офіційну"},"≈ орієнтовно"):null))));
+    }
+    if (!list.length) box.append(el("div",{class:"tr-empty"},"Для цього фільтра найближчим часом свят немає."));
+    const more=$("cal-more"); more.hidden = all.length<=list.length && !tr.calAll;
+    more.textContent = tr.calAll ? "Згорнути" : "Показати далі (ще "+(all.length-list.length)+")";
+    more.onclick=()=>{tr.calAll=!tr.calAll;renderCal();};
+  }
+  function renderTrends(){
+    const all = Object.entries(tr.feed?.trends||{}).map(([id,t])=>({id,...t})).filter(t=>passMk(t)&&passDn(t));
+    const types = Object.keys(TT).filter(k=>all.some(t=>t.type===k));
+    if (tr.type!=="all" && !types.includes(tr.type)) tr.type="all";
+    trChips("t-type", [["all","Усі"], ...types.map(k=>[k,TT[k][0],TT[k][1]])], "type", renderTrends);
+    const rank = {rising:0,new:1,steady:2,fading:3};
+    const list = all.filter(t=>tr.type==="all"||t.type===tr.type)
+      .sort((a,b)=>(b.last_seen||"").slice(0,10).localeCompare((a.last_seen||"").slice(0,10)) || (rank[a.status]??9)-(rank[b.status]??9) || (b.relevance||0)-(a.relevance||0));
+    $("t-count").textContent = all.length ? `${list.length} з ${all.length}` : "";
+    const box=$("t-cards"); box.textContent="";
+    if (!all.length) box.append(el("div",{class:"tr-empty"}, tr.feed ? "Для цього фільтра трендів поки немає." : "Тренди з'являться після першого проходу Trend Seeker."));
+    for (const t of list.slice(0,tr.shown)) {
+      const [tl,tv] = TT[t.type]||TT.theme;
+      const pic = (t.evidence||[]).map(e=>safeUrl(e.thumb)).find(Boolean);
+      box.append(el("article",{class:"tcard",style:`--tc:var(${tv})`},
+        pic ? el("div",{class:"pic"},el("img",{src:pic,alt:"",loading:"lazy"})) : null,
+        el("div",{class:"meta"},el("span",{class:"ttype"},tl), TST[t.status]?el("b",{class:"pill "+(t.status==="rising"?"rising":t.status==="new"?"new":t.status)},TST[t.status]):null),
+        el("h3",{},t.title),
+        t.summary ? el("p",{},t.summary) : null,
+        t.why_now ? el("div",{class:"why"},t.why_now) : null,
+        t.ad_idea ? el("div",{class:"idea"},el("b",{},"Ідея для креативу"),t.ad_idea) : null,
+        el("div",{class:"meta"},mkTags(t),...[].concat(dnTags(t))),
+        (t.evidence||[]).length ? el("ul",{class:"ev-list"},...t.evidence.slice(0,4).map(e=>{ const u=safeUrl(e.url);
+          return el("li",{},u?el("a",{href:u,target:"_blank",rel:"noopener"},(SRC[e.source]||e.source||"")+": "+(e.title||u)):el("b",{},e.title||""), e.metric?el("span",{}," · "+e.metric):null, e.title_uk?el("div",{class:"ev-uk"},e.title_uk):null); })) : null,
+        el("div",{class:"seen"},"Вперше: "+fmtDate(t.first_seen)+(t.last_seen&&t.last_seen.slice(0,10)!==t.first_seen?.slice(0,10)?" · востаннє: "+fmtDate(t.last_seen):""))));
+    }
+    const more=$("t-more"); more.hidden = list.length<=tr.shown;
+    more.onclick=()=>{tr.shown+=12;renderTrends();};
+  }
+  async function loadTr(){
+    try { const r=await fetch("faith.json?t="+Date.now(),{cache:"no-store"}); if (r.ok) tr.feed=await r.json(); } catch {}
+    try { const r=await fetch("faith_calendar.json?t="+Date.now(),{cache:"no-store"}); if (r.ok) tr.cal=(await r.json()).events||[]; } catch {}
+    try { const r=await fetch("faith_social.json?t="+Date.now(),{cache:"no-store"}); if (r.ok) tr.soc=(await r.json()).items||[]; } catch {}
+    try { const r=await fetch("faith_news.json?t="+Date.now(),{cache:"no-store"}); if (r.ok) tr.news=(await r.json()).items||[]; } catch {}
+    renderTr();
+  }
+  window.hsMode = (m, quiet) => {
+    const t = m==="trends";
+    document.documentElement.dataset.mode = t ? "trends" : "ai";
+    $("m-ai").setAttribute("aria-pressed", String(!t)); $("m-tr").setAttribute("aria-pressed", String(t));
+    document.title = t ? "Trend Seeker · Holy Seeker" : "Holy Seeker";
+    const mc=document.querySelector('meta[name="theme-color"]'); if (mc) mc.content = t ? "#E4DAFA" : "#D7EAFB";
+    ls.set("hs-mode", t?"trends":"ai");
+    if (!quiet) history.replaceState(null,"", t ? "#trends" : location.pathname+location.search);
+  };
+  hsMode(location.hash==="#trends" || (location.hash!=="#ai" && ls.get("hs-mode")==="trends") ? "trends" : "ai", true);
+  loadTr();
+  load();
+  setInterval(()=>{load();loadTr();}, 5*60*1000);
+  document.addEventListener("visibilitychange", ()=>{ if (!document.hidden) { load(); loadTr(); } });
+})();
+</script>
+
+</body></html>

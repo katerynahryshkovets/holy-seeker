@@ -1,0 +1,818 @@
+{
+ "updated_at": "2026-11-28T17:22+02:00",
+ "boards": {
+  "i2v": {
+   "label": "Відео з кадру",
+   "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+   "size": 40
+  },
+  "t2v": {
+   "label": "Відео з тексту",
+   "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+   "size": 39
+  },
+  "t2i": {
+   "label": "Зображення з тексту",
+   "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+   "size": 118
+  },
+  "edit": {
+   "label": "Редагування зображень",
+   "url": "https://artificialanalysis.ai/image/leaderboard/editing",
+   "size": 87
+  },
+  "tts": {
+   "label": "Озвучка",
+   "url": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+   "size": 106
+  }
+ },
+ "models": [
+  {
+   "model": "eleven-v3",
+   "name": "ElevenLabs v3",
+   "modality": "audio",
+   "unit": "1k_chars",
+   "usd": 0.198,
+   "note": "",
+   "specs": {},
+   "speed": {
+    "median_s": 12,
+    "p90_s": 17,
+    "n": 17
+   },
+   "speed_note": "≈5.7 с (тестовий замір)",
+   "quality": {
+    "tts": {
+     "elo": 1195,
+     "rank": 23,
+     "of": 106,
+     "as": "Eleven v3"
+    }
+   }
+  },
+  {
+   "model": "eleven-v3-dialogue",
+   "name": "ElevenLabs v3 Dialogue",
+   "modality": "audio",
+   "unit": "1k_chars",
+   "usd": 0.198,
+   "note": "",
+   "specs": {},
+   "speed": null,
+   "speed_note": "≈38.4 с (тестовий замір)",
+   "quality": {
+    "tts": {
+     "elo": 1195,
+     "rank": 23,
+     "of": 106,
+     "as": "Eleven v3"
+    }
+   }
+  },
+  {
+   "model": "gemini-3.1-flash-lite-image",
+   "name": "Nano Banana 2 Lite",
+   "modality": "image",
+   "unit": "image",
+   "usd": 0.034,
+   "note": "1K",
+   "specs": {
+    "res": [
+     "1K"
+    ]
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": {
+    "t2i": {
+     "elo": 1110,
+     "rank": 22,
+     "of": 118,
+     "as": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
+    },
+    "edit": {
+     "elo": 1053,
+     "rank": 44,
+     "of": 87,
+     "as": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
+    }
+   }
+  },
+  {
+   "model": "wavespeed/seedream-4.5",
+   "name": "Seedream 4.5",
+   "modality": "image",
+   "unit": "image",
+   "usd": 0.04,
+   "note": "",
+   "specs": {
+    "res": [
+     "2K",
+     "4K"
+    ]
+   },
+   "speed": null,
+   "speed_note": "≈9 с (тестовий замір)",
+   "quality": {
+    "t2i": {
+     "elo": 1030,
+     "rank": 37,
+     "of": 118,
+     "as": "Seedream 4.5"
+    },
+    "edit": {
+     "elo": 1039,
+     "rank": 50,
+     "of": 87,
+     "as": "Seedream 4.5"
+    }
+   }
+  },
+  {
+   "model": "gpt-image-2",
+   "name": "GPT Image 2",
+   "modality": "image",
+   "unit": "image",
+   "usd": 0.053,
+   "note": "якість medium",
+   "specs": {},
+   "speed": {
+    "median_s": 106,
+    "p90_s": 230,
+    "n": 884
+   },
+   "speed_note": null,
+   "quality": {
+    "t2i": {
+     "elo": 1197,
+     "rank": 6,
+     "of": 118,
+     "as": "GPT Image 2 (high)"
+    },
+    "edit": {
+     "elo": 1141,
+     "rank": 13,
+     "of": 87,
+     "as": "GPT Image 2 (high)"
+    }
+   }
+  },
+  {
+   "model": "gpt-image-2.5-flare",
+   "name": "GPT Image 2.5 Flare",
+   "modality": "image",
+   "unit": "image",
+   "usd": 0.053,
+   "note": "якість medium",
+   "specs": {},
+   "speed": null,
+   "speed_note": null,
+   "quality": {
+    "t2i": {
+     "elo": 1212,
+     "rank": 5,
+     "of": 118,
+     "as": "GPT Image 2.5 Flare (max)"
+    },
+    "edit": {
+     "elo": 1186,
+     "rank": 5,
+     "of": 87,
+     "as": "GPT Image 2.5 Flare (max)"
+    }
+   }
+  },
+  {
+   "model": "gpt-image-2.5-sunburst",
+   "name": "GPT Image 2.5 Sunburst",
+   "modality": "image",
+   "unit": "image",
+   "usd": 0.053,
+   "note": "якість medium",
+   "specs": {},
+   "speed": null,
+   "speed_note": null,
+   "quality": {
+    "t2i": {
+     "elo": 1230,
+     "rank": 2,
+     "of": 118,
+     "as": "GPT Image 2.5 Sunburst (max)"
+    },
+    "edit": {
+     "elo": 1201,
+     "rank": 4,
+     "of": 87,
+     "as": "GPT Image 2.5 Sunburst (max)"
+    }
+   }
+  },
+  {
+   "model": "gemini-3.1-flash-image",
+   "name": "Nano Banana 2",
+   "modality": "image",
+   "unit": "image",
+   "usd": 0.069,
+   "note": "1K",
+   "specs": {
+    "res": [
+     "512",
+     "1K",
+     "2K",
+     "4K"
+    ]
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": {
+    "t2i": {
+     "elo": 1145,
+     "rank": 13,
+     "of": 118,
+     "as": "Nano Banana 2 (Gemini 3.1 Flash Image)"
+    },
+    "edit": {
+     "elo": 1126,
+     "rank": 18,
+     "of": 87,
+     "as": "Nano Banana 2 (Gemini 3.1 Flash Image)"
+    }
+   }
+  },
+  {
+   "model": "gemini-3-pro-image",
+   "name": "Nano Banana Pro",
+   "modality": "image",
+   "unit": "image",
+   "usd": 0.14,
+   "note": "1K",
+   "specs": {
+    "res": [
+     "1K",
+     "2K",
+     "4K"
+    ]
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": {
+    "t2i": {
+     "elo": 1117,
+     "rank": 19,
+     "of": 118,
+     "as": "Nano Banana Pro (Gemini 3 Pro Image)"
+    },
+    "edit": {
+     "elo": 1112,
+     "rank": 25,
+     "of": 87,
+     "as": "Nano Banana Pro (Gemini 3 Pro Image)"
+    }
+   }
+  },
+  {
+   "model": "music-v2.5",
+   "name": "ElevenLabs Music v2.5",
+   "modality": "audio",
+   "unit": "min",
+   "usd": 0.325,
+   "note": "",
+   "specs": {
+    "max_sec": 300
+   },
+   "speed": {
+    "median_s": 7,
+    "p90_s": 27,
+    "n": 96
+   },
+   "speed_note": "≈15 с (тестовий замір)",
+   "quality": null
+  },
+  {
+   "model": "wavespeed/magi-2",
+   "name": "Magi-2",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.08,
+   "note": "",
+   "specs": {
+    "max_sec": 30,
+    "refs": 10,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": "≈707 с (тестовий замір)",
+   "quality": {
+    "i2v": {
+     "elo": 1163,
+     "rank": 1,
+     "of": 40,
+     "as": "MAGI-2"
+    },
+    "t2v": {
+     "elo": 1150,
+     "rank": 7,
+     "of": 39,
+     "as": "MAGI-2"
+    }
+   }
+  },
+  {
+   "model": "wavespeed/seedance-2.0-mini-turbo",
+   "name": "Seedance 2.0 Mini Turbo",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.08,
+   "note": "720p",
+   "specs": {
+    "max_sec": 15,
+    "res": [
+     "720p",
+     "1080p"
+    ],
+    "refs": 9,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": null
+  },
+  {
+   "model": "gemini-omni-1.1-flash",
+   "name": "Gemini Omni Flash 1.1",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.101,
+   "note": "720p",
+   "specs": {
+    "max_sec": 10,
+    "res": [
+     "360p",
+     "720p",
+     "1080p"
+    ],
+    "refs": 6,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": "≈29–34 с (тестовий замір)",
+   "quality": {
+    "i2v": {
+     "elo": 1043,
+     "rank": 23,
+     "of": 40,
+     "as": "Gemini Omni Flash 1.1"
+    },
+    "t2v": {
+     "elo": 1124,
+     "rank": 16,
+     "of": 39,
+     "as": "Gemini Omni Flash 1.1"
+    }
+   }
+  },
+  {
+   "model": "wavespeed/seedance-2.0-fast-turbo",
+   "name": "Seedance 2.0 Fast Turbo",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.12,
+   "note": "720p",
+   "specs": {
+    "max_sec": 15,
+    "res": [
+     "720p",
+     "1080p"
+    ],
+    "refs": 9,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": null
+  },
+  {
+   "model": "wavespeed/seedance-2.0-mini",
+   "name": "Seedance 2.0 Mini",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.12,
+   "note": "720p",
+   "specs": {
+    "max_sec": 15,
+    "res": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "refs": 9,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": {
+    "median_s": 211,
+    "p90_s": 272,
+    "n": 302
+   },
+   "speed_note": "≈92–133 с (тестовий замір)",
+   "quality": null
+  },
+  {
+   "model": "wavespeed/kling-v3.0-std",
+   "name": "Kling v3.0 Standard",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.126,
+   "note": "зі звуком",
+   "specs": {
+    "max_sec": 15,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": "≈44–85 с (тестовий замір)",
+   "quality": null
+  },
+  {
+   "model": "wavespeed/seedance-2.0-turbo",
+   "name": "Seedance 2.0 Turbo",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.14,
+   "note": "720p",
+   "specs": {
+    "max_sec": 15,
+    "res": [
+     "720p",
+     "1080p"
+    ],
+    "refs": 9,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": null
+  },
+  {
+   "model": "wavespeed/seedance-2.5-flash-turbo",
+   "name": "Seedance 2.5 Flash Turbo",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.14,
+   "note": "720p",
+   "specs": {
+    "max_sec": 30,
+    "res": [
+     "720p",
+     "1080p"
+    ],
+    "refs": 10,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": "≈122 с (тестовий замір)",
+   "quality": null
+  },
+  {
+   "model": "wavespeed/kling-v3.0-pro",
+   "name": "Kling v3.0 Pro",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.168,
+   "note": "зі звуком",
+   "specs": {
+    "max_sec": 15,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": {
+    "i2v": {
+     "elo": 1000,
+     "rank": 28,
+     "of": 40,
+     "as": "Kling 3.0 1080p (Pro)"
+    },
+    "t2v": {
+     "elo": 1000,
+     "rank": 27,
+     "of": 39,
+     "as": "Kling 3.0 1080p (Pro)"
+    }
+   }
+  },
+  {
+   "model": "argolink/seedance-2.5",
+   "name": "Seedance 2.5",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.196,
+   "note": "720p",
+   "specs": {
+    "max_sec": 30,
+    "res": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "refs": 30,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": {
+    "median_s": 377,
+    "p90_s": 816,
+    "n": 505
+   },
+   "speed_note": "≈184–211 с (тестовий замір)",
+   "quality": {
+    "i2v": {
+     "elo": 1158,
+     "rank": 2,
+     "of": 40,
+     "as": "Dreamina Seedance 2.5"
+    },
+    "t2v": {
+     "elo": 1154,
+     "rank": 5,
+     "of": 39,
+     "as": "Dreamina Seedance 2.5"
+    }
+   }
+  },
+  {
+   "model": "wavespeed/seedance-2.0-fast",
+   "name": "Seedance 2.0 Fast",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.2,
+   "note": "720p",
+   "specs": {
+    "max_sec": 15,
+    "res": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "refs": 9,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": null
+  },
+  {
+   "model": "wavespeed/seedance-2.5-turbo",
+   "name": "Seedance 2.5 Turbo",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.2,
+   "note": "720p",
+   "specs": {
+    "max_sec": 30,
+    "res": [
+     "720p",
+     "1080p"
+    ],
+    "refs": 30,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": {
+    "median_s": 272,
+    "p90_s": 378,
+    "n": 188
+   },
+   "speed_note": "≈199–1069 с (тестовий замір)",
+   "quality": null
+  },
+  {
+   "model": "wavespeed/seedance-2.0",
+   "name": "Seedance 2.0",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.24,
+   "note": "720p",
+   "specs": {
+    "max_sec": 15,
+    "res": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "refs": 9,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": null,
+   "quality": {
+    "i2v": {
+     "elo": 1140,
+     "rank": 5,
+     "of": 40,
+     "as": "Dreamina Seedance 2.0"
+    },
+    "t2v": {
+     "elo": 1135,
+     "rank": 14,
+     "of": 39,
+     "as": "Dreamina Seedance 2.0"
+    }
+   }
+  },
+  {
+   "model": "wavespeed/seedance-2.5-flash",
+   "name": "Seedance 2.5 Flash",
+   "modality": "video",
+   "unit": "sec_720p",
+   "usd": 0.24,
+   "note": "720p",
+   "specs": {
+    "max_sec": 30,
+    "res": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "refs": 10,
+    "keyframes": 2,
+    "audio": true
+   },
+   "speed": null,
+   "speed_note": "≈62 с (тестовий замір)",
+   "quality": {
+    "i2v": {
+     "elo": 1135,
+     "rank": 8,
+     "of": 40,
+     "as": "Dreamina Seedance 2.5 Flash (720p)"
+    },
+    "t2v": {
+     "elo": 1122,
+     "rank": 18,
+     "of": 39,
+     "as": "Dreamina Seedance 2.5 Flash (720p)"
+    }
+   }
+  }
+ ],
+ "tools": {
+  "minimax-h3-image": {
+   "t2i": {
+    "elo": 1067,
+    "rank": 28,
+    "of": 118,
+    "as": "H3-Image"
+   },
+   "edit": {
+    "elo": 1135,
+    "rank": 14,
+    "of": 87,
+    "as": "H3-Image"
+   }
+  },
+  "seedance-2-5-flash": {
+   "i2v": {
+    "elo": 1135,
+    "rank": 8,
+    "of": 40,
+    "as": "Dreamina Seedance 2.5 Flash (720p)"
+   },
+   "t2v": {
+    "elo": 1122,
+    "rank": 18,
+    "of": 39,
+    "as": "Dreamina Seedance 2.5 Flash (720p)"
+   }
+  },
+  "flux-3-klein": {
+   "t2i": {
+    "elo": 1040,
+    "rank": 32,
+    "of": 118,
+    "as": "FLUX 3 Image Klein"
+   },
+   "edit": {
+    "elo": 1068,
+    "rank": 38,
+    "of": 87,
+    "as": "FLUX 3 Image Klein"
+   }
+  },
+  "fish-audio-drama-3": {
+   "tts": {
+    "elo": 1280,
+    "rank": 8,
+    "of": 106,
+    "as": "Fish Audio Drama 3"
+   }
+  },
+  "openai-images-2-6": {
+   "t2i": {
+    "elo": 1266,
+    "rank": 1,
+    "of": 118,
+    "as": "GPT Image 2.6 Sunburst (max)"
+   },
+   "edit": {
+    "elo": 1211,
+    "rank": 2,
+    "of": 87,
+    "as": "GPT Image 2.6 Sunburst (max)"
+   }
+  },
+  "seedream-5-5": {
+   "t2i": {
+    "elo": 1134,
+    "rank": 14,
+    "of": 118,
+    "as": "Seedream 5.5"
+   },
+   "edit": {
+    "elo": 1158,
+    "rank": 8,
+    "of": 87,
+    "as": "Seedream 5.5"
+   }
+  },
+  "kling-4-0": {
+   "i2v": {
+    "elo": 1139,
+    "rank": 6,
+    "of": 40,
+    "as": "Kling 4.0"
+   },
+   "t2v": {
+    "elo": 1144,
+    "rank": 11,
+    "of": 39,
+    "as": "Kling 4.0"
+   }
+  },
+  "kling-image-4-0": {
+   "t2i": {
+    "elo": 1181,
+    "rank": 7,
+    "of": 118,
+    "as": "Kling Image 4.0"
+   },
+   "edit": {
+    "elo": 1185,
+    "rank": 6,
+    "of": 87,
+    "as": "Kling Image 4.0"
+   }
+  },
+  "magi-2": {
+   "i2v": {
+    "elo": 1163,
+    "rank": 1,
+    "of": 40,
+    "as": "MAGI-2"
+   },
+   "t2v": {
+    "elo": 1150,
+    "rank": 7,
+    "of": 39,
+    "as": "MAGI-2"
+   }
+  },
+  "mai-image-2-7": {
+   "t2i": {
+    "elo": 1216,
+    "rank": 4,
+    "of": 118,
+    "as": "MAI-Image-2.7"
+   },
+   "edit": {
+    "elo": 1218,
+    "rank": 1,
+    "of": 87,
+    "as": "MAI-Image-2.7"
+   }
+  },
+  "ming-image-0-2-design": {
+   "t2i": {
+    "elo": 1095,
+    "rank": 24,
+    "of": 118,
+    "as": "Ming-Image-0.2-Design"
+   }
+  }
+ }
+}

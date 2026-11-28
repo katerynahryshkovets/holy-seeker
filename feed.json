@@ -1,0 +1,2766 @@
+{
+ "status": {
+  "last_run": "2026-11-28T17:00:01+02:00",
+  "next_run": "2026-11-29T10:00:00+02:00",
+  "run": "evening",
+  "sources_ok": {
+   "huggingface": true,
+   "github": true,
+   "hackernews": true,
+   "youtube": true,
+   "tiktok": true,
+   "instagram": false,
+   "threads": false,
+   "aggregator": true,
+   "web": true
+  },
+  "video_digests": true
+ },
+ "tools": {
+  "minimax-h3-image": {
+   "name": "MiniMax H3 Image",
+   "vendor": "MiniMax",
+   "cat": "image",
+   "kind": "open-source",
+   "status": "new",
+   "score": 75,
+   "summary": "Відкрита модель зображень MiniMax із нативним 4K за 6 кроків, генерацією за референсом і редагуванням. Сьогодні вдень різко зросла кількість лайків на Hugging Face, з'являються LoRA і версії для ComfyUI.",
+   "why_us": "Дешева відкрита альтернатива для паспортів героїв і локацій у 4K, яку можна запускати локально.",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "links": [
+    {
+     "label": "Hugging Face",
+     "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image"
+    },
+    {
+     "label": "ComfyUI",
+     "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-25T10:00:00+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 2529,
+    "delta24": 30
+   },
+   "image": "img/minimax-h3-image.jpg",
+   "series": [
+    [
+     "2026-11-19T16:41+00:00",
+     1616
+    ],
+    [
+     "2026-11-20T09:03+00:00",
+     1660
+    ],
+    [
+     "2026-11-20T09:31+00:00",
+     1660
+    ],
+    [
+     "2026-11-20T15:00+00:00",
+     1676
+    ],
+    [
+     "2026-11-22T08:00+00:00",
+     1694
+    ],
+    [
+     "2026-11-23T08:00+00:00",
+     1790
+    ],
+    [
+     "2026-11-23T15:00+00:00",
+     2476
+    ]
+   ],
+   "signals": [
+    "hf:MiniMaxAI/MiniMax-H3-Image"
+   ],
+   "mentions": [
+    "huggingface"
+   ],
+   "push_text": "MiniMax H3 Image: +680 лайків HF за пів дня, з'являються LoRA і версії для ComfyUI",
+   "trend": {
+    "score": 3,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 8
+    },
+    "v": 0.17,
+    "accel": 0.03,
+    "streak": 0,
+    "sources": [
+     "github",
+     "huggingface"
+    ],
+    "relevance": 75,
+    "reason": "×0.2 від порогу (huggingface), сповільнюється, 2 джерела",
+    "push": false,
+    "gate": "слабкий тренд"
+   },
+   "price": {
+    "usd": 0.02179,
+    "unit": "image",
+    "note": "офіційний API MiniMax, 1K text-to-image (Standard)",
+    "url": "https://platform.minimax.io/docs/guides/pricing-paygo.md"
+   },
+   "specs": {
+    "max_res": "6272x2688 (~16 МП)",
+    "refs": 16
+   },
+   "quality_name": "H3-Image"
+  },
+  "rea-video": {
+   "name": "rea-video",
+   "vendor": "JuneYaooo (open-source)",
+   "cat": "video",
+   "kind": "open-source",
+   "status": "new",
+   "score": 60,
+   "summary": "Відкритий інструмент, що розбирає будь-яке відео по кадрах: знято, згенеровано ШІ чи зроблено кодом, і як це повторити. Результат у форматі VIDEO.md. Майже 11 тис. зірок за 3 тижні.",
+   "why_us": "Можна розбирати креативи конкурентів по кадрах і отримувати готовий план для перезйомки в Seedance.",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://github.com/JuneYaooo/rea-video"
+    }
+   ],
+   "source": "github",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-25T17:00:01+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "зірки GitHub",
+    "value": 13272,
+    "delta24": 342
+   },
+   "image": "img/rea-video.jpg",
+   "series": [
+    [
+     "2026-11-19T16:41+00:00",
+     10963
+    ],
+    [
+     "2026-11-20T09:03+00:00",
+     11206
+    ],
+    [
+     "2026-11-20T09:31+00:00",
+     11213
+    ],
+    [
+     "2026-11-20T15:00+00:00",
+     11300
+    ],
+    [
+     "2026-11-22T08:00+00:00",
+     11952
+    ],
+    [
+     "2026-11-23T08:00+00:00",
+     12373
+    ],
+    [
+     "2026-11-23T15:00+00:00",
+     12541
+    ],
+    [
+     "2026-11-24T08:00+00:00",
+     12801
+    ],
+    [
+     "2026-11-24T13:48+00:00",
+     12910
+    ],
+    [
+     "2026-11-24T15:00+00:00",
+     12930
+    ],
+    [
+     "2026-11-25T08:00+00:00",
+     13130
+    ],
+    [
+     "2026-11-25T15:00+00:00",
+     13272
+    ]
+   ],
+   "trend": {
+    "score": 34,
+    "parts": {
+     "velocity": 20,
+     "accel": 8,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 6
+    },
+    "v": 1.22,
+    "accel": 1.18,
+    "streak": 1,
+    "sources": [
+     "github"
+    ],
+    "relevance": 60,
+    "reason": "×1.2 від порогу (github), тримає темп",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "mentions": [
+    "github"
+   ],
+   "price": {
+    "usd": null,
+    "unit": "sec_720p",
+    "note": "інструмент-аналізатор, безкоштовний; платите лише за зовнішні API",
+    "url": "https://github.com/JuneYaooo/rea-video"
+   },
+   "signals": [
+    "gh:JuneYaooo/rea-video"
+   ]
+  },
+  "seedance-2-5-flash": {
+   "name": "Seedance 2.5 Flash",
+   "vendor": "ByteDance",
+   "cat": "video",
+   "kind": "модель",
+   "status": "update",
+   "score": 70,
+   "summary": "Швидша й дешевша версія Seedance 2.5; на GitHub з'явилась серія репозиторіїв про її ціни, рухи камери, reference video та API.",
+   "why_us": "Вже є в нашому агрегаторі (разом із turbo-варіантом): варто протестувати як дешевший варіант для чорнових кадрів драм.",
+   "url": "https://github.com/fujc683/seedance-2-5-flash-pricing",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://github.com/fujc683/seedance-2-5-flash-pricing"
+    }
+   ],
+   "source": "aggregator",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-26T17:00:03+02:00",
+   "in_aggregator": true,
+   "price": {
+    "usd": 0.152,
+    "unit": "sec_720p",
+    "note": "BytePlus: 5 с 720p 16:9 ≈ $0.76 ($7/1M токенів), дані Atlas Cloud",
+    "url": "https://www.atlascloud.ai/zh/blog/tips/seedance-2.5-flash-pricing-cost-comparison"
+   },
+   "specs": {
+    "max_res": "720p"
+   },
+   "mentions": [
+    "youtube",
+    "threads"
+   ],
+   "trend": {
+    "score": 42,
+    "parts": {
+     "velocity": 0,
+     "accel": 15,
+     "persist": 0,
+     "confirm": 20,
+     "relevance": 7
+    },
+    "v": 0.33,
+    "accel": 3.0,
+    "streak": 0,
+    "sources": [
+     "aggregator",
+     "github",
+     "threads",
+     "youtube"
+    ],
+    "relevance": 70,
+    "reason": "×0.3 від порогу (github), прискорюється, 4 джерела",
+    "push": false,
+    "gate": "слабкий тренд"
+   },
+   "image": "img/seedance-2-5-flash.jpg"
+  },
+  "apple-fastframes": {
+   "name": "Apple FastFrames",
+   "vendor": "Apple",
+   "cat": "video",
+   "kind": "open-source",
+   "status": "new",
+   "score": 58,
+   "summary": "Нова text-to-video модель від Apple на Hugging Face (L- і S-версії), опублікована 3 дні тому; колектор позначив її як сплеск інтересу.",
+   "why_us": "Поки радше для спостереження: перевірити якість і ліцензію, перш ніж брати в роботу.",
+   "url": "https://huggingface.co/apple/FastFrames-L",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://huggingface.co/apple/FastFrames-L"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-25T10:00:00+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 599,
+    "delta24": 24
+   },
+   "series": [
+    [
+     "2026-11-19T16:41+00:00",
+     276
+    ],
+    [
+     "2026-11-20T09:03+00:00",
+     363
+    ],
+    [
+     "2026-11-20T09:31+00:00",
+     364
+    ],
+    [
+     "2026-11-20T15:00+00:00",
+     455
+    ],
+    [
+     "2026-11-22T08:00+00:00",
+     501
+    ],
+    [
+     "2026-11-23T08:00+00:00",
+     545
+    ],
+    [
+     "2026-11-23T15:00+00:00",
+     553
+    ]
+   ],
+   "image": "img/apple-fastframes.jpg",
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 6
+    },
+    "v": 0.21,
+    "accel": 0.47,
+    "streak": 0,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 58,
+    "reason": "×0.2 від порогу (huggingface), сповільнюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "mentions": [
+    "huggingface"
+   ],
+   "price": {
+    "usd": null,
+    "unit": "sec_720p",
+    "note": "відкриті ваги, локально безкоштовно",
+    "url": "https://huggingface.co/apple/FastFrames-L"
+   },
+   "specs": {
+    "max_res": "480p"
+   },
+   "signals": [
+    "hf:apple/FastFrames-L"
+   ]
+  },
+  "openjutsu": {
+   "name": "OpenJutsu",
+   "vendor": "D3voz (open-source)",
+   "cat": "video",
+   "kind": "open-source",
+   "status": "new",
+   "score": 55,
+   "summary": "Відкрита локальна заміна персонажа у відео в один клік на ComfyUI, MiniMax H3 і FLUX.3 Klein для перевисвітлення. Позиціонується як альтернатива Higgsfield Genjutsu.",
+   "why_us": "Може дати швидкі варіації одного ролика з різними акторами без нової генерації.",
+   "url": "https://github.com/D3voz/openjutsu",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://github.com/D3voz/openjutsu"
+    }
+   ],
+   "source": "github",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-20T11:03:33+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "зірки GitHub",
+    "value": 2501,
+    "delta24": 12
+   },
+   "image": "img/openjutsu.jpg",
+   "price": {
+    "usd": null,
+    "unit": "sec_720p",
+    "note": "обгортка ComfyUI з відкритими вагами, локально безкоштовно",
+    "url": "https://github.com/D3voz/openjutsu"
+   },
+   "speed": {
+    "text": "≈6–13 хв на 6-секундний кліп 480p (RTX 4060 Ti 16 ГБ)",
+    "url": "https://github.com/D3voz/openjutsu"
+   },
+   "specs": {
+    "max_res": "1080p",
+    "audio": true
+   }
+  },
+  "inworld-voice-isolator": {
+   "name": "Inworld Voice Isolator",
+   "vendor": "Inworld",
+   "cat": "voice",
+   "kind": "open-source",
+   "status": "new",
+   "score": 50,
+   "summary": "Відкрита audio-to-audio модель від Inworld для виділення голосу з запису; опублікована менш ніж тиждень тому, колектор зафіксував сплеск.",
+   "why_us": "Корисно для чистки звуку у вуличних інтерв'ю перед монтажем.",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://huggingface.co/inworld/voice-isolator"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-28T17:00:01+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 1023
+   },
+   "series": [
+    [
+     "2026-11-20T09:03+00:00",
+     304
+    ],
+    [
+     "2026-11-20T09:31+00:00",
+     309
+    ],
+    [
+     "2026-11-20T15:00+00:00",
+     342
+    ],
+    [
+     "2026-11-22T08:00+00:00",
+     537
+    ]
+   ],
+   "image": "img/inworld-voice-isolator.jpg",
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 5
+    },
+    "v": 0.21,
+    "accel": 0.31,
+    "streak": 0,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 50,
+    "reason": "×0.2 від порогу (huggingface), сповільнюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "price": {
+    "usd": null,
+    "note": "ціну API ще не оголошено; ваги відкриті (Apache 2.0, за даними каталогу моделей)",
+    "url": "https://www.llmreference.com/model/voice-isolator-v1"
+   },
+   "signals": [
+    "hf:inworld/voice-isolator"
+   ],
+   "mentions": [
+    "huggingface"
+   ]
+  },
+  "viggle-remake": {
+   "name": "Viggle Remake",
+   "vendor": "Viggle",
+   "cat": "video",
+   "kind": "open-source",
+   "status": "new",
+   "score": 50,
+   "summary": "Відкрита video-to-video модель від Viggle (близько 4 тижнів), понад 250 тис. завантажень.",
+   "why_us": "Варто перевірити для перенесення руху й заміни персонажа в готових роликах.",
+   "url": "https://huggingface.co/Viggle/Viggle-Remake",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://huggingface.co/Viggle/Viggle-Remake"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-20T11:03:33+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 569,
+    "delta24": 51
+   },
+   "image": "img/viggle-remake.jpg",
+   "price": {
+    "usd": null,
+    "unit": "sec_720p",
+    "note": "відкриті ваги, локально безкоштовно (потрібна GPU від 12 ГБ)",
+    "url": "https://huggingface.co/Viggle/Viggle-Remake"
+   },
+   "speed": {
+    "text": "≈28 хв на вікно 345 кадрів (~14 с) 1280×736 на GPU 32 ГБ",
+    "url": "https://huggingface.co/Viggle/Viggle-Remake"
+   },
+   "specs": {
+    "max_sec": 14,
+    "max_res": "736p",
+    "audio": true,
+    "refs": 4
+   }
+  },
+  "haru-4b": {
+   "name": "Haru-4B",
+   "vendor": "higurashi-ai",
+   "cat": "voice",
+   "kind": "open-source",
+   "status": "new",
+   "score": 50,
+   "summary": "Audio-to-audio модель на 4B параметрів, опублікована тиждень тому; зараз має найвищий trending-бал серед аудіо-моделей на Hugging Face.",
+   "why_us": "Поки для спостереження: перевірити, чи підходить для озвучки та зміни голосу.",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://huggingface.co/higurashi-ai/Haru-4B"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-25T10:00:00+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 981,
+    "delta24": 42
+   },
+   "series": [
+    [
+     "2026-11-19T16:41:00+00:00",
+     2810
+    ],
+    [
+     "2026-11-20T09:03:00+00:00",
+     3691
+    ],
+    [
+     "2026-11-20T15:00:00+00:00",
+     4227
+    ]
+   ],
+   "image": "img/haru-4b.jpg",
+   "trend": {
+    "score": 20,
+    "parts": {
+     "velocity": 0,
+     "accel": 15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 5
+    },
+    "v": 0.26,
+    "accel": 3.0,
+    "streak": 0,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 50,
+    "reason": "×0.3 від порогу (huggingface), прискорюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "price": {
+    "usd": null,
+    "unit": "1k_chars",
+    "note": "відкриті ваги, локально безкоштовно (потрібна GPU від 12 ГБ)",
+    "url": "https://huggingface.co/higurashi-ai/Haru-4B"
+   },
+   "signals": [
+    "hf:higurashi-ai/Haru-4B"
+   ],
+   "mentions": [
+    "huggingface"
+   ]
+  },
+  "flux-3-klein": {
+   "name": "FLUX.3 Klein",
+   "vendor": "Black Forest Labs",
+   "cat": "image",
+   "kind": "open-source",
+   "status": "new",
+   "score": 45,
+   "summary": "Компактна відкрита image-to-image модель FLUX.3 Klein (близько 5 тижнів) з офіційною версією для ComfyUI; понад 1 млн завантажень.",
+   "why_us": "Підходить для перевисвітлення та редагування кадрів локально.",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-25T17:00:01+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 4556,
+    "delta24": 64
+   },
+   "image": "img/flux-3-klein.jpg",
+   "series": [
+    [
+     "2026-11-19T16:41+00:00",
+     3511
+    ],
+    [
+     "2026-11-20T09:03+00:00",
+     3565
+    ],
+    [
+     "2026-11-20T09:31+00:00",
+     3567
+    ],
+    [
+     "2026-11-20T15:00+00:00",
+     3584
+    ],
+    [
+     "2026-11-22T08:00+00:00",
+     3638
+    ],
+    [
+     "2026-11-23T08:00+00:00",
+     3758
+    ],
+    [
+     "2026-11-23T15:00+00:00",
+     4462
+    ]
+   ],
+   "signals": [
+    "hf:black-forest-labs/flux-3-image-klein-comfy"
+   ],
+   "mentions": [
+    "huggingface"
+   ],
+   "push_text": "FLUX.3 Klein: +700 лайків HF за пів дня, швидка відкрита модель зображень для ComfyUI",
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 10,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 4
+    },
+    "v": 0.73,
+    "accel": 0.13,
+    "streak": 0,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 45,
+    "reason": "×0.7 від порогу (huggingface), сповільнюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "price": {
+    "usd": 0.009,
+    "unit": "image",
+    "note": "офіційний API BFL, 1K",
+    "url": "https://bfl.ai/pricing"
+   },
+   "specs": {
+    "refs": 10
+   },
+   "quality_name": "FLUX 3 Image Klein"
+  },
+  "tiny-voca": {
+   "name": "tiny-voca",
+   "vendor": "n4ze3m (open-source)",
+   "cat": "voice",
+   "kind": "open-source",
+   "status": "new",
+   "score": 40,
+   "summary": "Маленька відкрита TTS-модель (5 днів), є репозиторій на GitHub; колектор зафіксував сплеск.",
+   "why_us": "Легка локальна озвучка для чернеток; до ElevenLabs за якістю, ймовірно, не дотягує.",
+   "url": "https://huggingface.co/n4ze3m/tiny-voca",
+   "links": [
+    {
+     "label": "Hugging Face",
+     "url": "https://huggingface.co/n4ze3m/tiny-voca"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/n4ze3m/tiny-voca"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-23T10:00:00+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 427,
+    "delta24": 47
+   },
+   "series": [
+    [
+     "2026-11-19T16:41:00+00:00",
+     317
+    ],
+    [
+     "2026-11-20T09:03:00+00:00",
+     344
+    ],
+    [
+     "2026-11-20T15:00:00+00:00",
+     356
+    ]
+   ],
+   "image": "img/tiny-voca.jpg",
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 4
+    },
+    "v": 0.13,
+    "accel": 0.29,
+    "streak": 0,
+    "sources": [
+     "github",
+     "huggingface"
+    ],
+    "relevance": 40,
+    "reason": "×0.1 від порогу (huggingface), сповільнюється, 2 джерела",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "price": {
+    "usd": null,
+    "unit": "1k_chars",
+    "note": "відкриті ваги, локально безкоштовно (працює на CPU)",
+    "url": "https://huggingface.co/n4ze3m/tiny-voca"
+   },
+   "speed": {
+    "text": "≈70× швидше за реальний час на 4 потоках CPU",
+    "url": "https://huggingface.co/n4ze3m/tiny-voca"
+   }
+  },
+  "zonos3-mini": {
+   "name": "Zonos3 Mini",
+   "vendor": "Zyphra",
+   "cat": "voice",
+   "kind": "open-source",
+   "status": "new",
+   "score": 40,
+   "summary": "Нова компактна TTS-модель від Zyphra (близько 10 днів), понад 128 тис. завантажень.",
+   "why_us": "Відкрита альтернатива для озвучки; варто послухати на англійській і португальській.",
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+   "links": [
+    {
+     "label": "Сторінка",
+     "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-19T18:40:55+02:00",
+   "last_seen": "2026-11-23T10:00:00+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "лайки HF",
+    "value": 638,
+    "delta24": 64
+   },
+   "image": "img/zonos3-mini.jpg",
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 4
+    },
+    "v": 0.17,
+    "accel": 0.49,
+    "streak": 0,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 40,
+    "reason": "×0.2 від порогу (huggingface), сповільнюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "price": {
+    "usd": null,
+    "unit": "1k_chars",
+    "note": "відкриті ваги, локально безкоштовно",
+    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+   },
+   "speed": {
+    "text": "до 457 с аудіо за 1 с на одному H100 (8 запитів)",
+    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+   }
+  },
+  "heygen-avatar-6": {
+   "name": "HeyGen Avatar 6",
+   "vendor": "HeyGen",
+   "cat": "lipsync",
+   "kind": "модель",
+   "status": "new",
+   "score": 72,
+   "summary": "Нова модель аватарів HeyGen, що керується аудіо: жести, міміка й рухи рук підбираються за змістом сценарію, настрій і вираз можна задавати окремо. Є дві версії, Quality і Turbo, у сервісі та через API.",
+   "why_us": "Можна спробувати для говорящих голів і UGC-вставок у наших відеокреативах. За незалежними тестами генерує повільніше за конкурентів, а реалістичне відео реальних людей доступне лише всередині HeyGen.",
+   "url": "https://www.heygen.com/models/heygen-avatar-6",
+   "links": [
+    {
+     "label": "Технічний звіт",
+     "url": "https://www.heygen.com/research/avatar-6-model"
+    },
+    {
+     "label": "Новина",
+     "url": "https://techbuzzireland.com/2026/11/17/heygen-launches-avatar-6/"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-20T11:03:33+02:00",
+   "last_seen": "2026-11-28T10:00:01+02:00",
+   "in_aggregator": false,
+   "image": "img/heygen-avatar-6.jpg",
+   "price": {
+    "usd": 0.1,
+    "unit": "sec_720p",
+    "note": "лише 1080p; хост AI/ML API (Turbo $0.05/с)",
+    "url": "https://aimlapi.com/models/heygen-avatar-6"
+   },
+   "specs": {
+    "max_res": "2K"
+   },
+   "signals": [
+    "yt:b3tuHpMYK-8"
+   ],
+   "mentions": [
+    "youtube"
+   ],
+   "trend": {
+    "score": 2,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 7
+    },
+    "v": 0.01,
+    "accel": 0.17,
+    "streak": 0,
+    "sources": [
+     "web",
+     "youtube"
+    ],
+    "relevance": 72,
+    "reason": "×0.0 від порогу (youtube), сповільнюється, 2 джерела",
+    "push": false,
+    "gate": "слабкий тренд"
+   }
+  },
+  "posewear": {
+   "name": "posewear",
+   "vendor": "atuizz (open-source)",
+   "cat": "image",
+   "kind": "open-source",
+   "status": "new",
+   "score": 38,
+   "summary": "Відкрита бібліотека референсів поз, одягу й портретів з промптами англійською та китайською, плюс AI-примірка одягу просто в браузері.",
+   "why_us": "Може пришвидшити підбір поз і костюмів для паспортів героїв наших драм перед генерацією в gpt-image-2.",
+   "url": "https://github.com/atuizz/posewear",
+   "links": [
+    {
+     "label": "GitHub",
+     "url": "https://github.com/atuizz/posewear"
+    }
+   ],
+   "source": "github",
+   "first_seen": "2026-11-20T17:00:02+02:00",
+   "last_seen": "2026-11-23T10:00:00+02:00",
+   "metric": {
+    "label": "зірки GitHub",
+    "value": 1830,
+    "delta24": 304
+   },
+   "series": [
+    [
+     "2026-11-20T09:03+00:00",
+     396
+    ],
+    [
+     "2026-11-20T09:31+00:00",
+     401
+    ],
+    [
+     "2026-11-20T15:00+00:00",
+     534
+    ],
+    [
+     "2026-11-22T08:00+00:00",
+     1526
+    ]
+   ],
+   "in_aggregator": false,
+   "image": "img/posewear.jpg",
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 4
+    },
+    "v": 0.42,
+    "accel": 0.42,
+    "streak": 0,
+    "sources": [
+     "github"
+    ],
+    "relevance": 38,
+    "reason": "×0.4 від порогу (github), сповільнюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "price": {
+    "usd": null,
+    "unit": "image",
+    "note": "обгортка: платите за API OpenAI/Gemini/Seedream",
+    "url": "https://github.com/atuizz/posewear"
+   },
+   "speed": {
+    "text": "≈30 с на зображення",
+    "url": "https://github.com/atuizz/posewear"
+   }
+  },
+  "viralforge": {
+   "name": "ViralForge",
+   "vendor": "fendouai (open-source)",
+   "cat": "edit",
+   "kind": "open-source",
+   "status": "new",
+   "score": 45,
+   "summary": "Агентна студія для коротких відео: розбирає вірусний ролик на хук і сценарій («Viral DNA») і робить 10 варіантів з оцінкою вартості. Працює як skill, MCP або CLI.",
+   "why_us": "Підхід близький до нашого процесу варіацій: можна підглянути, як вони розкладають хуки конкурентних креативів.",
+   "url": "https://github.com/fendouai/ViralForge",
+   "links": [
+    {
+     "label": "GitHub",
+     "url": "https://github.com/fendouai/ViralForge"
+    }
+   ],
+   "source": "github",
+   "first_seen": "2026-11-20T17:00:02+02:00",
+   "last_seen": "2026-11-20T17:00:02+02:00",
+   "metric": {
+    "label": "зірки GitHub",
+    "value": 411,
+    "delta24": 48
+   },
+   "in_aggregator": false,
+   "image": "img/viralforge.jpg"
+  },
+  "fish-audio-drama-3": {
+   "name": "Fish Audio Drama 3",
+   "vendor": "Fish Audio",
+   "cat": "voice",
+   "kind": "модель",
+   "status": "update",
+   "score": 66,
+   "summary": "TTS-модель для сцен з кількома персонажами (до 16 спікерів в одному запиті), з клонуванням голосу й режисурою інтонації звичайним текстом. Ваги викладені на Hugging Face під Community License.",
+   "why_us": "Може озвучити діалог драми одним проходом з різними голосами; варто порівняти з ElevenLabs v4 на емоційних репліках.",
+   "url": "https://huggingface.co/fishaudio/drama-3",
+   "links": [
+    {
+     "label": "Hugging Face",
+     "url": "https://huggingface.co/fishaudio/drama-3"
+    },
+    {
+     "label": "Огляд",
+     "url": "https://alphasignal.ai/news/fish-audio-s-drama-3-lets-developers-direct-ai-voice-like-a-human-actor"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-20T17:00:02+02:00",
+   "last_seen": "2026-11-20T17:00:02+02:00",
+   "metric": {
+    "label": "лайки HF",
+    "value": 1307,
+    "delta24": 4
+   },
+   "in_aggregator": false,
+   "image": "img/fish-audio-drama-3.jpg",
+   "price": {
+    "usd": 0.05,
+    "unit": "1k_chars",
+    "note": "API Fish Audio, $50/1M байт UTF-8; акція $10 до 30.11.2026",
+    "url": "https://docs.fish.audio/developer-platform/models-pricing/pricing-and-rate-limits"
+   },
+   "speed": {
+    "text": "перше аудіо <100 мс, RTF 0.131 на H200 (1 потік)",
+    "url": "https://huggingface.co/fishaudio/drama-3"
+   }
+  },
+  "reverb-tts": {
+   "name": "Reverb-TTS",
+   "vendor": "Software Mansion",
+   "cat": "voice",
+   "kind": "open-source",
+   "status": "new",
+   "score": 28,
+   "summary": "Нова відкрита text-to-speech модель від Software Mansion на Hugging Face; сторінка щойно почала набирати лайки, деталей поки мало.",
+   "why_us": "Поки лише для спостереження: якщо якість виявиться високою, це ще одна безкоштовна альтернатива для чорнової озвучки.",
+   "url": "https://huggingface.co/software-mansion/Reverb-TTS",
+   "links": [
+    {
+     "label": "Hugging Face",
+     "url": "https://huggingface.co/software-mansion/Reverb-TTS"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-20T17:00:02+02:00",
+   "last_seen": "2026-11-20T17:00:02+02:00",
+   "metric": {
+    "label": "лайки HF",
+    "value": 67,
+    "delta24": null
+   },
+   "series": [
+    [
+     "2026-11-20T09:03:00+00:00",
+     46
+    ],
+    [
+     "2026-11-20T15:00:00+00:00",
+     67
+    ]
+   ],
+   "in_aggregator": false,
+   "image": "img/reverb-tts.jpg",
+   "price": {
+    "usd": null,
+    "unit": "1k_chars",
+    "note": "відкриті ваги (некомерційна ліцензія), локально безкоштовно",
+    "url": "https://huggingface.co/software-mansion/Reverb-TTS"
+   },
+   "speed": {
+    "text": "≈165× реального часу на RTX 5090 (batch 32)",
+    "url": "https://huggingface.co/software-mansion/Reverb-TTS"
+   }
+  },
+  "openai-images-2-6": {
+   "name": "OpenAI Images 2.6 (GPT-Image-2.6 Flare / Sunburst)",
+   "vendor": "OpenAI",
+   "cat": "image",
+   "kind": "модель",
+   "status": "update",
+   "score": 70,
+   "summary": "Нова версія генератора зображень OpenAI: анімовані GIF, постійні референс-зображення, експорт у SVG і параметр складності; в API дві моделі — Flare і Sunburst, які за заявою OpenAI на 50% швидші.",
+   "why_us": "Постійні референси можуть краще тримати одного персонажа між кадрами для драм; варто порівняти з поточною gpt-image-2.",
+   "url": "https://openai.com/index/introducing-images-2-6/",
+   "links": [
+    {
+     "label": "Анонс",
+     "url": "https://openai.com/index/introducing-images-2-6/"
+    },
+    {
+     "label": "Новина",
+     "url": "https://testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-21T10:03:37+02:00",
+   "last_seen": "2026-11-21T10:03:37+02:00",
+   "in_aggregator": false,
+   "image": "img/openai-images-2-6.jpg",
+   "price": {
+    "usd": null,
+    "unit": "image",
+    "note": "лише токени: $30/1M вихідних; ціну 1K medium не опубліковано",
+    "url": "https://developers.openai.com/api/docs/pricing"
+   },
+   "speed": {
+    "text": "Flare: від ≈6 с на зображення (low)",
+    "url": "https://openai.com/index/introducing-images-2-6/"
+   },
+   "specs": {
+    "max_res": "4K (3840 px)"
+   },
+   "quality_name": "GPT Image 2.6 Sunburst (max)"
+  },
+  "seedream-5-5": {
+   "name": "Seedream 5.5",
+   "vendor": "ByteDance",
+   "cat": "image",
+   "kind": "модель",
+   "status": "update",
+   "score": 62,
+   "summary": "Нова версія моделі зображень ByteDance зі стабільним багаторазовим редагуванням (до 100 кроків) і кращим текстом у кадрі; доступна в Dreamina, CapCut і BytePlus API, Pro-версія очікується пізніше.",
+   "why_us": "Дешева альтернатива для статичних кадрів і референсів персонажів; у незалежних рейтингах поки середина списку, тож варто тестувати на наших сценах.",
+   "url": "https://letsdatascience.com/news/bytedance-seed-launches-seedream-55-with-100-round-stable-ed-92d2e6e8",
+   "links": [
+    {
+     "label": "Новина",
+     "url": "https://cryptobriefing.com/bytedance-seedream-5-5-image-model-rollout/"
+    },
+    {
+     "label": "Огляд на YouTube",
+     "url": "https://www.youtube.com/watch?v=P3lbvUE918Q"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-21T10:03:37+02:00",
+   "last_seen": "2026-11-21T10:03:37+02:00",
+   "in_aggregator": false,
+   "image": "img/seedream-5-5.jpg",
+   "price": {
+    "usd": 0.02,
+    "unit": "image",
+    "note": "тариф BytePlus 1K (за даними APIYI); +$0.008 за реф",
+    "url": "https://docs.apiyi.com/en/api-capabilities/seedream-image/seedream-5-5-pricing"
+   }
+  },
+  "soundverse": {
+   "name": "Soundverse",
+   "vendor": "Soundverse",
+   "cat": "music",
+   "kind": "сервіс",
+   "status": "new",
+   "score": 45,
+   "summary": "AI-платформа для створення музики, яка 17 листопада вийшла на вебі, iOS та Android. Генерує пісні і короткі відеокліпи під структуру треку з lip-sync героя під текст.",
+   "why_us": "Можна спробувати для швидких музичних підкладок і співаних версій лонгрідів, але з комерційними правами треба розібратися окремо.",
+   "url": "https://www.soundverse.ai/blog/article/soundverse-fall-2026-launches",
+   "links": [
+    {
+     "label": "Новина",
+     "url": "https://www.soundverse.ai/blog/article/soundverse-fall-2026-launches"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-21T17:00:40+02:00",
+   "last_seen": "2026-11-21T17:00:40+02:00",
+   "in_aggregator": false,
+   "image": "img/soundverse.jpg",
+   "price": {
+    "usd": null,
+    "unit": "min",
+    "note": "ціна за генерацію ($0.07+), не за хвилину",
+    "url": "https://platform.soundverse.ai/pricing"
+   }
+  },
+  "kling-4-0": {
+   "name": "Kling 4.0",
+   "vendor": "Kuaishou (Kling AI)",
+   "cat": "video",
+   "kind": "модель",
+   "status": "new",
+   "score": 82,
+   "summary": "Kling 4.0 від Kuaishou (вийшла 15 жовтня): кліпи до 30 с за один прохід, до 10 ключових кадрів, звук і lip-sync кількома мовами. За тиждень на YouTube 9 оглядів набрали понад 500 тис. переглядів, творці масово порівнюють її з Seedance 2.5.",
+   "why_us": "Один кліп до 30 с зі звуком і синхроном губ може замінити склейку з кількох шотів у драмах. Варто порівняти з Seedance 2.5 на наших сценах.",
+   "url": "https://bernama.com/en/press/news.php?id=2622471",
+   "links": [
+    {
+     "label": "Анонс",
+     "url": "https://bernama.com/en/press/news.php?id=2622471"
+    },
+    {
+     "label": "Огляд на YouTube",
+     "url": "https://www.youtube.com/watch?v=9vbpjseMobE"
+    },
+    {
+     "label": "Порівняння з Seedance 2.5",
+     "url": "https://curiousrefuge.com/blog/kling-vs-seedance"
+    }
+   ],
+   "source": "youtube",
+   "first_seen": "2026-11-22T10:00:00+02:00",
+   "last_seen": "2026-11-28T17:00:01+02:00",
+   "in_aggregator": false,
+   "metric": {
+    "label": "перегляди YouTube",
+    "value": 333391,
+    "delta24": 96228
+   },
+   "image": "img/kling-4-0.jpg",
+   "trend": {
+    "score": 43,
+    "parts": {
+     "velocity": 10,
+     "accel": 15,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 8
+    },
+    "v": 0.77,
+    "accel": 3.41,
+    "streak": 0,
+    "sources": [
+     "web",
+     "youtube"
+    ],
+    "relevance": 82,
+    "reason": "×0.8 від порогу (youtube), прискорюється, 2 джерела",
+    "push": false,
+    "gate": "слабкий тренд"
+   },
+   "mentions": [
+    "youtube",
+    "web"
+   ],
+   "signals": [
+    "yt:uWLdqMneCYY",
+    "yt:FnbBfR6sM8E",
+    "yt:3l_YowDxuIQ",
+    "yt:qX0dk5LJK3Y"
+   ],
+   "price": {
+    "usd": 0.157,
+    "unit": "sec_720p",
+    "note": "хост fal.ai, зі звуком (1080p $0.235/с)",
+    "url": "https://aireiter.com/blog/kling-4-0-api-pricing-fal-cost-vs-seedance-vidu"
+   },
+   "speed": {
+    "text": "≈2.7–4.4 хв на 3-секундний кліп 720p",
+    "url": "https://aireiter.com/blog/kling-4-0-api-pricing-fal-cost-vs-seedance-vidu"
+   },
+   "specs": {
+    "max_sec": 30,
+    "max_res": "1080p",
+    "audio": true
+   }
+  },
+  "kling-image-4-0": {
+   "name": "Kling Image 4.0",
+   "vendor": "Kuaishou (Kling AI)",
+   "cat": "image",
+   "kind": "модель",
+   "status": "new",
+   "score": 68,
+   "summary": "Нова модель зображень від Kling (17–18 листопада): нативне 8K, фотореалізм, довгий текст на зображенні і серії до 10 узгоджених картинок з одного промпту. Доступна в Kling Creative Studio і через API.",
+   "why_us": "Серії узгоджених кадрів можуть стати в пригоді для паспортів героїв і розкадровок. Варто порівняти з gpt-image-2 і Nano Banana.",
+   "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+   "links": [
+    {
+     "label": "Блог Kling",
+     "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+    },
+    {
+     "label": "Новина",
+     "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/11/17/kling-ai-launches-kling-image-40-with-photographic-realism-and-native-8k-generation/502070"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-22T10:00:00+02:00",
+   "last_seen": "2026-11-24T17:00:00+02:00",
+   "metric": {
+    "label": "перегляди YouTube",
+    "value": 96946,
+    "delta24": 25182
+   },
+   "in_aggregator": false,
+   "image": "img/kling-image-4-0.jpg",
+   "price": {
+    "usd": 0.063,
+    "unit": "image",
+    "note": "лише 2K (без 1K); хост Runware",
+    "url": "https://aireiter.com/blog/kling-image-4-0-api-pricing-review"
+   },
+   "speed": {
+    "text": "≈35 с на зображення 2K (Pixazo)",
+    "url": "https://aireiter.com/blog/kling-image-4-0-api-pricing-review"
+   },
+   "specs": {
+    "max_res": "8K",
+    "refs": 10
+   },
+   "mentions": [
+    "tiktok"
+   ],
+   "trend": {
+    "score": 17,
+    "parts": {
+     "velocity": 0,
+     "accel": 0,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 7
+    },
+    "v": 0,
+    "accel": null,
+    "streak": 0,
+    "sources": [
+     "tiktok",
+     "web"
+    ],
+    "relevance": 68,
+    "reason": "2 джерела",
+    "push": false,
+    "gate": "низька релевантність"
+   }
+  },
+  "suno-visuals": {
+   "name": "Suno Visuals",
+   "vendor": "Suno",
+   "cat": "music",
+   "kind": "фіча",
+   "status": "new",
+   "score": 48,
+   "summary": "Suno запустив Visuals (17 листопада): з пісні в бібліотеці робить кліпи до 15 секунд із lip-sync під вокал, lyric-відео й обкладинки. Під капотом H3 Move на основі MiniMax H3.",
+   "why_us": "Можна зробити швидкий співаний кліп для музичних креативів, але API немає, тож у пайплайн поки не вбудувати.",
+   "url": "https://suno.com/blog/introducing-visuals",
+   "links": [
+    {
+     "label": "Блог Suno",
+     "url": "https://suno.com/blog/introducing-visuals"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-22T10:00:00+02:00",
+   "last_seen": "2026-11-28T17:00:01+02:00",
+   "in_aggregator": false,
+   "image": "img/suno-visuals.jpg",
+   "metric": {
+    "label": "перегляди YouTube",
+    "value": 50848
+   },
+   "trend": {
+    "score": 30,
+    "parts": {
+     "velocity": 0,
+     "accel": 15,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 5
+    },
+    "v": 0.33,
+    "accel": 4.27,
+    "streak": 0,
+    "sources": [
+     "web",
+     "youtube"
+    ],
+    "relevance": 48,
+    "reason": "×0.3 від порогу (youtube), прискорюється, 2 джерела",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "specs": {
+    "max_sec": 15
+   },
+   "mentions": [
+    "youtube"
+   ],
+   "signals": [
+    "yt:Gu5Vqz1pidc"
+   ],
+   "price": {
+    "usd": null,
+    "note": "ціну за кліп ще не оголошено; окремі Visual-кредити, пакет від $14.99 за 2500 кредитів (за даними Bloomberg)",
+    "url": "https://help.suno.com/en/articles/14661185"
+   }
+  },
+  "kyutai-aura": {
+   "name": "AURA",
+   "vendor": "Kyutai",
+   "cat": "lipsync",
+   "kind": "open-source",
+   "status": "new",
+   "score": 48,
+   "summary": "Відкрита модель, що з одного портрета й мовного аудіо генерує відео говорячої голови потоково, у реальному часі. Версії 1.3B (576p, 16 к/с) і 5B (720p, 25 к/с), довжина кліпу не обмежена.",
+   "why_us": "Цікаво для швидких тестів говорячих персонажів, але ваги лише для некомерційного використання, тож у рекламу напряму не піде.",
+   "url": "https://kyutai.org/aura",
+   "links": [
+    {
+     "label": "Код",
+     "url": "https://github.com/kyutai-labs/aura"
+    },
+    {
+     "label": "Демо",
+     "url": "https://aura.kyutai.org/"
+    },
+    {
+     "label": "Стаття",
+     "url": "https://arxiv.org/abs/2611.26540"
+    }
+   ],
+   "source": "github",
+   "first_seen": "2026-11-24T10:00:04+02:00",
+   "last_seen": "2026-11-24T10:00:04+02:00",
+   "metric": {
+    "label": "зірки GitHub",
+    "value": 43
+   },
+   "in_aggregator": false,
+   "signals": [
+    "gh:kyutai-labs/aura"
+   ],
+   "mentions": [
+    "github"
+   ],
+   "major_release": false,
+   "push_text": "Kyutai AURA: відкритий lip-sync у реальному часі з одного фото, до 720p",
+   "price": {
+    "usd": null,
+    "note": "відкриті ваги (CC BY-NC / некомерційна ліцензія), локально безкоштовно, потрібна CUDA GPU (тести на H100)",
+    "url": "https://github.com/kyutai-labs/aura"
+   },
+   "speed": {
+    "text": "20,7 к/с (реальний час) для 1.3B і 9,7 к/с для 5B на одній H100",
+    "url": "https://github.com/kyutai-labs/aura"
+   },
+   "specs": {
+    "max_res": "720p",
+    "audio": false,
+    "refs": 1
+   },
+   "trend": {
+    "score": 13,
+    "parts": {
+     "velocity": 0,
+     "accel": 8,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 5
+    },
+    "v": 0.03,
+    "accel": 1.25,
+    "streak": 0,
+    "sources": [
+     "github"
+    ],
+    "relevance": 48,
+    "reason": "×0.0 від порогу (github), тримає темп",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/kyutai-aura.jpg"
+  },
+  "synthesia-syren": {
+   "name": "Synthesia Syren",
+   "vendor": "Synthesia",
+   "cat": "video",
+   "kind": "сервіс",
+   "status": "new",
+   "score": 50,
+   "summary": "AI-агент для створення відео з текстового опису: можна додати документи, картинки, відео чи посилання на YouTube, а потім доправляти ролик у чаті; для кінематографічних сцен використовує Seedance. Вийшов у бета-версії в жовтні, а цього тижня різко набирає огляди на YouTube.",
+   "why_us": "Може швидко збирати пояснювальні й маркетингові ролики з одного брифу, але для наших драм і вертикальної реклами контролю кадру поки менше, ніж у прямих генераторах.",
+   "url": "https://www.synthesia.io/syren",
+   "links": [
+    {
+     "label": "Анонс",
+     "url": "https://www.synthesia.io/updates/syren"
+    },
+    {
+     "label": "Syren + Seedance",
+     "url": "https://www.synthesia.io/updates/make-cinematic-syren-videos-with-seedance"
+    },
+    {
+     "label": "Огляд на YouTube",
+     "url": "https://www.youtube.com/watch?v=Mj8pjNBza3k"
+    }
+   ],
+   "source": "youtube",
+   "first_seen": "2026-11-25T10:00:00+02:00",
+   "last_seen": "2026-11-27T17:00:03+02:00",
+   "metric": {
+    "label": "перегляди YouTube",
+    "value": 188814,
+    "delta24": 38462
+   },
+   "in_aggregator": false,
+   "signals": [
+    "yt:Mj8pjNBza3k"
+   ],
+   "mentions": [
+    "youtube"
+   ],
+   "major_release": false,
+   "push_text": "Synthesia Syren: агент робить відео з брифу й документів, огляди на YouTube швидко ростуть",
+   "price": {
+    "usd": null,
+    "note": "ціну за секунду не оголошено; кредитна система, безкоштовний план із водяним знаком",
+    "url": "https://www.synthesia.io/updates/syren"
+   },
+   "trend": {
+    "score": 13,
+    "parts": {
+     "velocity": 0,
+     "accel": 8,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 5
+    },
+    "v": 0.48,
+    "accel": 1.0,
+    "streak": 0,
+    "sources": [
+     "youtube"
+    ],
+    "relevance": 50,
+    "reason": "×0.5 від порогу (youtube), тримає темп",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/synthesia-syren.jpg"
+  },
+  "nemotron-labs-image": {
+   "name": "Nemotron-Labs-Image 30B-A3B",
+   "vendor": "NVIDIA",
+   "cat": "image",
+   "kind": "open-source",
+   "status": "new",
+   "score": 30,
+   "summary": "Відкрита модель генерації зображень від NVIDIA, частина агентної системи Nemotron-Labs-VisualCreation, яка робить і растрові картинки, і редаговані макети (SVG, HTML, слайди). Ваги вже на Hugging Face.",
+   "why_us": "Поки цікаво лише для спостереження: ліцензія некомерційна, тож для реклами використовувати не можна.",
+   "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+   "links": [
+    {
+     "label": "Hugging Face",
+     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-25T17:00:01+02:00",
+   "last_seen": "2026-11-28T10:00:01+02:00",
+   "metric": {
+    "label": "лайки HF",
+    "value": 346
+   },
+   "series": [
+    [
+     "2026-11-25T08:00+00:00",
+     31
+    ],
+    [
+     "2026-11-25T15:00+00:00",
+     80
+    ],
+    [
+     "2026-11-26T08:00+00:00",
+     200
+    ],
+    [
+     "2026-11-26T15:00+00:00",
+     229
+    ],
+    [
+     "2026-11-27T08:00+00:00",
+     291
+    ]
+   ],
+   "in_aggregator": false,
+   "signals": [
+    "hf:nvidia/Nemotron-Labs-Image-30B-A3B"
+   ],
+   "mentions": [
+    "huggingface"
+   ],
+   "major_release": false,
+   "push_text": "NVIDIA виклала відкриту модель зображень Nemotron-Labs-Image: швидко набирає лайки на Hugging Face",
+   "price": {
+    "usd": null,
+    "note": "відкриті ваги з некомерційною ліцензією NVIDIA, локально безкоштовно",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+   },
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 3
+    },
+    "v": 0.34,
+    "accel": 0.26,
+    "streak": 0,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 30,
+    "reason": "×0.3 від порогу (huggingface), сповільнюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/nemotron-labs-image.jpg"
+  },
+  "dreamina-ai-canvas": {
+   "name": "Dreamina AI Canvas",
+   "vendor": "ByteDance / CapCut",
+   "cat": "video",
+   "kind": "сервіс",
+   "status": "update",
+   "score": 55,
+   "summary": "Dreamina показує полотно AI Canvas: сторіборди, сітки ракурсів персонажа і відео Seedance в одному робочому просторі, з агентом, що бачить усе полотно. Творці на YouTube називають це «Dreamina 2.0» і пишуть про місяць безліміту на Seedance; офіційного анонсу під цією назвою ми не знайшли.",
+   "why_us": "Якщо безліміт на Seedance підтвердиться, це дешевий спосіб масово тестувати сцени для драм до фінального рендеру.",
+   "url": "https://dreamina.capcut.com/ai-video/ai-canvas",
+   "links": [
+    {
+     "label": "Огляд на YouTube",
+     "url": "https://www.youtube.com/watch?v=D7qaAYrg-8w"
+    }
+   ],
+   "source": "youtube",
+   "first_seen": "2026-11-25T17:00:01+02:00",
+   "last_seen": "2026-11-26T10:00:00+02:00",
+   "metric": {
+    "label": "перегляди YouTube",
+    "value": 151305,
+    "delta24": 971
+   },
+   "series": [
+    [
+     "2026-11-23T08:00+00:00",
+     62975
+    ],
+    [
+     "2026-11-23T15:00+00:00",
+     63312
+    ],
+    [
+     "2026-11-24T08:00+00:00",
+     63720
+    ],
+    [
+     "2026-11-24T13:48+00:00",
+     63932
+    ],
+    [
+     "2026-11-24T15:00+00:00",
+     63962
+    ],
+    [
+     "2026-11-25T08:00+00:00",
+     120315
+    ],
+    [
+     "2026-11-25T15:00+00:00",
+     150334
+    ]
+   ],
+   "in_aggregator": false,
+   "signals": [
+    "yt:D7qaAYrg-8w"
+   ],
+   "mentions": [
+    "youtube",
+    "tiktok"
+   ],
+   "major_release": false,
+   "push_text": "Огляд оновленої Dreamina з AI Canvas і безлімітом Seedance набрав +86 тис. переглядів за добу",
+   "price": {
+    "usd": null,
+    "note": "доступ за підпискою Dreamina, окремої ціни за секунду немає",
+    "url": "https://dreamina.capcut.com/ai-video/ai-canvas"
+   },
+   "specs": {
+    "audio": true
+   },
+   "trend": {
+    "score": 1,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 6
+    },
+    "v": 0.01,
+    "accel": 0.03,
+    "streak": 0,
+    "sources": [
+     "tiktok",
+     "youtube"
+    ],
+    "relevance": 55,
+    "reason": "×0.0 від порогу (youtube), сповільнюється, 2 джерела",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/dreamina-ai-canvas.jpg"
+  },
+  "magi-2": {
+   "name": "MAGI-2",
+   "vendor": "Sand.ai",
+   "cat": "video",
+   "kind": "модель",
+   "status": "new",
+   "score": 86,
+   "summary": "Флагманська відеомодель Sand.ai (480B) вийшла 24 листопада: кліпи 4–30 с до 1080p з діалогами, звуками й музикою за один прохід, до 20 референсів (зображення, відео, аудіо). На арені Artificial Analysis вона дебютувала першою в image-to-video зі звуком, статистично нарівні з Seedance 2.5.",
+   "why_us": "Якість рівня Seedance 2.5 приблизно за сьому частину ціни — варто прогнати на тих самих сценах наших драм; ваги флагмана поки закриті, доступ через API.",
+   "url": "https://sand.ai/blog/magi-2/",
+   "links": [
+    {
+     "label": "Новина",
+     "url": "https://cryptobriefing.com/sand-ai-magi-2-image-to-video-price/"
+    },
+    {
+     "label": "Лідерборд I2V",
+     "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video"
+    },
+    {
+     "label": "Огляд і ціни",
+     "url": "https://evolink.ai/blog/what-is-magi-2"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-26T10:00:00+02:00",
+   "last_seen": "2026-11-28T17:00:01+02:00",
+   "metric": {
+    "label": "перегляди YouTube",
+    "value": 194834,
+    "delta24": 41303
+   },
+   "in_aggregator": true,
+   "signals": [
+    "yt:3kuatVUk0tw",
+    "yt:8qUUlV53KyQ",
+    "yt:L61W0G6EV_8"
+   ],
+   "mentions": [
+    "youtube"
+   ],
+   "major_release": false,
+   "push_text": "MAGI-2: творці масово порівнюють із Seedance 2.5 — $0.08/с зі звуком, уже в нашому бекенді",
+   "price": {
+    "usd": 0.08,
+    "unit": "sec_720p",
+    "note": "API Sand.ai / Higgsfield, лише 1080p, зі звуком",
+    "url": "https://evolink.ai/blog/what-is-magi-2"
+   },
+   "specs": {
+    "max_sec": 30,
+    "max_res": "1080p",
+    "audio": true,
+    "refs": 10
+   },
+   "trend": {
+    "score": 4,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 10,
+     "relevance": 9
+    },
+    "v": 0.31,
+    "accel": 0.35,
+    "streak": 0,
+    "sources": [
+     "web",
+     "youtube"
+    ],
+    "relevance": 86,
+    "reason": "×0.3 від порогу (youtube), сповільнюється, 2 джерела",
+    "push": false,
+    "gate": "слабкий тренд"
+   },
+   "image": "img/magi-2.jpg",
+   "series": [
+    [
+     "2026-11-26T08:00+00:00",
+     37381
+    ],
+    [
+     "2026-11-26T15:00+00:00",
+     69316
+    ],
+    [
+     "2026-11-27T08:00+00:00",
+     112010
+    ],
+    [
+     "2026-11-27T15:00+00:00",
+     124374
+    ]
+   ]
+  },
+  "mai-image-2-7": {
+   "name": "MAI Image 2.7",
+   "vendor": "Microsoft",
+   "cat": "image",
+   "kind": "модель",
+   "status": "new",
+   "score": 66,
+   "summary": "Нова модель зображень Microsoft, показана на Ignite 17 листопада разом із дешевшою версією Flash: до 5 референсів (людина, продукт, локація), прозорий фон і точкові правки окремих об'єктів. За Artificial Analysis — перша в редагуванні зображень.",
+   "why_us": "Сильна в точкових правках і зведенні героя з продуктом за кілька разів дешевше за GPT-Image-2.6 Sunburst — кандидат для кадрів-паспортів і правок статичних креативів.",
+   "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/",
+   "links": [
+    {
+     "label": "Новина",
+     "url": "https://www.thurrott.com/?p=343999"
+    },
+    {
+     "label": "Огляд",
+     "url": "https://felloai.com/de/mai-image-2-7/"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-26T10:00:00+02:00",
+   "last_seen": "2026-11-26T10:00:00+02:00",
+   "in_aggregator": false,
+   "mentions": [
+    "web"
+   ],
+   "major_release": false,
+   "push_text": "MAI Image 2.7 від Microsoft: №1 у редагуванні зображень, до 5 референсів, дешевше за GPT-Image",
+   "price": {
+    "usd": 0.035,
+    "unit": "image",
+    "note": "Microsoft Foundry, $35 за 1000 зображень; Flash — $10 за 1000",
+    "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/"
+   },
+   "specs": {
+    "refs": 5
+   },
+   "trend": {
+    "score": 7,
+    "parts": {
+     "velocity": 0,
+     "accel": 0,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 7
+    },
+    "v": 0,
+    "accel": null,
+    "streak": 0,
+    "sources": [
+     "web"
+    ],
+    "relevance": 66,
+    "reason": "немає даних про ріст",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/mai-image-2-7.jpg"
+  },
+  "longcat-video-avatar-1-6": {
+   "name": "LongCat Video Avatar 1.6",
+   "vendor": "Meituan",
+   "cat": "lipsync",
+   "kind": "open-source",
+   "status": "new",
+   "score": 52,
+   "summary": "Відкрита (MIT) модель аватарів від Meituan: з аудіо і фото або текстового опису робить говоряче відео й уміє продовжувати кліп. У версії 1.6 природніші рухи губ і менше накопичення помилок у довгих роликах.",
+   "why_us": "Безкоштовна локальна альтернатива для говорячих голів і довгих монологів у вуличних інтерв'ю; порівняння з HeyGen і Kling поки лише від самого розробника.",
+   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+   "links": [
+    {
+     "label": "GitHub",
+     "url": "https://github.com/meituan-longcat/LongCat-Video"
+    },
+    {
+     "label": "Новина",
+     "url": "https://hermes-ai.net/news/meituan-s-longcat-video-avatar-1-6-generates-stable-10-minute-talking-videos/"
+    }
+   ],
+   "source": "web",
+   "first_seen": "2026-11-26T10:00:00+02:00",
+   "last_seen": "2026-11-26T10:00:00+02:00",
+   "in_aggregator": false,
+   "mentions": [
+    "web"
+   ],
+   "major_release": false,
+   "push_text": "LongCat Video Avatar 1.6: відкрита модель говорячих аватарів для довгих роликів",
+   "price": {
+    "usd": null,
+    "note": "відкриті ваги (MIT), локально безкоштовно (база 13,6B, потрібна потужна GPU)",
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
+   },
+   "trend": {
+    "score": 5,
+    "parts": {
+     "velocity": 0,
+     "accel": 0,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 5
+    },
+    "v": 0,
+    "accel": null,
+    "streak": 0,
+    "sources": [
+     "web"
+    ],
+    "relevance": 52,
+    "reason": "немає даних про ріст",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/longcat-video-avatar-1-6.jpg"
+  },
+  "kandinsky-imagesr-2-0": {
+   "name": "Kandinsky ImageSR 2.0",
+   "vendor": "Kandinsky Lab",
+   "cat": "edit",
+   "kind": "open-source",
+   "status": "new",
+   "score": 40,
+   "summary": "Відкрита модель апскейлу зображень (image-to-image super-resolution) від команди Kandinsky, викладена на Hugging Face близько двох днів тому. За добу набрала близько 100 лайків, деталей і бенчмарків поки мало.",
+   "why_us": "Можна безкоштовно підтягувати різкість паспортів персонажів і кадрів-референсів перед анімацією, якщо якість виявиться не гіршою за платні апскейлери.",
+   "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+   "links": [
+    {
+     "label": "Hugging Face",
+     "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-26T17:00:03+02:00",
+   "last_seen": "2026-11-28T17:00:01+02:00",
+   "metric": {
+    "label": "лайки HF",
+    "value": 230,
+    "delta24": 67
+   },
+   "series": [
+    [
+     "2026-11-26T08:00+00:00",
+     44
+    ],
+    [
+     "2026-11-26T15:00+00:00",
+     72
+    ],
+    [
+     "2026-11-27T08:00+00:00",
+     144
+    ],
+    [
+     "2026-11-27T15:00+00:00",
+     163
+    ],
+    [
+     "2026-11-28T08:00+00:00",
+     205
+    ],
+    [
+     "2026-11-28T15:00+00:00",
+     230
+    ]
+   ],
+   "in_aggregator": false,
+   "signals": [
+    "hf:kandinskylab/Kandinsky-ImageSR-2.0"
+   ],
+   "mentions": [
+    "huggingface"
+   ],
+   "major_release": false,
+   "push_text": "Kandinsky ImageSR 2.0: відкритий апскейлер зображень швидко набирає лайки на Hugging Face",
+   "trend": {
+    "score": 32,
+    "parts": {
+     "velocity": 20,
+     "accel": 8,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 4
+    },
+    "v": 1.07,
+    "accel": 1.06,
+    "streak": 1,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 40,
+    "reason": "×1.1 від порогу (huggingface), тримає темп",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/kandinsky-imagesr-2-0.jpg"
+  },
+  "ming-image-0-2-design": {
+   "name": "Ming-Image 0.2 Design",
+   "vendor": "inclusionAI",
+   "cat": "image",
+   "kind": "open-source",
+   "status": "new",
+   "score": 32,
+   "summary": "Відкрита text-to-image модель від inclusionAI, налаштована під дизайнерські задачі. З'явилася на Hugging Face 2,5 дні тому і швидко набирає лайки.",
+   "why_us": "Можна спробувати для статичних обкладинок і текстових слайдів, але поки це експеримент, а не заміна gpt-image-2 чи Nano Banana.",
+   "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+   "links": [
+    {
+     "label": "Hugging Face",
+     "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design"
+    }
+   ],
+   "source": "huggingface",
+   "first_seen": "2026-11-27T17:00:03+02:00",
+   "last_seen": "2026-11-28T17:00:01+02:00",
+   "metric": {
+    "label": "лайки HF",
+    "value": 187
+   },
+   "in_aggregator": false,
+   "signals": [
+    "hf:inclusionAI/Ming-Image-0.2-Design"
+   ],
+   "mentions": [
+    "huggingface"
+   ],
+   "major_release": false,
+   "push_text": "Ming-Image 0.2 Design: нова відкрита модель зображень під дизайн, швидко росте на Hugging Face",
+   "price": {
+    "usd": null,
+    "note": "відкриті ваги, локально безкоштовно"
+   },
+   "trend": {
+    "score": 0,
+    "parts": {
+     "velocity": 0,
+     "accel": -15,
+     "persist": 0,
+     "confirm": 0,
+     "relevance": 3
+    },
+    "v": 0.47,
+    "accel": 0.61,
+    "streak": 0,
+    "sources": [
+     "huggingface"
+    ],
+    "relevance": 32,
+    "reason": "×0.5 від порогу (huggingface), сповільнюється",
+    "push": false,
+    "gate": "низька релевантність"
+   },
+   "image": "img/ming-image-0-2-design.jpg"
+  }
+ },
+ "digests": {
+  "2026-11-23": {
+   "date": "2026-11-23",
+   "updated_at": "2026-11-23T17:00:03+02:00",
+   "run": "evening",
+   "headline": "Тихий день: нових моделей не вийшло, натомість різко пішли вгору відкриті генератори зображень MiniMax H3 Image і FLUX.3 Klein.",
+   "summary": [
+    "За день жодна велика лабораторія (Google, OpenAI, ByteDance, Kling, Runway) не випустила нових моделей для відео, зображень, голосу чи музики. Головна зміна — на Hugging Face: після ранку MiniMax H3 Image набрала майже 700 лайків, а FLUX.3 Klein для ComfyUI — понад 700. Навколо H3 Image з'являються LoRA (зокрема заміна персонажа) і стиснуті версії, тож її вже зручно запускати локально для паспортів героїв і локацій у 4K.",
+    "У відео творці й далі обговорюють Kling 4.0: десять оглядів за тиждень мають разом близько 682 тис. переглядів, найсвіжіший додає понад 35 тис. за добу. Водночас частина сторонніх сайтів досі пише, що повний реліз Kling 4.0 не підтверджено, тож перед тестом на наших драмах варто перевірити доступ через бекенд. Окремо популярні ролики про зв'язку Seedance 2.5 з ElevenLabs v4 для стабільних голосів персонажів.",
+    "Серед відкритих проєктів поступово ростуть rea-video (розбір відео по кадрах) і Apple FastFrames. Нових голосових, музичних і lip-sync інструментів за день не знайшли."
+   ],
+   "top": [
+    "minimax-h3-image",
+    "flux-3-klein",
+    "kling-4-0",
+    "rea-video"
+   ],
+   "counts": {
+    "video": 0,
+    "image": 0,
+    "voice": 0,
+    "music": 0,
+    "lipsync": 0,
+    "edit": 0
+   }
+  },
+  "2026-11-22": {
+   "date": "2026-11-22",
+   "updated_at": "2026-11-22T17:11:15+02:00",
+   "run": "evening",
+   "headline": "Тихий день: після ранку нових моделей не з'явилося, головне за добу — Kling 4.0 і Kling Image 4.0.",
+   "summary": [
+    "Головна тема дня — Kling 4.0: творці активно тестують кліпи до 30 с зі звуком і lip-sync, з'являються порівняння з Seedance 2.5. За одним із тестів Seedance переконливіше передає рух людей, а Kling краще тримає заданий стиль. Поряд вийшла Kling Image 4.0 з нативним 8K і серіями узгоджених кадрів. Обидві моделі варто перевірити на наших драмах; у нашому бекенді поки є лише Kling 3.0.",
+    "У музиці з'явився Suno Visuals: короткі кліпи з lip-sync під вокал пісні, поки без API. Нових голосових, lip-sync моделей і моделей для монтажу за день не знайшли; великі лабораторії (Google, OpenAI, ByteDance, Runway) у вихідні нічого не випускали.",
+    "Вечірній автоматичний збір даних (Hugging Face, GitHub, HN, YouTube) не завершився через мережевий збій, тому метрики й список обговорень лишилися з ранку."
+   ],
+   "top": [
+    "kling-4-0",
+    "kling-image-4-0",
+    "suno-visuals",
+    "inworld-voice-isolator"
+   ],
+   "counts": {
+    "video": 1,
+    "image": 1,
+    "voice": 0,
+    "music": 1,
+    "lipsync": 0,
+    "edit": 0
+   }
+  },
+  "2026-11-21": {
+   "date": "2026-11-21",
+   "updated_at": "2026-11-21T17:00:40+02:00",
+   "run": "evening",
+   "headline": "Тихий день: нових відео- та голосових моделей немає; на дашборді з'явилися OpenAI Images 2.6, Seedream 5.5 і музичний сервіс Soundverse.",
+   "summary": [
+    "За добу ні Kling, ні Veo, ні Runway, ні Seedance не випустили нових відеомоделей. Головне за день — два генератори зображень, які ми додали вранці: OpenAI Images 2.6 (на 50% швидше за 2.5, постійні референси, GIF і SVG) і Seedream 5.5 від ByteDance зі стабільним багатокроковим редагуванням. Обидва варто перевірити на паспортах героїв для наших драм.",
+    "У музиці додали Soundverse: сервіс вийшов на вебі та в мобільних застосунках, генерує пісні й короткі кліпи з lip-sync під текст. Він може знадобитися для співаних лонгрідів, але до тесту треба розібратися з правами. Нових TTS-моделей за добу не знайшли. Серед листопадових запусків є Fish Audio Live 3 і Scribe v3 від ElevenLabs, але вони для голосових агентів і розпізнавання мовлення, а не для озвучки.",
+    "Автоматичний збір даних (Hugging Face, GitHub, HN, YouTube) не спрацював і вранці, і ввечері через мережеву помилку. Тому метрики, статуси «зростає» і список обговорень лишилися з учорашнього вечора."
+   ],
+   "top": [
+    "openai-images-2-6",
+    "seedream-5-5",
+    "soundverse",
+    "heygen-avatar-6"
+   ],
+   "counts": {
+    "video": 0,
+    "image": 2,
+    "voice": 0,
+    "music": 1,
+    "lipsync": 0,
+    "edit": 0
+   }
+  },
+  "2026-11-20": {
+   "date": "2026-11-20",
+   "updated_at": "2026-11-20T17:00:02+02:00",
+   "run": "evening",
+   "headline": "HeyGen Avatar 6 — головний реліз дня; Haru-4B, Apple FastFrames і posewear швидко ростуть на HF і GitHub.",
+   "summary": [
+    "Головний реліз дня — HeyGen Avatar 6, нова модель аватарів, що керується аудіо: сама підбирає жести й міміку за текстом, має швидку версію Turbo і API. Для говорящих голів у наших відеокреативах її варто протестувати, хоча генерує вона повільніше за конкурентів. Великих нових відео- чи зображувальних моделей від Kling, Veo, Runway чи Google за добу не з'явилося.",
+    "Серед відкритих моделей далі лідирує голосова Haru-4B (audio-to-audio): 4227 лайків, +1417 за добу. Apple FastFrames, відкрита text-to-video модель, додала 179 лайків і тепер позначена як «зростає». На GitHub найшвидше росте posewear, бібліотека поз і одягу з промптами (+361 зірка), а ViralForge розбирає вірусні ролики на хуки й робить варіації. Ріст MiniMax H3 Image і rea-video сповільнився, тож з них знято позначку «зростає».",
+    "У голосі на дашборд додано Fish Audio Drama 3: TTS для діалогів із кількома персонажами в одному запиті, з відкритими вагами. Для озвучки драм варто порівняти її з ElevenLabs v4. На YouTube найбільше обговорюють Seedance 2.5 (фентезі-короткометражка понад 200 тис. переглядів) і великі порівняння відеогенераторів."
+   ],
+   "top": [
+    "heygen-avatar-6",
+    "haru-4b",
+    "apple-fastframes",
+    "fish-audio-drama-3",
+    "posewear",
+    "viralforge"
+   ],
+   "counts": {
+    "video": 0,
+    "image": 1,
+    "voice": 2,
+    "music": 0,
+    "lipsync": 1,
+    "edit": 1
+   }
+  },
+  "2026-11-19": {
+   "date": "2026-11-19",
+   "updated_at": "2026-11-19T18:40:55+02:00",
+   "run": "evening",
+   "headline": "Найпомітніше сьогодні: відкрита MiniMax H3 Image і її похідні, а також rea-video для покадрового розбору відео.",
+   "summary": [
+    "У зображеннях найбільше руху навколо MiniMax H3 Image: за два тижні з'явилися збірки для ComfyUI, квантизації та інструмент OpenJutsu для заміни персонажа у відео. Варто порівняти її з gpt-image-2 на паспортах героїв.",
+    "У відео Seedance 2.5 Flash уже доступна в нашому агрегаторі. Це дешевший варіант для чорнових кадрів. Apple виклала відкриту text-to-video модель FastFrames, поки лише для спостереження. Репозиторій rea-video (майже 11 тис. зірок) розбирає ролики по кадрах і може знадобитися для аналізу креативів конкурентів.",
+    "У голосі з'явилося кілька відкритих моделей: Inworld Voice Isolator для чистки звуку інтерв'ю, а також TTS-моделі Zonos3 Mini і tiny-voca. Це перший запуск радара, тож динаміки за добу ще немає, а веб-пошук цього разу не працював."
+   ],
+   "top": [
+    "minimax-h3-image",
+    "seedance-2-5-flash",
+    "rea-video",
+    "openjutsu",
+    "inworld-voice-isolator"
+   ],
+   "counts": {
+    "video": 5,
+    "image": 2,
+    "voice": 4,
+    "music": 0,
+    "lipsync": 0,
+    "edit": 0
+   }
+  },
+  "2026-11-24": {
+   "date": "2026-11-24",
+   "updated_at": "2026-11-24T17:00:00+02:00",
+   "run": "evening",
+   "headline": "Тихий день: нових великих моделей не вийшло, єдина новинка — lip-sync у реальному часі Kyutai AURA, а творці й далі тестують Kling 4.0 і Seedance 2.5.",
+   "summary": [
+    "За день жоден великий генератор відео, зображень, голосу чи музики не випустив нової версії. Єдина новинка — Kyutai AURA: говоряча голова з одного портрета й аудіо в реальному часі (до 720p), але з некомерційною ліцензією, тож для наших відеокреативів це поки орієнтир.",
+    "У соцмережах найбільше реальних переглядів у роликах на Seedance 2.5 Flash (TikTok-кліп через PixVerse — 1,6 млн переглядів) та Kling Image 4.0 разом із Kling 4.0 (1,2 млн). На YouTube з'явилися свіжі тести Omni Reference і ключових кадрів у Kling 4.0, а також ролики про 4K-режим Seedance 2.5, API для якого відкрили минулого тижня.",
+    "Відкриті генератори зображень MiniMax H3 Image і FLUX.3 Klein після різкого стрибку сповільнилися (60 і 120 нових лайків на Hugging Face за добу), тому вони більше не в списку тих, що злітають. Нових голосових, музичних і монтажних інструментів за день не знайшли."
+   ],
+   "top": [
+    "kyutai-aura",
+    "kling-4-0",
+    "seedance-2-5-flash",
+    "kling-image-4-0"
+   ],
+   "counts": {
+    "video": 0,
+    "image": 0,
+    "voice": 0,
+    "music": 0,
+    "lipsync": 1,
+    "edit": 0
+   }
+  },
+  "2026-11-25": {
+   "date": "2026-11-25",
+   "updated_at": "2026-11-25T17:00:01+02:00",
+   "run": "evening",
+   "headline": "Великих релізів за день немає; найбільше обговорюють оновлену Dreamina з полотном і безлімітом Seedance.",
+   "summary": [
+    "За день жоден великий генератор відео, зображень, голосу чи музики не випустив нової версії. Головна тема в соцмережах — Dreamina: огляд її полотна AI Canvas з місяцем безліміту на Seedance набрав +86 тис. переглядів за добу (150 тис. загалом). Творці називають це «Dreamina 2.0», але офіційного анонсу під такою назвою ми не знайшли. Ми додали Dreamina AI Canvas на дашборд як оновлення сервісу.",
+    "Зранку додали Synthesia Syren — агента, що збирає відео з брифу і документів, використовуючи Seedance для сцен. Kling 4.0 і Seedance 2.5 й далі порівнюють на драмах і рекламі; окремо обговорюють чернетковий режим Seedance 2.5 (дешевий прев'ю 480p перед рендером 1080p) — корисно для наших тестів сцен.",
+    "Серед відкритих моделей швидко росте NVIDIA Nemotron-Labs-Image (+168 лайків на Hugging Face за добу), але ліцензія некомерційна, тож для реклами вона не підходить. Репозиторій rea-video, що розбирає ролики по кадрах, додав +342 зірки за добу. Нових голосових, музичних і монтажних релізів сьогодні немає."
+   ],
+   "top": [
+    "dreamina-ai-canvas",
+    "synthesia-syren",
+    "kling-4-0",
+    "seedance-2-5-flash",
+    "nemotron-labs-image"
+   ],
+   "counts": {
+    "video": 2,
+    "image": 1,
+    "voice": 0,
+    "music": 0,
+    "lipsync": 0,
+    "edit": 0
+   }
+  },
+  "2026-11-26": {
+   "date": "2026-11-26",
+   "updated_at": "2026-11-26T17:00:03+02:00",
+   "run": "evening",
+   "headline": "MAGI-2 від Sand.ai стала головною темою дня: якість на рівні Seedance 2.5 за значно меншу ціну, і творці вже масово її порівнюють.",
+   "summary": [
+    "Головне — MAGI-2, відеомодель Sand.ai, що вийшла 24 листопада: кліпи 4–30 с до 1080p зі звуком і діалогами, до 20 референсів, перше місце на арені Artificial Analysis в image-to-video зі звуком нарівні з Seedance 2.5. Ціна в API — близько $0,08 за секунду 1080p. Огляд «AI Video Is Basically Free Now (MAGI-2 vs Seedance 2.5)» за день набрав майже 70 тис. переглядів. У порівняннях пишуть, що MAGI-2 менше блокує драматичні сцени, — це варто перевірити на наших драмах.",
+    "Вранці на дашборд також додали MAI Image 2.7 від Microsoft (сильна в редагуванні зображень) і відкриту модель говорячих аватарів LongCat Video Avatar 1.6. Увечері з'явився відкритий апскейлер зображень Kandinsky ImageSR 2.0 на Hugging Face, а Nemotron-Labs-Image від NVIDIA дійшла до 229 лайків.",
+    "Великі лабораторії (Google, OpenAI, ByteDance, Kling, Runway, ElevenLabs) за день нових моделей не випускали. Творці й далі тестують Kling 4.0 і шукають, як здешевити генерацію в Seedance 2.5. Нових голосових і музичних релізів не знайшли."
+   ],
+   "top": [
+    "magi-2",
+    "mai-image-2-7",
+    "longcat-video-avatar-1-6",
+    "kandinsky-imagesr-2-0"
+   ],
+   "counts": {
+    "video": 1,
+    "image": 1,
+    "voice": 0,
+    "music": 0,
+    "lipsync": 1,
+    "edit": 1
+   }
+  },
+  "2026-11-27": {
+   "date": "2026-11-27",
+   "updated_at": "2026-11-27T17:00:03+02:00",
+   "run": "evening",
+   "headline": "Спокійний день без великих релізів: головна тема — MAGI-2 як дешева альтернатива Seedance 2.5.",
+   "summary": [
+    "Нових версій відомих генераторів відео, зображень, голосу чи музики за добу не вийшло. Найбільше обговорюють MAGI-2 від Sand.ai: з'явилося ще кілька відео з порівнянням із Seedance 2.5, найпопулярніше вже має 124 тис. переглядів. Модель є в нашому бекенді за $0.08 за секунду зі звуком, тож її варто прогнати на кількох сценах наших драм.",
+    "Огляд Synthesia Syren далі росте (189 тис. переглядів), а Kling 4.0 і Suno Visuals тримаються в темах тижня. На Hugging Face з'явилася відкрита модель зображень Ming-Image 0.2 Design, апскейлер Kandinsky ImageSR 2.0 додав ще ~90 лайків за добу.",
+    "В Instagram далі вибухають AI-драми про стосунки на Nano Banana й ElevenLabs: одне відео має 15 млн переглядів і 647 тис. лайків — це той самий формат, що й наші відеокреативи."
+   ],
+   "top": [
+    "magi-2",
+    "synthesia-syren",
+    "kandinsky-imagesr-2-0",
+    "ming-image-0-2-design"
+   ],
+   "counts": {
+    "video": 0,
+    "image": 1,
+    "voice": 0,
+    "music": 0,
+    "lipsync": 0,
+    "edit": 0
+   }
+  },
+  "2026-11-28": {
+   "date": "2026-11-28",
+   "updated_at": "2026-11-28T17:00:01+02:00",
+   "run": "evening",
+   "headline": "Тихий день: нових моделей не вийшло, автори далі тестують Kling 4.0 і порівнюють дешевий MAGI-2 із Seedance 2.5.",
+   "summary": [
+    "За суботу жодна велика лабораторія не випустила нової моделі для відео, зображень, голосу, музики чи lip-sync. Головна тема — Kling 4.0: огляди з ключовими кадрами, HDR і Omni Reference разом додали понад 96 тис. переглядів за добу. Водночас частина сторонніх сайтів досі пише, що повний доступ до Kling 4.0 відкрито не всім, тож перед тестом на наших драмах варто перевірити, чи модель уже доступна в нашому бекенді.",
+    "Друга тема — MAGI-2 проти Seedance 2.5: три свіжі порівняння мають майже 195 тис. переглядів. Автори пишуть, що MAGI-2 у кілька разів дешевший і годиться для чернеток та швидких правок, а фінальні сцени радять робити в Seedance. MAGI-2 уже є в нашому бекенді, тому його варто прогнати на тестових сценах.",
+    "Серед відкритих моделей далі росте Kandinsky ImageSR 2.0 для апскейлу зображень: 230 лайків на Hugging Face, +67 за добу. Нових голосових, музичних і монтажних інструментів за день не знайшли."
+   ],
+   "top": [
+    "kling-4-0",
+    "magi-2",
+    "kandinsky-imagesr-2-0"
+   ],
+   "counts": {
+    "video": 0,
+    "image": 0,
+    "voice": 0,
+    "music": 0,
+    "lipsync": 0,
+    "edit": 0
+   }
+  }
+ },
+ "alerts": [
+  {
+   "t": "2026-11-26T17:04:35+02:00",
+   "slug": "digest",
+   "title": "Оновлення дня готове",
+   "text": "MAGI-2 від Sand.ai стала головною темою дня: якість на рівні Seedance 2.5 за значно меншу ціну, і творці вже м"
+  },
+  {
+   "t": "2026-11-22T17:11:15+02:00",
+   "slug": "digest",
+   "title": "Оновлення дня готове",
+   "text": "Тихий день: нових моделей після ранку немає; головне — Kling 4.0 і Kling Image 4.0."
+  },
+  {
+   "t": "2026-11-22T10:00:00+02:00",
+   "slug": "kling-4-0",
+   "title": "Kling 4.0 злітає 🚀",
+   "text": "На YouTube вал оглядів Kling 4.0: кліпи до 30 с, звук і lip-sync. Варто тестувати для драм."
+  },
+  {
+   "t": "2026-11-22T10:00:00+02:00",
+   "slug": "inworld-voice-isolator",
+   "title": "Inworld Voice Isolator злітає 🚀",
+   "text": "Відкрита модель очищення голосу від шуму: +114 лайків на HF за добу, 537 загалом. Для чистої озвучки."
+  },
+  {
+   "t": "2026-11-21T17:00:40+02:00",
+   "slug": "digest",
+   "title": "Оновлення дня готове",
+   "text": "Тихий день: нових відеомоделей немає; додали Soundverse і генератори зображень OpenAI Images 2.6 та Seedream 5.5."
+  },
+  {
+   "t": "2026-11-20T17:00:02+02:00",
+   "slug": "apple-fastframes",
+   "title": "Apple FastFrames злітає 🚀",
+   "text": "Відкрита text-to-video модель Apple: +179 лайків на HF за добу, 455 загалом. Варто глянути для чорнових кадрів."
+  },
+  {
+   "t": "2026-11-20T17:00:02+02:00",
+   "slug": "posewear",
+   "title": "posewear злітає 🚀",
+   "text": "Бібліотека поз, одягу й портретних референсів з промптами: +361 зірка GitHub за добу. Згодиться для образів героїв."
+  },
+  {
+   "t": "2026-11-20T17:00:02+02:00",
+   "slug": "digest",
+   "title": "Оновлення дня готове",
+   "text": "HeyGen Avatar 6 — головний реліз дня; Haru-4B, Apple FastFrames і posewear швидко ростуть на HF і GitHub."
+  },
+  {
+   "t": "2026-11-20T11:03:33+02:00",
+   "slug": "haru-4b",
+   "title": "Haru-4B злітає 🚀",
+   "text": "Відкрита audio-to-audio модель: +1291 лайк на HF за добу, 3,7 тис. загалом. Варто глянути для озвучки."
+  },
+  {
+   "t": "2026-11-20T11:03:33+02:00",
+   "slug": "minimax-h3-image",
+   "title": "MiniMax H3 Image злітає 🚀",
+   "text": "Відкрита 16-Мп модель генерації й редагування зображень; 3 млн завантажень ComfyUI-версії, заміна персонажа."
+  },
+  {
+   "t": "2026-11-20T11:03:33+02:00",
+   "slug": "rea-video",
+   "title": "rea-video злітає 🚀",
+   "text": "Розбирає будь-яке відео по кадрах і пояснює, як повторити; 11,2 тис. зірок GitHub, +240 за ніч."
+  }
+ ],
+ "buzz": [
+  {
+   "source": "youtube",
+   "title": "ABUSING Oldest AI Video Generator",
+   "author": "Dan Dingle",
+   "url": "https://www.youtube.com/watch?v=xoHbMJfXM0c",
+   "thumb": "https://i.ytimg.com/vi/xoHbMJfXM0c/mqdefault.jpg",
+   "note": "Вірусний ролик про старий AI-відеогенератор: абсурдні результати як окремий жанр",
+   "metric": "188 тис. переглядів · +117 тис. за добу",
+   "digest": {
+    "tldr": "Порівняння моделі ModelScope T2V 1.7B (2023) із Kling 4.0 (2024). Стара AI створює сюрреалістичні й кумедні відео, іноді перемагаючи сучасну за креативністю.",
+    "facts": [
+     "Порівнювалися генератори ModelScope T2V 1.7B (2023) та Kling 4.0 (2024)",
+     "Kling дає реалістичну картинку, але суворо цензурує та спрощує запити",
+     "ModelScope генерує спотворені візуали у стилі «found footage»"
+    ],
+    "comparison": [
+     {
+      "what": "Реалістичність",
+      "result": "Kling відтворює чітку картинку та фізику, ModelScope створює глюки"
+     },
+     {
+      "what": "Креативність і гумор",
+      "result": "ModelScope частіше створює вірусний та сюрреалістичний контент"
+     }
+    ],
+    "prompts": [
+     {
+      "text": "Explosive golf where when you hit the ball it explodes",
+      "for": "вибуховий гольф"
+     },
+     {
+      "text": "fast horserace, 1000 horses all sprinting towards the finishline",
+      "for": "забіг 1000 коней"
+     },
+     {
+      "text": "Horseraces but the horses are riding on people",
+      "for": "коні верхи на людях"
+     },
+     {
+      "text": "Olympic breakdancing, person breakdancing on stage",
+      "for": "олімпійський брейкданс"
+     },
+     {
+      "text": "Olympic gold medalist eating their medal like it's a chocolate coin",
+      "for": "поїдання олімпійської медалі"
+     },
+     {
+      "text": "penguin skateboarding through grocery store",
+      "for": "пінгвін на скейтборді"
+     }
+    ],
+    "tips": [
+     "Розмиття зображення застарілих генераторів візуально покращує їхню якість"
+    ],
+    "verdict": "Варто тестувати для створення гумористичних та абсурдних роликів із ретро-ефектом.",
+    "lang": "en",
+    "model": "gemini-3.6-flash",
+    "made_at": "2026-11-28T17:06:18+0200"
+   }
+  },
+  {
+   "source": "youtube",
+   "title": "Kling 4.0 AI Video Generator: INSANE Cinematic Results with Keyframes & HDR!",
+   "author": "AI WORLDWIDE",
+   "url": "https://www.youtube.com/watch?v=uWLdqMneCYY",
+   "thumb": "https://i.ytimg.com/vi/uWLdqMneCYY/mqdefault.jpg",
+   "note": "Огляд Kling 4.0: ключові кадри й HDR, найшвидше зростає серед оглядів моделі",
+   "metric": "92,6 тис. переглядів · +61,9 тис. за добу",
+   "digest": {
+    "tldr": "Огляд можливостей Kling 4.0: використання до 10 keyframes для контролю сюжету до 30 секунд та підтримка 10-bit 4K HDR.",
+    "facts": [
+     "Kling 4.0 підтримує до 10 keyframes (візуальних чекпоінтів)",
+     "Тривалість генерації відео — до 30 секунд",
+     "Вивід 10-bit HDR у роздільній здатності 1080p та 4K",
+     "Акція Black Friday: 50% знижки на річні тарифи з 18 листопада по 3 грудня"
+    ],
+    "comparison": [
+     {
+      "what": "10-bit HDR проти стандартного виводу",
+      "result": "HDR зберігає деталі в яскравих і темних зонах, надаючи кращі тіні та плавні світлові переходи"
+     }
+    ],
+    "prompts": [
+     {
+      "text": "Beat 3 -- Future City: The doors close again, a soft electronic chime, then open onto a neon futuristic metropolis: towering holographic billboards, flying vehicles, rain-slick skybridges, purple and cyan light. The traveler looks out, then steps onto the skybridge as the camera follows. Consistency requirements: same character identity, same jacket and backpack, same elevator interior, same camera height and lens, only the world outside the doors changes. Smooth transitions, realistic reflections on the metal doors, coherent lighting spill from road into the cabin. Cinematic, 24fps, shallow depth of field, high detail.",
+      "for": "Сцена переходу з ліфта у футуристичне місто"
+     }
+    ],
+    "tips": [
+     "Використовуйте keyframes для планування складних сюжетних трансформацій замість одного довгого промпту",
+     "Утримуйте однакові деталі персонажа та кадровки на keyframes для збереження консистентності"
+    ],
+    "verdict": "Варто тестувати для реклами та коротких кіносцен завдяки точній режисурі через 10 keyframes та якості 4K HDR.",
+    "lang": "en",
+    "model": "gemini-3.6-flash",
+    "made_at": "2026-11-25T10:12:52+0200"
+   }
+  },
+  {
+   "source": "youtube",
+   "title": "This AI Video Model Is 6.5x Cheaper Than Seedance (MAGI-2)",
+   "author": "Rourke",
+   "url": "https://www.youtube.com/watch?v=3kuatVUk0tw",
+   "thumb": "https://i.ytimg.com/vi/3kuatVUk0tw/mqdefault.jpg",
+   "note": "MAGI-2 у 6,5 раза дешевший за Seedance: автор порівнює якість і ціну",
+   "metric": "149 тис. переглядів · +24,8 тис. за добу",
+   "digest": {
+    "tldr": "Відео порівнює нову модель штучного інтелекту MAGI-2 з Seedance 2.5 та демонструє їхні можливості для генерації відео.",
+    "facts": [
+     "Модель MAGI-2 коштує 8 центів за секунду генерації.",
+     "Seedance 2.5 коштує від 30 до 40 доларів за відео (або 0.78 долара за секунду).",
+     "MAGI-2 дозволяє створювати відео тривалістю від 4 до 30 секунд у роздільній здатності 1080p.",
+     "MAGI-2 підтримує до 30 референсів (зображень для генерації).",
+     "MAGI-2 доступна на платформі Higgsfield AI."
+    ],
+    "comparison": [
+     {
+      "what": "Ціна за 30-секундне відео",
+      "result": "MAGI-2 коштує $2.40 проти $30-40 у Seedance 2.5."
+     },
+     {
+      "what": "Відео-до-відео та фонові заміни",
+      "result": "MAGI-2 робить це за 19 центів, тоді як Seedance 2.5 коштує $4-5."
+     }
+    ],
+    "prompts": [
+     {
+      "text": "Giant Octopus",
+      "for": "Гігантський восьминіг"
+     },
+     {
+      "text": "Fire",
+      "for": "Вогонь і вибух машини"
+     },
+     {
+      "text": "Plane Flyover",
+      "for": "Проліт літака над дорогою"
+     },
+     {
+      "text": "FPV Drone Shot",
+      "for": "Зйомка FPV дроном"
+     },
+     {
+      "text": "GTA-Inspired Chase",
+      "for": "Погоня в стилі GTA"
+     },
+     {
+      "text": "Dune-Inspired Sandstorm",
+      "for": "Піщана буря в стилі Dune"
+     }
+    ],
+    "tips": [
+     "Тестуйте кілька генерацій одночасно, оскільки MAGI-2 коштує дешево.",
+     "Використовуйте MAGI-2 для швидких чернеток і правок, а фінальний рендер робіть у Seedance 2.5 для кращої якості."
+    ],
+    "verdict": "MAGI-2 однозначно варто протестувати для коротких рекламних роликів та драм через неймовірно низьку вартість генерації.",
+    "lang": "en",
+    "model": "gemini-3.5-flash-lite",
+    "made_at": "2026-11-26T17:16:19+0200"
+   }
+  },
+  {
+   "source": "youtube",
+   "title": "MAGI-2 vs Seedance 2.5: Is AI Video Actually Cheap Now? (13 tests)",
+   "author": "Dani Builds",
+   "url": "https://www.youtube.com/watch?v=8qUUlV53KyQ",
+   "thumb": "https://i.ytimg.com/vi/8qUUlV53KyQ/mqdefault.jpg",
+   "note": "13 тестів MAGI-2 проти Seedance 2.5: де дешева модель тримає рівень, а де ні",
+   "metric": "19,1 тис. переглядів · +10,4 тис. за добу",
+   "digest": {
+    "tldr": "Порівняння моделей AI-відео MAGI-2 та Seedance 2.5 на 13 тестах. Автор робить висновок, що MAGI-2 краще дотримується промптів, точніше керує поглядом персонажів та коштує понад ніж у 6 разів дешевше.",
+    "facts": [
+     "MAGI-2 від Sand.ai генерує відео 1080p (25 fps) за 2.5 кредити/сек.",
+     "Seedance 2.5 генерує 1080p (24 fps) за 16 кредитів/сек (більше ніж у 6 разів дорожче).",
+     "Seedance 2.5 заблокував 3 з 13 промптів через автоцензуру (Protected content detected).",
+     "Максимальна тривалість згенерованих кліпів становить до 30 секунд.",
+     "Загалом 10 спільних тестів (166 секунд) коштували 415 кредитів у MAGI-2 проти 2656 кредитів у Seedance 2.5."
+    ],
+    "comparison": [
+     {
+      "what": "Загальний рахунок 13 тестів",
+      "result": "MAGI-2 переміг у 6 тестах, Seedance 2.5 — у 2, в 2 була нічия, а 3 промпти Seedance заблокував."
+     },
+     {
+      "what": "Напрямок погляду персонажа (The salvager)",
+      "result": "MAGI-2 змусив персонажа розвернутися до робота, а Seedance 2.5 помилково направив погляд у камеру."
+     },
+     {
+      "what": "Логіка дій у покерній сцені",
+      "result": "MAGI-2 правильно показав перегляд сорочки карт, але переплутав поштовх фішок. Seedance 2.5 відкрив лицьовий бік карт супернику."
+     },
+     {
+      "what": "Генерація довгого кадру без склейок (30 сек з черепахою)",
+      "result": "MAGI-2 зберіг цілісність об'єкта на всі 30 секунд. У Seedance 2.5 на панцирі черепахи аномально з'явилося око."
+     },
+     {
+      "what": "Складна фізика (падіння келиха з вином)",
+      "result": "Seedance 2.5 краще відтворив розбиття та сплеск рідини, незважаючи на дивну траєкторію падіння. MAGI-2 змусив келих стати на ніжку перед руйнуванням."
+     }
+    ],
+    "prompts": [
+     {
+      "text": "A salvager pries open the chest of a giant fallen war machine that lies half buried in the dunes of a desert planet, and the machine wakes up behind him.",
+      "for": "пошук та пробудження робота у пустелі"
+     },
+     {
+      "text": "@image1 is the first frame. Keep her face, hair, suit, the cockpit and the light exactly as in that frame, and only add the motion below.",
+      "for": "рух астронавтки у космосі за початковим кадром"
+     }
+    ],
+    "tips": [
+     "Обирайте MAGI-2 як дефолтну модель для економії бюджету та точного виконання текстових інструкцій.",
+     "Використовуйте Seedance 2.5, коли необхідна генерація у 4K або якісніша фізика руйнувань та сплесків."
+    ],
+    "verdict": "MAGI-2 однозначно варто протестувати для AI-реклами та драм завдяки високій точності слідування промптам і в 6 разів нижчій вартості генерації.",
+    "lang": "en",
+    "model": "gemini-3.6-flash",
+    "made_at": "2026-11-27T17:12:21+0200"
+   }
+  },
+  {
+   "source": "youtube",
+   "title": "Kling 4.0 Is INSANE — Omni Reference + Keyframes Tested",
+   "author": "Theo AI Lab",
+   "url": "https://www.youtube.com/watch?v=FnbBfR6sM8E",
+   "thumb": "https://i.ytimg.com/vi/FnbBfR6sM8E/mqdefault.jpg",
+   "note": "Тест Omni Reference у Kling 4.0: як тримається один персонаж у різних сценах",
+   "metric": "43,2 тис. переглядів · +19,4 тис. за добу",
+   "digest": {
+    "tldr": "Огляд нових можливостей Kling AI 4.0, зокрема використання Omni Reference та керування кількома keyframes для створення контрольованого AI-відео.",
+    "facts": [
+     "Kling AI 4.0 підтримує Omni Reference (до 15 референс-файлів: зображення, відео, об'єкти, голос)",
+     "Підтримка до 10 keyframes для точної режисури рухів та зміни кадрів",
+     "Нативна генерація відео тривалістю до 30 секунд",
+     "Підтримка 1080p, 4K та 10-бітного HDR-виводу",
+     "Формат співвідношення сторін 21:9"
+    ],
+    "comparison": [],
+    "prompts": [
+     {
+      "text": "Cinematic luxury perfume ad, 16:9, teal and amber grade. @Image1 woman and @Image2 man fight over @Image3 bottle in a turquoise stone room with glowing ledge. Stylized dance-like martial arts, kicks, spins, macro slow-motion bottle with readable \"KlingAI 4.0\" label; she falls, he smirks holding bottle",
+      "for": "Реклама парфумів із бойовою хореографією"
+     },
+     {
+      "text": "Cinematic Hollywood motorcycle chase, anamorphic lens, natural daylight, warm European old-town, handheld energy, motion blur, film grain. HERO: young man, black pompadour quiff, grey zip-up jacket, jeans, silver retro roadster. RIVAL: brown bowl-cut, black tee and gloves, matte-black sport bike. They race through a marble arcade, weave traffic, trade punches mid-ride, then HERO crashes and skids as RIVAL speeds away. Realistic stunts, consistent faces and outfits.",
+      "for": "Динамічна сцена погоні на мотоциклах"
+     },
+     {
+      "text": "Walking down a deserted alley at dusk, he sensed someone following him. Reaching his cluttered garage, he retrieved a secret drive hidden near an old TV. Suddenly hearing footsteps in the dim corridor, he broke into a cold sweat. To save his life, he sprinted full speed through a crowded street market",
+      "for": "Сцена сюжетної драми або трилера"
+     }
+    ],
+    "tips": [
+     "Використовуйте відео-референси для передачі складної динаміки камери та темпу, які важко описати словесно.",
+     "Комбінуйте зображення персонажів, оточення та keyframes для максимальної послідовності в рекламі й коротких драмах."
+    ],
+    "verdict": "Так, Kling AI 4.0 обов'язково варто випробувати для створення AI-реклами та коротких драм завдяки високому рівню контролю над сюжетом і камерою.",
+    "lang": "en",
+    "model": "gemini-3.5-flash",
+    "made_at": "2026-11-26T17:18:38+0200"
+   }
+  },
+  {
+   "source": "youtube",
+   "title": "Claude + Seedance Made 2 AI Films With 26 Million Views (Full Workflow)",
+   "author": "Lume Media",
+   "url": "https://www.youtube.com/watch?v=KqRQEx8jbq4",
+   "thumb": "https://i.ytimg.com/vi/KqRQEx8jbq4/mqdefault.jpg",
+   "note": "Повний процес AI-фільмів на Seedance: сценарій, кадри, монтаж — близько до наших драм",
+   "metric": "36,2 тис. переглядів · +12,8 тис. за добу",
+   "digest": {
+    "tldr": "У відео показано повний робочий процес створення фільмів за допомогою Claude та Seendance 2.5. Автори стверджують, що якісне AI-кіно вимагає ретельної роботи над персонажами, листами персонажів та бюджетом.",
+    "facts": [
+     "Фільм на каналі Lumz Cinema має 15 млн переглядів, другий — 11 млн переглядів (разом понад 26 млн за менше ніж 2 місяці).",
+     "На весь канал Lumz Cinema припадає понад 41 млн переглядів.",
+     "На створення одного фільму йде приблизно 1 тиждень реальної роботи та понад $1000 витрат на генерацію.",
+     "Для однієї картини використовується понад 100 листів персонажів (character sheets).",
+     "Вартість генерації в Dreamina становить від $0.21 до $0.24 за секунду для 720p.",
+     "Підписка Claude Max коштує $200 на місяць за людину."
+    ],
+    "comparison": [],
+    "prompts": [
+     {
+      "text": "epic movie, giant monster attacks city, cinematic. 4k, ultra realistic, emotional, hollywood, masterpiece, 36 minutes, plot twist, best quality",
+      "for": "AI video generator prompt"
+     },
+     {
+      "text": "A soldier and an alien mother",
+      "for": "Claude idea suggestion 1"
+     },
+     {
+      "text": "Giants destroyed the Earth",
+      "for": "Claude idea suggestion 2"
+     },
+     {
+      "text": "The witch who survived",
+      "for": "Claude idea suggestion 3"
+     },
+     {
+      "text": "The heist of the century",
+      "for": "Claude idea suggestion 4"
+     },
+     {
+      "text": "Night, ice cave. @Mark sweeps the flashlight across @CaveEntrance. @Eira presses into the far wall, a sharp stone in both hands. The @Heater glows red on the floor. Slow push-in, 35 mm, cold blue light.",
+      "for": "Seendance 2.5 prompt with sheet references"
+     }
+    ],
+    "tips": [
+     "Починайте не з повного сценарію на 36 хвилин, а з коротких фільмів на 3 хвилини (1 персонаж, 1 локація, кілька аркушів).",
+     "Створюйте детальні листи персонажів (character sheets) для кожного костюма, сцени та епохи.",
+     "Використовуйте 720p для генерації, щоб економити бюджет, а потім робіть апскейл у 4K за допомогою Topaz."
+    ],
+    "verdict": "Технологія вимагає значного часу та бюджету (від $1000 на фільм), але дає змогу створювати конкурентне кіно з мільйонними переглядами.",
+    "lang": "en",
+    "model": "gemini-3.5-flash-lite",
+    "made_at": "2026-11-26T17:25:35+0200"
+   }
+  },
+  {
+   "source": "tiktok",
+   "title": "A 1930s Technicolor time-travel story, brought to life with Runway",
+   "author": "faux.feast",
+   "url": "https://www.tiktok.com/@faux.feast/video/7712504181114064159",
+   "note": "Ретро-історія в Runway: кадри з Seedream 5.5 і Nano Banana Pro, потім анімація",
+   "metric": "128,8 тис. переглядів · 18,7 тис. лайків"
+  },
+  {
+   "source": "youtube",
+   "title": "I Used Suno to Turn a Visual Idea Into a Complete Song",
+   "author": "Lex AI",
+   "url": "https://www.youtube.com/watch?v=Gu5Vqz1pidc",
+   "thumb": "https://i.ytimg.com/vi/Gu5Vqz1pidc/mqdefault.jpg",
+   "note": "Suno робить пісню з візуальної ідеї — корисно для музичних драм",
+   "metric": "21,2 тис. переглядів · +26,8 тис. за добу",
+   "digest": {
+    "tldr": "Гайд із використання Suno v6 для створення саундтреку на основі відео-референсу шляхом ітеративного допрацювання промптів.",
+    "facts": [
+     "Suno підтримує завантаження відео та зображень як контексту для генерації музики",
+     "У відео використовується модель Suno v6",
+     "Процес розроблено в 5 етапів: референс, настрій, V1 генерація, рефайнінг промпту, фінальний трек"
+    ],
+    "comparison": [
+     {
+      "what": "Відповідність візуалу: Версія 1 vs Версія 2",
+      "result": "V1 дає лише базову атмосферу (55%), тоді як V2 з деталізованим промптом покращує мелодію та ритм (86%)"
+     }
+    ],
+    "prompts": [
+     {
+      "text": "Create a cinematic electronic track inspired by a nighttime city drive. Use atmospheric synthesizers, warm melodic textures, deep but controlled bass, and a steady electronic rhythm. The mood should feel emotional, reflective, and slightly mysterious, gradually building into an uplifting and memorable chorus. Use polished production with a strong sense of atmosphere.",
+      "for": "Cinematic track based on night drive video"
+     }
+    ],
+    "tips": [
+     "Формулюйте чітку концепцію настрою до написання тексту промпту",
+     "Використовуйте завантаження відео у Suno для точнішого передавання атмосфери",
+     "Сприймайте першу генерацію як основу для рефайнінгу, а не готовий результат"
+    ],
+    "verdict": "Варто тестувати для швидкого підбору атмосферних саундтреків під AI-відеоролики та рекламу.",
+    "lang": "en",
+    "model": "gemini-3.6-flash",
+    "made_at": "2026-11-28T17:13:24+0200"
+   }
+  }
+ ]
+}
